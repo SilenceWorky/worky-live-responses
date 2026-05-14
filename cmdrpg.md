@@ -1,17 +1,15 @@
 # 🎮 RPG Marbion — Comandos do Chat
 
-Bem-vindo ao RPG persistente da live de SilenceWorky.
+Sistema RPG persistente da live de **SilenceWorky**.
 
-Crie sua raça, desperte elementos, evolua de nível e desbloqueie recompensas enquanto acompanha as lives.
+Crie sua raça, desperte elementos, ganhe XP, evolua, desbloqueie tags e avance no universo de Marbion.
 
 ---
 
-# 🌍 Sistema Inicial
+# 🌍 Perfil
 
 ## `!raça`
-Descobre permanentemente sua raça em Marbion.
-
-Exemplo:
+Sorteia e salva permanentemente sua raça em Marbion.
 
 ```txt
 !raça
@@ -22,9 +20,7 @@ Exemplo:
 ## `!elemento`
 Desperta seus elementos/mentalidades.
 
-Alguns usuários podem despertar dois elementos ao mesmo tempo.
-
-Exemplo:
+Alguns usuários podem despertar dois elementos.
 
 ```txt
 !elemento
@@ -33,9 +29,7 @@ Exemplo:
 ---
 
 ## `!pinfo`
-Mostra todas as informações do seu perfil.
-
-Exemplo:
+Mostra seu perfil completo.
 
 ```txt
 !pinfo
@@ -44,19 +38,48 @@ Exemplo:
 Mostra:
 - raça
 - elementos
-- nível
-- XP
-- streak diária
-- futuramente: tags, corrupção, inventário e mais.
+- tag equipada
+- nível geral
+- XP geral
+- nível dos elementos
 
 ---
 
-# 📚 Informações e Lore
+# 🏷️ Tags
+
+## `!tag`
+Mostra sua tag equipada.
+
+```txt
+!tag
+```
+
+---
+
+## `!tags`
+Mostra suas tags desbloqueadas.
+
+```txt
+!tags
+```
+
+---
+
+## `!settag NOME DA TAG`
+Equipa uma tag que você já desbloqueou.
+
+```txt
+!settag Filho das Chamas
+```
+
+Tags só podem ser usadas depois de desbloqueadas.
+
+---
+
+# 📚 Lore
 
 ## `!infraca NOME`
 Mostra informações sobre uma raça.
-
-Exemplo:
 
 ```txt
 !infraca Tritão
@@ -66,8 +89,6 @@ Exemplo:
 
 ## `!infelem NOME`
 Mostra informações sobre um elemento.
-
-Exemplo:
 
 ```txt
 !infelem Gravidade
@@ -80,10 +101,7 @@ Exemplo:
 ## `!checkin`
 Marca presença na live e ganha XP.
 
-Cooldown:
-15 minutos.
-
-Exemplo:
+Cooldown: **15 minutos**
 
 ```txt
 !checkin
@@ -92,14 +110,13 @@ Exemplo:
 ---
 
 ## `!xpchest`
-Abre um baú de XP aleatório.
+Abre um baú de XP.
 
-Pode conceder entre 4 e 100 XP.
+Pode dar:
+- XP geral
+- XP elemental mais raramente
 
-Cooldown:
-12 horas.
-
-Exemplo:
+Cooldown: **12 horas**
 
 ```txt
 !xpchest
@@ -114,13 +131,9 @@ Inclui:
 - XP
 - streak diária
 - bônus de streak
-- recompensa futura
-- level up
+- chance de subir de nível
 
-Cooldown:
-24 horas.
-
-Exemplo:
+Cooldown: **24 horas**
 
 ```txt
 !daily
@@ -135,10 +148,7 @@ Rerolla seus elementos atuais.
 
 Disponível apenas para subs.
 
-Cooldown:
-24 horas.
-
-Exemplo:
+Cooldown: **24 horas**
 
 ```txt
 !reroll
@@ -148,28 +158,36 @@ Exemplo:
 
 # 🏆 Recompensas
 
-Ao alcançar certos níveis você poderá ganhar:
-- recompensas especiais
-- tags raras
-- vantagens futuras
-- itens
-- eventos especiais
+Ao atingir certos marcos, você pode desbloquear recompensas especiais.
 
-Exemplo:
+Exemplos:
+- nível geral 100 → recompensa especial
+- nível elemental 5 → desbloqueia tag do elemento
+- nível elemental 10 → direito a pedir novo elemento
 
-```txt
-Nível 100 → recompensa especial
-```
+---
+
+# 🔥 Sistema Elemental
+
+Cada elemento pode evoluir separadamente.
+
+O XP elemental pode vir do `!xpchest`.
+
+Ao evoluir um elemento:
+
+| Marco | Recompensa |
+|---|---|
+| Elemento Lv.5 | desbloqueia a tag do elemento |
+| Elemento Lv.10 | direito a pedir novo elemento |
 
 ---
 
 # 🛠️ Comandos Administrativos
-(Disponíveis apenas para SilenceWorky)
+
+Disponíveis apenas para SilenceWorky.
 
 ## `!setlvl @usuario NÍVEL`
 Define manualmente o nível de um usuário.
-
-Exemplo:
 
 ```txt
 !setlvl @Worky 50
@@ -178,9 +196,7 @@ Exemplo:
 ---
 
 ## `!resetelemento @usuario`
-Remove os elementos de um usuário.
-
-Exemplo:
+Remove os elementos do usuário.
 
 ```txt
 !resetelemento @Worky
@@ -189,9 +205,7 @@ Exemplo:
 ---
 
 ## `!resetraca @usuario`
-Apaga completamente o perfil de um usuário.
-
-Exemplo:
+Apaga completamente o perfil do usuário.
 
 ```txt
 !resetraca @Worky
@@ -200,12 +214,19 @@ Exemplo:
 ---
 
 ## `!synclevel`
-Sincroniza o nível baseado no XP atual.
-
-Exemplo:
+Sincroniza o nível com base no XP atual.
 
 ```txt
 !synclevel
+```
+
+---
+
+## `!admsettag @usuario NOME DA TAG`
+Define manualmente a tag de um usuário.
+
+```txt
+!admsettag @Worky Filho da Singularidade
 ```
 
 ---
@@ -217,25 +238,10 @@ O RPG é persistente.
 Isso significa que:
 - seus dados ficam salvos
 - seu progresso continua entre lives
-- seus níveis são permanentes
+- sua raça permanece
+- seus elementos permanecem
+- suas tags desbloqueadas ficam guardadas
 - seu personagem evolui com o tempo
-
----
-
-# 🔥 Sistemas Futuros
-
-Sistemas planejados:
-- tags/títulos
-- corrupção
-- compatibilidade raça-elemento
-- inventário
-- relíquias
-- Armas Vinculos
-- eventos globais
-- bosses
-- sistema de guildas
-- economia
-- rankings globais
 
 ---
 
@@ -243,14 +249,13 @@ Sistemas planejados:
 
 Marbion é um universo original criado por SilenceWorky.
 
-O sistema inclui:
-- raças únicas
+O sistema da live usa:
+- raças de Marbion
 - mentalidades elementais
-- corrupção
-- Armas Vinculos
-- criaturas folclóricas
 - progressão RPG
-- eventos globais
+- tags desbloqueáveis
+- níveis elementais
+- recompensas especiais
 - sistemas secretos futuros
 
 Boa sorte em sua jornada.
