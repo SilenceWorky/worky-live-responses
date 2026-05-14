@@ -230,7 +230,7 @@ Sistemas planejados:
 - compatibilidade raça-elemento
 - inventário
 - relíquias
-- armas Valkírias
+- Armas Vinculos
 - eventos globais
 - bosses
 - sistema de guildas
@@ -247,7 +247,7 @@ O sistema inclui:
 - raças únicas
 - mentalidades elementais
 - corrupção
-- armas Valkírias
+- Armas Vinculos
 - criaturas folclóricas
 - progressão RPG
 - eventos globais
