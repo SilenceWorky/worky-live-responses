@@ -92,28 +92,28 @@
   },
 
   "Sombra": {
-    "raridade": "Muito raro",
+    "raridade": "Muito Raro",
     "peso": 6,
     "emoji": "🌑",
     "descricao": "Mentalidade obscura ligada à escuridão, ocultação e corrupção."
   },
 
   "Luz": {
-    "raridade": "Muito raro",
+    "raridade": "Muito Raro",
     "peso": 6,
     "emoji": "🌈",
     "descricao": "Mentalidade luminosa baseada em brilho, purificação e energia radiante."
   },
 
   "Veneno": {
-    "raridade": "Muito raro",
+    "raridade": "Muito Raro",
     "peso": 6,
     "emoji": "☠️",
     "descricao": "Mentalidade focada em toxinas, contaminação e deterioração biológica."
   },
 
   "Metal": {
-    "raridade": "Muito raro",
+    "raridade": "Muito Raro",
     "peso": 6,
     "emoji": "⚙️",
     "descricao": "Mentalidade capaz de controlar metais, densidade e estruturas metálicas."
