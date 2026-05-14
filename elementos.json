@@ -1,0 +1,108 @@
+{
+  "Fogo": {
+    "raridade": "Comum",
+    "peso": 40,
+    "emoji": "🔥"
+  },
+  "Água": {
+    "raridade": "Comum",
+    "peso": 40,
+    "emoji": "🌊"
+  },
+  "Vento": {
+    "raridade": "Comum",
+    "peso": 40,
+    "emoji": "💨"
+  },
+  "Terra": {
+    "raridade": "Comum",
+    "peso": 40,
+    "emoji": "🪨"
+  },
+  "Neutro": {
+    "raridade": "Especial",
+    "peso": 20,
+    "emoji": "⚪",
+    "exclusivo": true
+  },
+  "Eletricidade": {
+    "raridade": "Incomum",
+    "peso": 25,
+    "emoji": "⚡"
+  },
+  "Fluxo": {
+    "raridade": "Incomum",
+    "peso": 25,
+    "emoji": "🔄"
+  },
+  "Cristal": {
+    "raridade": "Incomum",
+    "peso": 25,
+    "emoji": "💎"
+  },
+  "Som": {
+    "raridade": "Incomum",
+    "peso": 25,
+    "emoji": "🎵"
+  },
+  "Natureza": {
+    "raridade": "Raro",
+    "peso": 12,
+    "emoji": "🌿"
+  },
+  "Gelo": {
+    "raridade": "Raro",
+    "peso": 12,
+    "emoji": "❄️"
+  },
+  "Psíquico": {
+    "raridade": "Raro",
+    "peso": 12,
+    "emoji": "🧠"
+  },
+  "Lava": {
+    "raridade": "Raro",
+    "peso": 12,
+    "emoji": "🌋"
+  },
+  "Sombra": {
+    "raridade": "Muito raro",
+    "peso": 6,
+    "emoji": "🌑"
+  },
+  "Luz": {
+    "raridade": "Muito raro",
+    "peso": 6,
+    "emoji": "🌈"
+  },
+  "Veneno": {
+    "raridade": "Muito raro",
+    "peso": 6,
+    "emoji": "☠️"
+  },
+  "Metal": {
+    "raridade": "Muito raro",
+    "peso": 6,
+    "emoji": "⚙️"
+  },
+  "Tempo": {
+    "raridade": "Lendário",
+    "peso": 2,
+    "emoji": "⏳"
+  },
+  "Espaço": {
+    "raridade": "Lendário",
+    "peso": 2,
+    "emoji": "🌀"
+  },
+  "Gravidade": {
+    "raridade": "Lendário",
+    "peso": 2,
+    "emoji": "🍎"
+  },
+  "Matéria": {
+    "raridade": "Lendário",
+    "peso": 2,
+    "emoji": "⚛️"
+  }
+}
