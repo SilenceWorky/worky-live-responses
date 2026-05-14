@@ -31,17 +31,17 @@ Alguns usuários podem despertar dois elementos.
 ## `!pinfo`
 Mostra seu perfil completo.
 
-```txt
-!pinfo
-```
-
 Mostra:
 - raça
 - elementos
 - tag equipada
 - nível geral
 - XP geral
-- nível dos elementos
+- nível elemental
+
+```txt
+!pinfo
+```
 
 ---
 
@@ -156,29 +156,27 @@ Cooldown: **24 horas**
 
 ---
 
-# 🏆 Recompensas
-
-Ao atingir certos marcos, você pode desbloquear recompensas especiais.
-
-Exemplos:
-- nível geral 100 → recompensa especial
-- nível elemental 5 → desbloqueia tag do elemento
-- nível elemental 10 → direito a pedir novo elemento
-
----
-
 # 🔥 Sistema Elemental
 
 Cada elemento pode evoluir separadamente.
 
 O XP elemental pode vir do `!xpchest`.
 
-Ao evoluir um elemento:
-
 | Marco | Recompensa |
 |---|---|
 | Elemento Lv.5 | desbloqueia a tag do elemento |
 | Elemento Lv.10 | direito a pedir novo elemento |
+
+---
+
+# 🏆 Recompensas
+
+Ao atingir certos marcos, você pode desbloquear recompensas especiais.
+
+Exemplos:
+- nível geral 100 → recompensa especial
+- nível elemental 5 → tag elemental
+- nível elemental 10 → direito a pedir novo elemento
 
 ---
 
@@ -227,6 +225,24 @@ Define manualmente a tag de um usuário.
 
 ```txt
 !admsettag @Worky Filho da Singularidade
+```
+
+---
+
+## `!addtag NOME DA TAG`
+Cria uma tag customizada para ser dada como recompensa de desafio/evento.
+
+```txt
+!addtag Caçador de Corrompidos
+```
+
+---
+
+## `!removetag NOME DA TAG`
+Remove uma tag customizada criada pelo `!addtag`.
+
+```txt
+!removetag Caçador de Corrompidos
 ```
 
 ---
