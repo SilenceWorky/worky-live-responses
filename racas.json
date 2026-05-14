@@ -1,0 +1,106 @@
+{
+  "Terrariano": {
+    "raridade": "Comum",
+    "peso": 40,
+    "emoji": "🪨",
+    "descricao": "Raça terrestre extremamente adaptável e comum em Marbion."
+  },
+
+  "Bestiano": {
+    "raridade": "Incomum",
+    "peso": 20,
+    "emoji": "🐺",
+    "descricao": "Seres híbridos com características animais."
+  },
+
+  "Metamorfo": {
+    "raridade": "Incomum",
+    "peso": 15,
+    "emoji": "🦊",
+    "descricao": "Seres capazes de se transformar perfeitamente em animais."
+  },
+
+  "Transmorfo": {
+    "raridade": "Raro",
+    "peso": 10,
+    "emoji": "🫧",
+    "descricao": "Seres capazes de alterar livremente sua matéria física."
+  },
+
+  "Tritão": {
+    "raridade": "Raro",
+    "peso": 10,
+    "emoji": "🌊",
+    "descricao": "Híbridos aquáticos ligados aos mares e rios de Marbion."
+  },
+
+  "Nuvialino": {
+    "raridade": "Raro",
+    "peso": 8,
+    "emoji": "☁️",
+    "descricao": "Seres parcialmente formados por nuvens."
+  },
+
+  "Elfo": {
+    "raridade": "Incomum",
+    "peso": 15,
+    "emoji": "🌿",
+    "descricao": "Seres mágicos ligados à natureza e ao mana."
+  },
+
+  "Fada": {
+    "raridade": "Raro",
+    "peso": 8,
+    "emoji": "✨",
+    "descricao": "Pequenos seres mágicos com enorme afinidade elemental."
+  },
+
+  "Bruxa": {
+    "raridade": "Raro",
+    "peso": 7,
+    "emoji": "🔮",
+    "descricao": "Usuários de magia ritualística e conhecimento proibido."
+  },
+
+ "Psíquico": {
+  "raridade": "Raro",
+  "peso": 6,
+  "emoji": "🧠",
+  "descricao": "Seres feitos de energia mental capazes de manipular o poder psíquico livremente."
+},
+
+  "Espiritual": {
+    "raridade": "Raro",
+    "peso": 5,
+    "emoji": "👻",
+    "descricao": "Seres ligados diretamente ao plano espiritual."
+  },
+
+  "Vampiro": {
+    "raridade": "Épico",
+    "peso": 3,
+    "emoji": "🩸",
+    "descricao": "Predadores noturnos extremamente perigosos."
+  },
+
+  "Demônio": {
+    "raridade": "Lendário",
+    "peso": 2,
+    "emoji": "🔥",
+    "descricao": "Entidades do submundo com enorme poder destrutivo."
+  },
+
+  "Shinigami": {
+    "raridade": "Mítico",
+    "peso": 1,
+    "emoji": "💀",
+    "descricao": "Ceifadores ligados à morte e ao equilíbrio das almas."
+  },
+
+  "Ice Lorg": {
+    "raridade": "Mítico",
+    "peso": 1,
+    "emoji": "❄️",
+    "descricao": "Seres glaciais extremamente raros e poderosos."
+  }
+}
