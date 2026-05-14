@@ -1,0 +1,106 @@
+{
+  "Filho das Chamas": {
+    "elemento": "Fogo",
+    "raridade": "Comum"
+  },
+
+  "Herdeiro das Marés": {
+    "elemento": "Água",
+    "raridade": "Comum"
+  },
+
+  "Voz dos Ventos": {
+    "elemento": "Vento",
+    "raridade": "Comum"
+  },
+
+  "Guardião da Rocha": {
+    "elemento": "Terra",
+    "raridade": "Comum"
+  },
+
+  "O Desperto": {
+    "elemento": "Neutro",
+    "raridade": "Especial"
+  },
+
+  "Portador do Trovão": {
+    "elemento": "Eletricidade",
+    "raridade": "Incomum"
+  },
+
+  "Aquele que Flui": {
+    "elemento": "Fluxo",
+    "raridade": "Incomum"
+  },
+
+  "Coração Cristalino": {
+    "elemento": "Cristal",
+    "raridade": "Incomum"
+  },
+
+  "Eco do Infinito": {
+    "elemento": "Som",
+    "raridade": "Incomum"
+  },
+
+  "Filho da Floresta": {
+    "elemento": "Natureza",
+    "raridade": "Raro"
+  },
+
+  "Soberano do Inverno": {
+    "elemento": "Gelo",
+    "raridade": "Raro"
+  },
+
+  "Mente Ascendida": {
+    "elemento": "Psíquico",
+    "raridade": "Raro"
+  },
+
+  "Coração Vulcânico": {
+    "elemento": "Lava",
+    "raridade": "Raro"
+  },
+
+  "O Corrompido": {
+    "elemento": "Sombra",
+    "raridade": "Muito raro"
+  },
+
+  "O Iluminado": {
+    "elemento": "Luz",
+    "raridade": "Muito raro"
+  },
+
+  "Portador da Praga": {
+    "elemento": "Veneno",
+    "raridade": "Muito raro"
+  },
+
+  "Forjado em Ferro": {
+    "elemento": "Metal",
+    "raridade": "Muito raro"
+  },
+
+  "Filho do Tempo": {
+    "elemento": "Tempo",
+    "raridade": "Lendário"
+  },
+
+  "Caminhante do Vazio": {
+    "elemento": "Espaço",
+    "raridade": "Lendário"
+  },
+
+  "Filho da Singularidade": {
+    "elemento": "Gravidade",
+    "raridade": "Lendário"
+  },
+
+  "O Primordial": {
+    "elemento": "Matéria",
+    "raridade": "Lendário"
+  }
+}
