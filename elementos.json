@@ -2,107 +2,148 @@
   "Fogo": {
     "raridade": "Comum",
     "peso": 40,
-    "emoji": "🔥"
+    "emoji": "🔥",
+    "descricao": "Mentalidade ofensiva focada em calor, explosões e destruição."
   },
+
   "Água": {
     "raridade": "Comum",
     "peso": 40,
-    "emoji": "🌊"
+    "emoji": "🌊",
+    "descricao": "Mentalidade adaptável capaz de controlar líquidos e alterar o fluxo da água."
   },
+
   "Vento": {
     "raridade": "Comum",
     "peso": 40,
-    "emoji": "💨"
+    "emoji": "💨",
+    "descricao": "Mentalidade veloz baseada em pressão, movimento e correntes de ar."
   },
+
   "Terra": {
     "raridade": "Comum",
     "peso": 40,
-    "emoji": "🪨"
+    "emoji": "🪨",
+    "descricao": "Mentalidade resistente focada em defesa, peso e controle mineral."
   },
+
   "Neutro": {
     "raridade": "Especial",
     "peso": 20,
     "emoji": "⚪",
-    "exclusivo": true
+    "exclusivo": true,
+    "descricao": "Mentalidade pura e exclusiva incapaz de coexistir com outros elementos."
   },
+
   "Eletricidade": {
     "raridade": "Incomum",
     "peso": 25,
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "descricao": "Mentalidade baseada em descargas elétricas, velocidade e impulsos energéticos."
   },
+
   "Fluxo": {
     "raridade": "Incomum",
     "peso": 25,
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "descricao": "Mentalidade ligada ao fluxo de energia, movimento contínuo e transferência."
   },
+
   "Cristal": {
     "raridade": "Incomum",
     "peso": 25,
-    "emoji": "💎"
+    "emoji": "💎",
+    "descricao": "Mentalidade capaz de criar e manipular estruturas cristalinas extremamente resistentes."
   },
+
   "Som": {
     "raridade": "Incomum",
     "peso": 25,
-    "emoji": "🎵"
+    "emoji": "🎵",
+    "descricao": "Mentalidade baseada em vibração, frequência e ondas sonoras."
   },
+
   "Natureza": {
     "raridade": "Raro",
     "peso": 12,
-    "emoji": "🌿"
+    "emoji": "🌿",
+    "descricao": "Mentalidade conectada à vida vegetal, crescimento e energia natural."
   },
+
   "Gelo": {
     "raridade": "Raro",
     "peso": 12,
-    "emoji": "❄️"
+    "emoji": "❄️",
+    "descricao": "Mentalidade capaz de reduzir temperatura e gerar estruturas congeladas."
   },
+
   "Psíquico": {
     "raridade": "Raro",
     "peso": 12,
-    "emoji": "🧠"
+    "emoji": "🧠",
+    "descricao": "Mentalidade ligada à manipulação mental, energia psíquica e consciência."
   },
+
   "Lava": {
     "raridade": "Raro",
     "peso": 12,
-    "emoji": "🌋"
+    "emoji": "🌋",
+    "descricao": "Mentalidade destrutiva que mistura calor extremo, magma e pressão."
   },
+
   "Sombra": {
     "raridade": "Muito raro",
     "peso": 6,
-    "emoji": "🌑"
+    "emoji": "🌑",
+    "descricao": "Mentalidade obscura ligada à escuridão, ocultação e corrupção."
   },
+
   "Luz": {
     "raridade": "Muito raro",
     "peso": 6,
-    "emoji": "🌈"
+    "emoji": "🌈",
+    "descricao": "Mentalidade luminosa baseada em brilho, purificação e energia radiante."
   },
+
   "Veneno": {
     "raridade": "Muito raro",
     "peso": 6,
-    "emoji": "☠️"
+    "emoji": "☠️",
+    "descricao": "Mentalidade focada em toxinas, contaminação e deterioração biológica."
   },
+
   "Metal": {
     "raridade": "Muito raro",
     "peso": 6,
-    "emoji": "⚙️"
+    "emoji": "⚙️",
+    "descricao": "Mentalidade capaz de controlar metais, densidade e estruturas metálicas."
   },
+
   "Tempo": {
     "raridade": "Lendário",
     "peso": 2,
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "descricao": "Mentalidade lendária ligada ao fluxo temporal e à passagem do tempo."
   },
+
   "Espaço": {
     "raridade": "Lendário",
     "peso": 2,
-    "emoji": "🌀"
+    "emoji": "🌀",
+    "descricao": "Mentalidade capaz de manipular distância, posição e distorções espaciais."
   },
+
   "Gravidade": {
     "raridade": "Lendário",
     "peso": 2,
-    "emoji": "🍎"
+    "emoji": "🍎",
+    "descricao": "Mentalidade capaz de alterar forças gravitacionais, peso e atração."
   },
+
   "Matéria": {
     "raridade": "Lendário",
     "peso": 2,
-    "emoji": "⚛️"
+    "emoji": "⚛️",
+    "descricao": "Mentalidade extremamente rara ligada à manipulação da própria matéria."
   }
 }
