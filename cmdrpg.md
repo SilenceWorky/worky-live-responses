@@ -20,7 +20,7 @@ Sorteia e salva permanentemente sua raça em Marbion.
 ## `!elemento`
 Desperta seus elementos/mentalidades.
 
-Alguns usuários podem despertar dois elementos.
+Existe chance de despertar dois elementos.
 
 ```txt
 !elemento
@@ -158,7 +158,7 @@ Cooldown: **24 horas**
 
 # 🔥 Sistema Elemental
 
-Cada elemento pode evoluir separadamente.
+Cada elemento pode evoluir separadamente até o **Lv.10**.
 
 O XP elemental pode vir do `!xpchest`.
 
@@ -185,7 +185,7 @@ Exemplos:
 Disponíveis apenas para SilenceWorky.
 
 ## `!setlvl @usuario NÍVEL`
-Define manualmente o nível de um usuário.
+Define manualmente o nível geral de um usuário.
 
 ```txt
 !setlvl @Worky 50
@@ -193,8 +193,19 @@ Define manualmente o nível de um usuário.
 
 ---
 
+## `!setlvlelem usuario Elemento NÍVEL`
+Define manualmente o nível de um elemento do usuário.
+
+Use sem `@` e, se necessário, sem acento.
+
+```txt
+!setlvlelem SilenceWorky Agua 10
+```
+
+---
+
 ## `!resetelemento @usuario`
-Remove os elementos do usuário.
+Remove os elementos e progresso elemental do usuário.
 
 ```txt
 !resetelemento @Worky
@@ -212,7 +223,7 @@ Apaga completamente o perfil do usuário.
 ---
 
 ## `!synclevel`
-Sincroniza o nível com base no XP atual.
+Sincroniza o nível geral com base no XP atual.
 
 ```txt
 !synclevel
