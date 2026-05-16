@@ -1,0 +1,42 @@
+{
+  "Slime Corrompido": {
+    "raridade": "Comum",
+    "peso": 40,
+    "minLevel": 1,
+    "maxLevel": 5,
+    "baseHp": 20,
+    "xp": 15
+  },
+  "Lobo Bestiano Hostil": {
+    "raridade": "Comum",
+    "peso": 30,
+    "minLevel": 3,
+    "maxLevel": 12,
+    "baseHp": 35,
+    "xp": 25
+  },
+  "Assombração Errante": {
+    "raridade": "Incomum",
+    "peso": 18,
+    "minLevel": 8,
+    "maxLevel": 25,
+    "baseHp": 60,
+    "xp": 60
+  },
+  "Demônio Errante": {
+    "raridade": "Raro",
+    "peso": 8,
+    "minLevel": 20,
+    "maxLevel": 60,
+    "baseHp": 140,
+    "xp": 180
+  },
+  "Besta Assassina Fragmentada": {
+    "raridade": "Lendário",
+    "peso": 1,
+    "minLevel": 80,
+    "maxLevel": 120,
+    "baseHp": 600,
+    "xp": 900
+  }
+}
