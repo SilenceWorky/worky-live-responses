@@ -7,13 +7,33 @@ Sistema RPG persistente da live de **SilenceWorky**.
 # 🌍 Perfil
 
 ## `!raça`
-Sorteia e salva sua raça.
+Sorteia sua raça permanente.
+
+```txt
+!raça
+```
 
 ## `!elemento`
-Desperta seus elementos/mentalidades.
+Desperta seus elementos. Pode vir 1 ou 2 elementos.
+
+```txt
+!elemento
+```
 
 ## `!pinfo`
-Mostra perfil completo: raça, elementos, tag, nível, XP e nível elemental.
+Mostra perfil completo.
+
+```txt
+!pinfo
+```
+
+Mostra:
+- raça
+- elementos
+- tag equipada
+- nível
+- XP
+- level elemental
 
 ---
 
@@ -22,13 +42,20 @@ Mostra perfil completo: raça, elementos, tag, nível, XP e nível elemental.
 ## `!tag`
 Mostra sua tag equipada.
 
+```txt
+!tag
+```
+
 ## `!tags`
 Mostra suas tags desbloqueadas.
 
-## `!settag NOME`
-Equipa uma tag desbloqueada.
+```txt
+!tags
+```
 
-Exemplo:
+## `!settag NOME`
+Equipa uma tag já desbloqueada.
+
 ```txt
 !settag Filho das Chamas
 ```
@@ -58,27 +85,39 @@ Mostra informações sobre um elemento.
 ## `!checkin`
 Ganha XP por presença.
 
-Cooldown: **15 min**
+Cooldown: **15 minutos**
+
+```txt
+!checkin
+```
 
 ## `!xpchest`
-Abre baú de XP.
+Abre um baú de XP.
 
 Pode dar:
 - XP geral
 - XP elemental
 
-Cooldown: **12h**
+Cooldown: **12 horas**
+
+```txt
+!xpchest
+```
 
 ## `!daily`
 Coleta recompensa diária.
 
-Cooldown: **24h**
+Cooldown: **24 horas**
+
+```txt
+!daily
+```
 
 ---
 
 # 🔥 Sistema Elemental
 
-Cada elemento pode evoluir até **Lv.10**.
+Cada elemento evolui até **Lv.10**.
 
 | Marco | Recompensa |
 |---|---|
@@ -87,43 +126,55 @@ Cada elemento pode evoluir até **Lv.10**.
 
 ---
 
-# 🔄 Elementos
-
-## `!reroll`
-Rerolla elementos.
-
-Disponível apenas para subs.
-
-Cooldown: **24h**
-
----
-
 # 👹 Mobs
 
 ## `!vermob`
-Mostra o mob ativo.
+Mostra o mob ativo sem spawnar outro.
+
+```txt
+!vermob
+```
 
 ## `!combate`
 Ataca o mob ativo.
 
+```txt
+!combate
+```
+
 ## `!mob`
-Força spawn de mob.  
+Força spawn manual de mob.
+
 Disponível apenas para SilenceWorky.
+
+```txt
+!mob
+```
 
 ## `!mobon`
-Ativa spawn automático de mobs.  
+Ativa spawn automático de mobs.
+
 Disponível apenas para SilenceWorky.
 
+```txt
+!mobon
+```
+
 ## `!moboff`
-Desativa spawn automático de mobs.  
+Desativa spawn automático de mobs.
+
 Disponível apenas para SilenceWorky.
+
+```txt
+!moboff
+```
 
 ---
 
 # ⚔️ PvP
 
-## `!duelo usuario`
-Desafia outro jogador para duelo.
+## `!duelo USUARIO`
+Desafia outro usuário para um duelo.
 
 ```txt
 !duelo Worky
@@ -132,37 +183,54 @@ Desafia outro jogador para duelo.
 ## `!aceito`
 Aceita um duelo recebido.
 
+```txt
+!aceito
+```
+
 ## `!recuso`
 Recusa um duelo recebido.
 
-## `!responder palavra`
+```txt
+!recuso
+```
+
+## `!responder PALAVRA`
 Responde a palavra rápida do duelo.
 
-Quem responder primeiro corretamente ganha vantagem.
+Quem acertar primeiro ganha vantagem.
 
 ```txt
-!responder cristal
+!responder caos
 ```
 
 ## `!pvp`
-Mostra histórico PvP.
+Mostra seu histórico PvP.
 
 Mostra:
 - rank
 - RP
 - vitórias
 - derrotas
+- duelos
 - winrate
-- duelos aceitos
-- duelos recusados
-- streak atual
-- maior streak
+- aceitos
+- recusados
+- streak
+- recorde de streak
+
+```txt
+!pvp
+```
 
 ## `!toprank`
 Mostra o Top 5 PvP.
 
-## `!rankuser usuario`
-Mostra a posição PvP de um usuário específico.
+```txt
+!toprank
+```
+
+## `!rankuser USUARIO`
+Mostra a posição de um usuário no ranking PvP.
 
 ```txt
 !rankuser Worky
@@ -182,20 +250,24 @@ Mostra a posição PvP de um usuário específico.
 | Mestre | 1400 |
 | Prodígio | 2000 |
 
-Vitória:
-```txt
-+25 RP
-```
+Vitória: **+25 RP**  
+Derrota: **-15 RP**  
+Streak pode dar bônus extra.
 
-Derrota:
-```txt
--15 RP
-```
+---
 
-Bônus por streak:
-- streak 3: +5 RP
-- streak 5: +10 RP
-- streak 10: +20 RP
+# 🔄 Elementos
+
+## `!reroll`
+Rerolla seus elementos.
+
+Disponível apenas para subs.
+
+Cooldown: **24 horas**
+
+```txt
+!reroll
+```
 
 ---
 
@@ -203,43 +275,76 @@ Bônus por streak:
 
 Disponíveis apenas para SilenceWorky.
 
-## `!setlvl usuario NÍVEL`
-Define nível geral.
+## `!setlvl @usuario NÍVEL`
+Define o nível geral de um usuário.
 
 ```txt
-!setlvl Worky 50
+!setlvl @Worky 50
 ```
 
 ## `!setlvlelem usuario Elemento NÍVEL`
-Define nível elemental.
+Define o nível elemental de um usuário.
 
 ```txt
 !setlvlelem SilenceWorky Agua 10
 ```
 
-## `!resetelemento usuario`
+## `!resetelemento @usuario`
 Remove elementos e progresso elemental.
 
 ```txt
-!resetelemento Worky
+!resetelemento @Worky
 ```
 
-## `!resetraca usuario`
+## `!resetraca @usuario`
 Apaga completamente o perfil.
 
 ```txt
-!resetraca Worky
+!resetraca @Worky
 ```
 
 ## `!synclevel`
-Sincroniza nível com XP atual.
-
-## `!admsettag usuario NOME`
-Define tag manualmente.
+Sincroniza nível com base no XP.
 
 ```txt
-!admsettag Worky Filho da Singularidade
+!synclevel
+```
+
+## `!admsettag @usuario NOME`
+Define manualmente a tag de alguém.
+
+```txt
+!admsettag @Worky Filho da Singularidade
 ```
 
 ## `!addtag NOME`
-Cria tag
+Cria uma tag customizada.
+
+```txt
+!addtag Caçador de Corrompidos
+```
+
+## `!removetag NOME`
+Remove uma tag customizada.
+
+```txt
+!removetag Caçador de Corrompidos
+```
+
+---
+
+# 🌌 Sobre
+
+O RPG é persistente.
+
+Seus dados ficam salvos entre lives:
+- raça
+- elementos
+- XP
+- nível
+- tags
+- PvP
+- ranking
+- progresso elemental
+
+Boa sorte em Marbion.
