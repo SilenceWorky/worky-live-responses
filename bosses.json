@@ -1,0 +1,22 @@
+{
+  "Jean_Darwin": {
+    "nome": "Jean Darwin",
+    "categoria": "Boss",
+    "raridade": "Boss",
+    "peso": 100,
+    "minLevel": 80,
+    "maxLevel": 120,
+    "baseHp": 1200,
+    "xp": 1200,
+    "elementos": ["Matéria"],
+    "descricao": "Um inimigo de mentalidade de Matéria capaz de absorver coisas ao tocar, ganhando características do que absorve.",
+    "drops": [
+      {
+        "item": "Fragmento_Corrompido",
+        "chance": 100,
+        "min": 5,
+        "max": 12
+      }
+    ]
+  }
+}
