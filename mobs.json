@@ -22,7 +22,7 @@
     "xp": 25,
     "elementos": ["Terra", "Vento"],
     "drops": [
-      { "item": "Fragmento_Corrompido", "chance": 18, "min": 1, "max": 1 }
+      { "item": "Fragmento_Corrompido", "chance": 15, "min": 1, "max": 1 }
     ]
   },
 
@@ -35,7 +35,7 @@
     "xp": 22,
     "elementos": ["Veneno", "Terra"],
     "drops": [
-      { "item": "Fragmento_Corrompido", "chance": 12, "min": 1, "max": 1 }
+      { "item": "Fragmento_Corrompido", "chance": 10, "min": 1, "max": 1 }
     ]
   },
 
@@ -46,4 +46,115 @@
     "maxLevel": 9,
     "baseHp": 25,
     "xp": 20,
-    "elementos": ["Sombra", "V
+    "elementos": ["Sombra", "Vento"],
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 12, "min": 1, "max": 1 }
+    ]
+  },
+
+  "Javali Rochoso": {
+    "raridade": "Comum",
+    "peso": 22,
+    "minLevel": 4,
+    "maxLevel": 14,
+    "baseHp": 45,
+    "xp": 30,
+    "elementos": ["Terra"],
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 8, "min": 1, "max": 1 }
+    ]
+  },
+
+  "Serpente Venenosa": {
+    "raridade": "Incomum",
+    "peso": 18,
+    "minLevel": 6,
+    "maxLevel": 18,
+    "baseHp": 40,
+    "xp": 45,
+    "elementos": ["Veneno", "Natureza"],
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 18, "min": 1, "max": 2 }
+    ]
+  },
+
+  "Golem de Cristal": {
+    "raridade": "Incomum",
+    "peso": 14,
+    "minLevel": 10,
+    "maxLevel": 28,
+    "baseHp": 90,
+    "xp": 80,
+    "elementos": ["Cristal", "Terra"],
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 20, "min": 1, "max": 2 }
+    ]
+  },
+
+  "Espectro Sussurrante": {
+    "raridade": "Incomum",
+    "peso": 14,
+    "minLevel": 9,
+    "maxLevel": 26,
+    "baseHp": 55,
+    "xp": 70,
+    "elementos": ["Som", "Sombra"],
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 25, "min": 1, "max": 2 }
+    ]
+  },
+
+  "Assombração Errante": {
+    "raridade": "Incomum",
+    "peso": 18,
+    "minLevel": 8,
+    "maxLevel": 25,
+    "baseHp": 60,
+    "xp": 60,
+    "elementos": ["Sombra", "Psíquico"],
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 25, "min": 1, "max": 2 }
+    ]
+  },
+
+  "Elemental de Lava Instável": {
+    "raridade": "Raro",
+    "peso": 8,
+    "minLevel": 22,
+    "maxLevel": 55,
+    "baseHp": 130,
+    "xp": 160,
+    "elementos": ["Lava", "Fogo"],
+    "drops": [
+      { "item": "Flor_Escarlate", "chance": 35, "min": 1, "max": 1 },
+      { "item": "Fragmento_Corrompido", "chance": 30, "min": 1, "max": 3 }
+    ]
+  },
+
+  "Cavaleiro Metálico Perdido": {
+    "raridade": "Raro",
+    "peso": 7,
+    "minLevel": 25,
+    "maxLevel": 60,
+    "baseHp": 160,
+    "xp": 190,
+    "elementos": ["Metal", "Eletricidade"],
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 35, "min": 2, "max": 3 }
+    ]
+  },
+
+  "Demônio Errante": {
+    "raridade": "Raro",
+    "peso": 8,
+    "minLevel": 20,
+    "maxLevel": 60,
+    "baseHp": 140,
+    "xp": 180,
+    "elementosAleatorios": true,
+    "drops": [
+      { "item": "Fragmento_Corrompido", "chance": 50, "min": 2, "max": 4 },
+      { "item": "Flor_Escarlate", "chance": 12, "min": 1, "max": 1 }
+    ]
+  }
+}
