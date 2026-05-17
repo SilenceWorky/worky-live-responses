@@ -1,5 +1,6 @@
 {
-  "Slime Corrompido": {
+  "Slime_Corrompido": {
+    "nome": "Slime Corrompido",
     "raridade": "Comum",
     "peso": 40,
     "minLevel": 1,
@@ -13,7 +14,8 @@
     ]
   },
 
-  "Lobo Bestiano Hostil": {
+  "Lobo_Bestiano_Hostil": {
+    "nome": "Lobo Bestiano Hostil",
     "raridade": "Comum",
     "peso": 30,
     "minLevel": 3,
@@ -26,7 +28,8 @@
     ]
   },
 
-  "Aranha Gigante": {
+  "Aranha_Gigante": {
+    "nome": "Aranha Gigante",
     "raridade": "Comum",
     "peso": 28,
     "minLevel": 2,
@@ -39,7 +42,8 @@
     ]
   },
 
-  "Morcego Sombrio": {
+  "Morcego_Sombrio": {
+    "nome": "Morcego Sombrio",
     "raridade": "Comum",
     "peso": 24,
     "minLevel": 2,
@@ -52,7 +56,8 @@
     ]
   },
 
-  "Javali Rochoso": {
+  "Javali_Rochoso": {
+    "nome": "Javali Rochoso",
     "raridade": "Comum",
     "peso": 22,
     "minLevel": 4,
@@ -65,7 +70,8 @@
     ]
   },
 
-  "Serpente Venenosa": {
+  "Serpente_Venenosa": {
+    "nome": "Serpente Venenosa",
     "raridade": "Incomum",
     "peso": 18,
     "minLevel": 6,
@@ -78,7 +84,8 @@
     ]
   },
 
-  "Golem de Cristal": {
+  "Golem_de_Cristal": {
+    "nome": "Golem de Cristal",
     "raridade": "Incomum",
     "peso": 14,
     "minLevel": 10,
@@ -91,7 +98,8 @@
     ]
   },
 
-  "Espectro Sussurrante": {
+  "Espectro_Sussurrante": {
+    "nome": "Espectro Sussurrante",
     "raridade": "Incomum",
     "peso": 14,
     "minLevel": 9,
@@ -104,7 +112,8 @@
     ]
   },
 
-  "Assombração Errante": {
+  "Assombracao_Errante": {
+    "nome": "Assombração Errante",
     "raridade": "Incomum",
     "peso": 18,
     "minLevel": 8,
@@ -117,7 +126,8 @@
     ]
   },
 
-  "Elemental de Lava Instável": {
+  "Elemental_de_Lava_Instavel": {
+    "nome": "Elemental de Lava Instável",
     "raridade": "Raro",
     "peso": 8,
     "minLevel": 22,
@@ -131,8 +141,8 @@
     ]
   },
 
-  "Cavaleiro Metálico Perdido": {
-    "nome": "Cavaleiro_Metálico_Perdido",
+  "Cavaleiro_Metalico_Perdido": {
+    "nome": "Cavaleiro Metálico Perdido",
     "raridade": "Raro",
     "peso": 7,
     "minLevel": 25,
@@ -145,8 +155,8 @@
     ]
   },
 
-  "Demônio Errante": {
-    "nome": "Demônio_Errante",
+  "Demonio_Errante": {
+    "nome": "Demônio Errante",
     "raridade": "Raro",
     "peso": 8,
     "minLevel": 20,
