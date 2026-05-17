@@ -1,19 +1,22 @@
 {
-  "Núcleo de Slime": {
+  "Nucleo_de_Slime": {
+    "nome": "Núcleo de Slime",
     "raridade": "Comum",
     "tipo": "Material",
     "emoji": "🟢",
     "descricao": "Resíduo gelatinoso deixado por slimes."
   },
 
-  "Fragmento Corrompido": {
+  "Fragmento_Corrompido": {
+    "nome": "Fragmento Corrompido",
     "raridade": "Raro",
     "tipo": "Material",
     "emoji": "🌑",
     "descricao": "Fragmento tomado por energia corrompida."
   },
 
-  "Flor Escarlate": {
+  "Flor_Escarlate": {
+    "nome": "Flor Escarlate",
     "raridade": "Incomum",
     "tipo": "Coletável",
     "emoji": "🌺",
