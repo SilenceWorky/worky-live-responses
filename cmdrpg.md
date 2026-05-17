@@ -2,46 +2,18 @@
 
 Sistema RPG persistente da live de **SilenceWorky**.
 
-Crie sua raça, desperte elementos, ganhe XP, evolua, desbloqueie tags e avance no universo de Marbion.
-
 ---
 
 # 🌍 Perfil
 
 ## `!raça`
-Sorteia e salva permanentemente sua raça em Marbion.
-
-```txt
-!raça
-```
-
----
+Sorteia e salva sua raça.
 
 ## `!elemento`
 Desperta seus elementos/mentalidades.
 
-Existe chance de despertar dois elementos.
-
-```txt
-!elemento
-```
-
----
-
 ## `!pinfo`
-Mostra seu perfil completo.
-
-Mostra:
-- raça
-- elementos
-- tag equipada
-- nível geral
-- XP geral
-- nível elemental
-
-```txt
-!pinfo
-```
+Mostra perfil completo: raça, elementos, tag, nível, XP e nível elemental.
 
 ---
 
@@ -50,29 +22,16 @@ Mostra:
 ## `!tag`
 Mostra sua tag equipada.
 
-```txt
-!tag
-```
-
----
-
 ## `!tags`
 Mostra suas tags desbloqueadas.
 
-```txt
-!tags
-```
+## `!settag NOME`
+Equipa uma tag desbloqueada.
 
----
-
-## `!settag NOME DA TAG`
-Equipa uma tag que você já desbloqueou.
-
+Exemplo:
 ```txt
 !settag Filho das Chamas
 ```
-
-Tags só podem ser usadas depois de desbloqueadas.
 
 ---
 
@@ -84,8 +43,6 @@ Mostra informações sobre uma raça.
 ```txt
 !infraca Tritão
 ```
-
----
 
 ## `!infelem NOME`
 Mostra informações sobre um elemento.
@@ -99,84 +56,146 @@ Mostra informações sobre um elemento.
 # ⚔️ Progressão
 
 ## `!checkin`
-Marca presença na live e ganha XP.
+Ganha XP por presença.
 
-Cooldown: **15 minutos**
-
-```txt
-!checkin
-```
-
----
+Cooldown: **15 min**
 
 ## `!xpchest`
-Abre um baú de XP.
+Abre baú de XP.
 
 Pode dar:
 - XP geral
-- XP elemental mais raramente
+- XP elemental
 
-Cooldown: **12 horas**
+Cooldown: **12h**
 
-```txt
-!xpchest
-```
+## `!daily`
+Coleta recompensa diária.
+
+Cooldown: **24h**
 
 ---
 
-## `!daily`
-Coleta sua recompensa diária.
+# 🔥 Sistema Elemental
 
-Inclui:
-- XP
-- streak diária
-- bônus de streak
-- chance de subir de nível
+Cada elemento pode evoluir até **Lv.10**.
 
-Cooldown: **24 horas**
-
-```txt
-!daily
-```
+| Marco | Recompensa |
+|---|---|
+| Elemento Lv.5 | desbloqueia tag elemental |
+| Elemento Lv.10 | direito a pedir novo elemento |
 
 ---
 
 # 🔄 Elementos
 
 ## `!reroll`
-Rerolla seus elementos atuais.
+Rerolla elementos.
 
 Disponível apenas para subs.
 
-Cooldown: **24 horas**
+Cooldown: **24h**
+
+---
+
+# 👹 Mobs
+
+## `!vermob`
+Mostra o mob ativo.
+
+## `!combate`
+Ataca o mob ativo.
+
+## `!mob`
+Força spawn de mob.  
+Disponível apenas para SilenceWorky.
+
+## `!mobon`
+Ativa spawn automático de mobs.  
+Disponível apenas para SilenceWorky.
+
+## `!moboff`
+Desativa spawn automático de mobs.  
+Disponível apenas para SilenceWorky.
+
+---
+
+# ⚔️ PvP
+
+## `!duelo usuario`
+Desafia outro jogador para duelo.
 
 ```txt
-!reroll
+!duelo Worky
+```
+
+## `!aceito`
+Aceita um duelo recebido.
+
+## `!recuso`
+Recusa um duelo recebido.
+
+## `!responder palavra`
+Responde a palavra rápida do duelo.
+
+Quem responder primeiro corretamente ganha vantagem.
+
+```txt
+!responder cristal
+```
+
+## `!pvp`
+Mostra histórico PvP.
+
+Mostra:
+- rank
+- RP
+- vitórias
+- derrotas
+- winrate
+- duelos aceitos
+- duelos recusados
+- streak atual
+- maior streak
+
+## `!toprank`
+Mostra o Top 5 PvP.
+
+## `!rankuser usuario`
+Mostra a posição PvP de um usuário específico.
+
+```txt
+!rankuser Worky
 ```
 
 ---
 
-# 🔥 Sistema Elemental
+# 🏆 Ranks PvP
 
-Cada elemento pode evoluir separadamente até o **Lv.10**.
+| Rank | RP necessário |
+|---|---:|
+| Iniciante | 0 |
+| Bronze | 100 |
+| Prata | 250 |
+| Ouro | 500 |
+| Diamante | 900 |
+| Mestre | 1400 |
+| Prodígio | 2000 |
 
-O XP elemental pode vir do `!xpchest`.
+Vitória:
+```txt
++25 RP
+```
 
-| Marco | Recompensa |
-|---|---|
-| Elemento Lv.5 | desbloqueia a tag do elemento |
-| Elemento Lv.10 | direito a pedir novo elemento |
+Derrota:
+```txt
+-15 RP
+```
 
----
-
-# 🏆 Recompensas
-
-Ao atingir certos marcos, você pode desbloquear recompensas especiais.
-
-Exemplos:
-- nível geral 100 → recompensa especial
-- nível elemental 5 → tag elemental
-- nível elemental 10 → direito a pedir novo elemento
+Bônus por streak:
+- streak 3: +5 RP
+- streak 5: +10 RP
+- streak 10: +20 RP
 
 ---
 
@@ -184,105 +203,43 @@ Exemplos:
 
 Disponíveis apenas para SilenceWorky.
 
-## `!setlvl @usuario NÍVEL`
-Define manualmente o nível geral de um usuário.
+## `!setlvl usuario NÍVEL`
+Define nível geral.
 
 ```txt
-!setlvl @Worky 50
+!setlvl Worky 50
 ```
 
----
-
 ## `!setlvlelem usuario Elemento NÍVEL`
-Define manualmente o nível de um elemento do usuário.
-
-Use sem `@` e, se necessário, sem acento.
+Define nível elemental.
 
 ```txt
 !setlvlelem SilenceWorky Agua 10
 ```
 
----
-
-## `!resetelemento @usuario`
-Remove os elementos e progresso elemental do usuário.
+## `!resetelemento usuario`
+Remove elementos e progresso elemental.
 
 ```txt
-!resetelemento @Worky
+!resetelemento Worky
 ```
 
----
-
-## `!resetraca @usuario`
-Apaga completamente o perfil do usuário.
+## `!resetraca usuario`
+Apaga completamente o perfil.
 
 ```txt
-!resetraca @Worky
+!resetraca Worky
 ```
-
----
 
 ## `!synclevel`
-Sincroniza o nível geral com base no XP atual.
+Sincroniza nível com XP atual.
+
+## `!admsettag usuario NOME`
+Define tag manualmente.
 
 ```txt
-!synclevel
+!admsettag Worky Filho da Singularidade
 ```
 
----
-
-## `!admsettag @usuario NOME DA TAG`
-Define manualmente a tag de um usuário.
-
-```txt
-!admsettag @Worky Filho da Singularidade
-```
-
----
-
-## `!addtag NOME DA TAG`
-Cria uma tag customizada para ser dada como recompensa de desafio/evento.
-
-```txt
-!addtag Caçador de Corrompidos
-```
-
----
-
-## `!removetag NOME DA TAG`
-Remove uma tag customizada criada pelo `!addtag`.
-
-```txt
-!removetag Caçador de Corrompidos
-```
-
----
-
-# 🌌 Sobre o Sistema
-
-O RPG é persistente.
-
-Isso significa que:
-- seus dados ficam salvos
-- seu progresso continua entre lives
-- sua raça permanece
-- seus elementos permanecem
-- suas tags desbloqueadas ficam guardadas
-- seu personagem evolui com o tempo
-
----
-
-# 📖 Universo Marbion
-
-Marbion é um universo original criado por SilenceWorky.
-
-O sistema da live usa:
-- raças de Marbion
-- mentalidades elementais
-- progressão RPG
-- tags desbloqueáveis
-- níveis elementais
-- recompensas especiais
-- sistemas secretos futuros
-
-Boa sorte em sua jornada.
+## `!addtag NOME`
+Cria tag
