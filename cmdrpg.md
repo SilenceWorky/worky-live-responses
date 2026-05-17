@@ -27,13 +27,23 @@ Mostra perfil completo.
 !pinfo
 ```
 
-Mostra:
-- raça
-- elementos
-- tag equipada
-- nível
-- XP
-- level elemental
+---
+
+# 🎒 Inventário e Itens
+
+## `!inventario`
+Mostra seus itens.
+
+```txt
+!inventario
+```
+
+## `!item NOME`
+Mostra informações de um item.
+
+```txt
+!item Núcleo de Slime
+```
 
 ---
 
@@ -206,6 +216,10 @@ Quem acertar primeiro ganha vantagem.
 ## `!pvp`
 Mostra seu histórico PvP.
 
+```txt
+!pvp
+```
+
 Mostra:
 - rank
 - RP
@@ -217,10 +231,6 @@ Mostra:
 - recusados
 - streak
 - recorde de streak
-
-```txt
-!pvp
-```
 
 ## `!toprank`
 Mostra o Top 5 PvP.
@@ -331,6 +341,13 @@ Remove uma tag customizada.
 !removetag Caçador de Corrompidos
 ```
 
+## `!giveitem @usuario ITEM QUANTIDADE`
+Entrega item manualmente para um usuário.
+
+```txt
+!giveitem @Worky Núcleo de Slime 3
+```
+
 ---
 
 # 🌌 Sobre
@@ -345,6 +362,49 @@ Seus dados ficam salvos entre lives:
 - tags
 - PvP
 - ranking
+- inventário
 - progresso elemental
 
-Boa sorte em Marbion.
+---
+
+# 🔮 Sistemas Futuros
+
+Esta seção mostra sistemas planejados ou possíveis para o RPG Marbion.
+
+## Planejados
+
+- Histórico PvP ✔️
+- Rank PvP ✔️
+- Top Rank PvP ✔️
+- Spawn automático de mobs ✔️
+- Controle manual de spawn de mobs ✔️
+- Inventário ✔️
+- Itens colecionáveis ⏳
+- Itens mágicos ⏳
+- Skills elementais ⏳
+- Palavra fake em duelos ⏳
+- Edição manual de vitórias PvP ⏳
+- Boss global / Raid Boss ⏳
+- Sistema de loot ⏳
+- Sistema de guildas ⏳
+- Sistema PvP em turnos ⏳
+- 4 habilidades por jogador ⏳
+- Defesa em combate ⏳
+- Fugir da batalha ⏳
+- Combate estratégico contra mobs ⏳
+- Sistema de mapa ⏳
+- Exploração de regiões ⏳
+- Boss por região ⏳
+
+## Possíveis
+
+- Temporadas PvP
+- Reset de rank por season
+- Títulos automáticos por conquista
+- Relíquias raras
+- Eventos globais
+- Mercado/trocas entre viewers
+- Sistema de corrupção
+- Compatibilidade raça-elemento
+- Sistema de classes
+- Missões do chat
