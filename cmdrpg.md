@@ -42,7 +42,7 @@ Mostra seus itens.
 Mostra informações de um item.
 
 ```txt
-!item Núcleo de Slime
+!item Nucleo_de_Slime
 ```
 
 ---
@@ -153,12 +153,44 @@ Ataca o mob ativo.
 ```
 
 ## `!mob`
-Força spawn manual de mob.
+Força spawn manual de mob aleatório.
 
 Disponível apenas para SilenceWorky.
 
 ```txt
 !mob
+```
+
+## `!mob ID_DO_MOB`
+Força spawn de um mob específico.
+
+```txt
+!mob Slime_Corrompido
+```
+
+```txt
+!mob Demonio_Errante
+```
+
+## `!mob comum`
+Spawna manualmente um mob comum.
+
+```txt
+!mob comum
+```
+
+## `!mob incomum`
+Spawna manualmente um mob incomum.
+
+```txt
+!mob incomum
+```
+
+## `!mob raro`
+Spawna manualmente um mob raro.
+
+```txt
+!mob raro
 ```
 
 ## `!mobon`
@@ -177,6 +209,17 @@ Disponível apenas para SilenceWorky.
 
 ```txt
 !moboff
+```
+
+---
+
+# 👑 Bosses
+
+## `!viewboss`
+Mostra a lista de bosses disponíveis no RPG.
+
+```txt
+!viewboss
 ```
 
 ---
@@ -345,7 +388,7 @@ Remove uma tag customizada.
 Entrega item manualmente para um usuário.
 
 ```txt
-!giveitem @Worky Núcleo de Slime 3
+!giveitem @Worky Nucleo_de_Slime 3
 ```
 
 ---
@@ -379,13 +422,20 @@ Esta seção mostra sistemas planejados ou possíveis para o RPG Marbion.
 - Spawn automático de mobs ✔️
 - Controle manual de spawn de mobs ✔️
 - Inventário ✔️
+- Sistema de loot ✔️
+- Spawn manual de mobs específicos ✔️
+- Spawn manual por raridade: `!mob raro` ✔️
+- Sistema de bosses ✔️
+- Lista de bosses: `!viewboss` ✔️
+- Spawn manual de boss: `!boss` ⏳
+- Fila de boss ⏳
+- Spawn automático de boss ⏳
+- Boss global / Raid Boss ⏳
+- Spawn manual de evento: `!mob evento` ⏳
 - Itens colecionáveis ⏳
 - Itens mágicos ⏳
 - Skills elementais ⏳
-- Palavra fake em duelos ⏳
 - Edição manual de vitórias PvP ⏳
-- Boss global / Raid Boss ⏳
-- Sistema de loot ⏳
 - Sistema de guildas ⏳
 - Sistema PvP em turnos ⏳
 - 4 habilidades por jogador ⏳
