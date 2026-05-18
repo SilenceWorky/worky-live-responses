@@ -38,7 +38,7 @@ Mostra seus itens.
 !inventario
 ```
 
-## `!item NOME`
+## `!item ID_DO_ITEM`
 Mostra informações de um item.
 
 ```txt
@@ -146,7 +146,11 @@ Mostra o mob ativo sem spawnar outro.
 ```
 
 ## `!combate`
-Ataca o mob ativo.
+Ataca o inimigo ativo.
+
+Funciona contra:
+- mobs comuns
+- bosses
 
 ```txt
 !combate
@@ -161,36 +165,36 @@ Disponível apenas para SilenceWorky.
 !mob
 ```
 
-## `!mob ID_DO_MOB`
+## `!mobid ID_DO_MOB`
 Força spawn de um mob específico.
 
 ```txt
-!mob Slime_Corrompido
+!mobid Slime_Corrompido
 ```
 
 ```txt
-!mob Demonio_Errante
+!mobid Demonio_Errante
 ```
 
-## `!mob comum`
+## `!mobid comum`
 Spawna manualmente um mob comum.
 
 ```txt
-!mob comum
+!mobid comum
 ```
 
-## `!mob incomum`
+## `!mobid incomum`
 Spawna manualmente um mob incomum.
 
 ```txt
-!mob incomum
+!mobid incomum
 ```
 
-## `!mob raro`
+## `!mobid raro`
 Spawna manualmente um mob raro.
 
 ```txt
-!mob raro
+!mobid raro
 ```
 
 ## `!mobon`
@@ -220,6 +224,31 @@ Mostra a lista de bosses disponíveis no RPG.
 
 ```txt
 !viewboss
+```
+
+## `!boss`
+Spawna um boss aleatório.
+
+Se houver mob ativo, o boss entra na fila de espera.
+
+```txt
+!boss
+```
+
+## `!bossid ID_DO_BOSS`
+Spawna um boss específico.
+
+```txt
+!bossid Jean_Darwin
+```
+
+## `!killboss`
+Remove boss ativo preso ou bugado.
+
+Disponível apenas para SilenceWorky.
+
+```txt
+!killboss
 ```
 
 ---
@@ -424,10 +453,10 @@ Esta seção mostra sistemas planejados ou possíveis para o RPG Marbion.
 - Inventário ✔️
 - Sistema de loot ✔️
 - Spawn manual de mobs específicos ✔️
-- Spawn manual por raridade: `!mob raro` ✔️
+- Spawn manual por raridade: `!mobid raro` ✔️
 - Sistema de bosses ✔️
 - Lista de bosses: `!viewboss` ✔️
-- Spawn manual de boss: `!boss` ⏳
+- Spawn manual de boss: `!boss` ✔️
 - Fila de boss ⏳
 - Spawn automático de boss ⏳
 - Boss global / Raid Boss ⏳
