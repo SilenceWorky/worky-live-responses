@@ -1,489 +1,437 @@
-# 🎮 RPG Marbion — Comandos do Chat
-
-Sistema RPG persistente da live de **SilenceWorky**.
+# 🎮 CMD RPG — MARBION
 
 ---
 
-# 🌍 Perfil
+# 👤 PERFIL
 
-## `!raça`
-Sorteia sua raça permanente.
-
-```txt
-!raça
-```
-
-## `!elemento`
-Desperta seus elementos. Pode vir 1 ou 2 elementos.
-
-```txt
-!elemento
-```
-
-## `!pinfo`
-Mostra perfil completo.
-
-```txt
-!pinfo
-```
+## !raça
+Desperta uma raça aleatória para o jogador.
 
 ---
 
-# 🎒 Inventário e Itens
+## !pinfo
+Mostra:
+- raça
+- elementos
+- tag equipada
+- nível
+- XP total
+- níveis elementais
 
-## `!inventario`
-Mostra seus itens.
+---
 
+## !synclevel
+Sincroniza o nível baseado no XP atual.
+
+---
+
+## !setlvl @usuario nível
+Define manualmente:
+- nível
+- XP correspondente
+
+Ex:
 ```txt
-!inventario
-```
-
-## `!item ID_DO_ITEM`
-Mostra informações de um item.
-
-```txt
-!item Nucleo_de_Slime
+!setlvl @SilenceWorky 100
 ```
 
 ---
 
-# 🏷️ Tags
+## !resetraca @usuario
+Reseta completamente:
+- raça
+- XP
+- nível
+- elementos
+- inventário
+- progresso
 
-## `!tag`
-Mostra sua tag equipada.
+---
 
+# 🌌 ELEMENTOS
+
+## !elemento
+Desperta:
+- 1 elemento
+- ou combinação de 2 elementos
+
+Sistema:
+- pesos de raridade
+- combinações raras
+- elementos exclusivos
+
+---
+
+## !reroll
+Rerolla os elementos do jogador.
+
+Cooldown:
+- 24h
+
+---
+
+## !infelem nome
+Mostra:
+- descrição
+- raridade
+- emoji
+- informações do elemento
+
+Ex:
 ```txt
-!tag
-```
-
-## `!tags`
-Mostra suas tags desbloqueadas.
-
-```txt
-!tags
-```
-
-## `!settag NOME`
-Equipa uma tag já desbloqueada.
-
-```txt
-!settag Filho das Chamas
+!infelem Fogo
 ```
 
 ---
 
-# 📚 Lore
-
-## `!infraca NOME`
-Mostra informações sobre uma raça.
-
-```txt
-!infraca Tritão
-```
-
-## `!infelem NOME`
-Mostra informações sobre um elemento.
-
-```txt
-!infelem Gravidade
-```
-
----
-
-# ⚔️ Progressão
-
-## `!checkin`
-Ganha XP por presença.
-
-Cooldown: **15 minutos**
-
-```txt
-!checkin
-```
-
-## `!xpchest`
-Abre um baú de XP.
-
-Pode dar:
-- XP geral
+## !setlvlelem usuario elemento nivel
+Define:
+- nível elemental
 - XP elemental
 
-Cooldown: **12 horas**
-
+Ex:
 ```txt
-!xpchest
-```
-
-## `!daily`
-Coleta recompensa diária.
-
-Cooldown: **24 horas**
-
-```txt
-!daily
+!setlvlelem SilenceWorky Agua 10
 ```
 
 ---
 
-# 🔥 Sistema Elemental
-
-Cada elemento evolui até **Lv.10**.
-
-| Marco | Recompensa |
-|---|---|
-| Elemento Lv.5 | desbloqueia tag elemental |
-| Elemento Lv.10 | direito a pedir novo elemento |
+## !resetelemento @usuario
+Reseta:
+- elementos
+- XP elemental
+- níveis elementais
 
 ---
 
-# 👹 Mobs
+# 🏷️ TAGS
 
-## `!vermob`
-Mostra o mob ativo sem spawnar outro.
+## !tag
+Mostra a tag equipada.
 
+---
+
+## !tags
+Mostra:
+- tag equipada
+- tags desbloqueadas
+
+---
+
+## !settag nome
+Equipa uma tag desbloqueada.
+
+Ex:
 ```txt
-!vermob
+!settag Chama Suprema
 ```
 
-## `!combate`
-Ataca o inimigo ativo.
+---
 
-Funciona contra:
-- mobs comuns
-- bosses
+## !admsettag @usuario tag
+Entrega/equipa tags manualmente.
 
-```txt
-!combate
-```
+---
 
-## `!mob`
-Força spawn manual de mob aleatório.
+## !addtag nome
+Cria uma tag customizada.
 
-Disponível apenas para SilenceWorky.
+---
 
+## !removetag nome
+Remove uma tag customizada.
+
+---
+
+# 🎁 XP E RECOMPENSAS
+
+## !checkin
+Ganha XP.
+
+Cooldown:
+- 15min
+
+---
+
+## !daily
+Sistema de recompensa diária.
+
+Inclui:
+- streak
+- bônus de streak
+- XP escalável
+
+Cooldown:
+- 24h
+
+---
+
+## !xpchest
+Baú de XP.
+
+Pode entregar:
+- XP normal
+- XP elemental
+
+Cooldown:
+- 12h
+
+---
+
+# 👹 MOBS
+
+## Sistema de mobs
+- Spawn automático ✔️
+- Spawn manual ✔️
+- Spawn por raridade ✔️
+- Spawn específico ✔️
+- Despawn automático ✔️
+- Sistema elemental ✔️
+- Sistema de drops ✔️
+- Boss impede spawn ✔️
+
+---
+
+## !mob
+Spawna:
+- mob aleatório
+- mob específico
+- raridade específica
+
+Ex:
 ```txt
 !mob
+!mob Slime_Corrompido
+!mob raro
+!mob lendario
 ```
 
-## `!mobid ID_DO_MOB`
-Força spawn de um mob específico.
+---
 
-```txt
-!mobid Slime_Corrompido
-```
+## !vermob
+Mostra:
+- nome
+- raridade
+- elementos
+- HP
+- tempo restante
 
-```txt
-!mobid Demonio_Errante
-```
+---
 
-## `!mobid comum`
-Spawna manualmente um mob comum.
+## !combate
+Ataca:
+- mobs
+- bosses
 
-```txt
-!mobid comum
-```
+Sistema:
+- hit chance
+- dano
+- XP
+- drops
+- cooldown
 
-## `!mobid incomum`
-Spawna manualmente um mob incomum.
+---
 
-```txt
-!mobid incomum
-```
-
-## `!mobid raro`
-Spawna manualmente um mob raro.
-
-```txt
-!mobid raro
-```
-
-## `!mobon`
+## !mobon
 Ativa spawn automático de mobs.
 
-Disponível apenas para SilenceWorky.
+---
 
-```txt
-!mobon
-```
-
-## `!moboff`
+## !moboff
 Desativa spawn automático de mobs.
 
-Disponível apenas para SilenceWorky.
+---
 
-```txt
-!moboff
-```
+# 👑 BOSSES
+
+## Sistema de bosses
+- Spawn automático ✔️
+- Spawn manual ✔️
+- Boss global ⏳
+- Fila de espera ✔️
+- Despawn automático ✔️
+- Boss impede spawn de mob ✔️
+- Spawn entre 1h–2h ✔️
+- Boss surge após morte do mob ✔️
 
 ---
 
-# 👑 Bosses
-
-## `!viewboss`
-Mostra a lista de bosses disponíveis no RPG.
-
-```txt
-!viewboss
-```
-
-## `!boss`
+## !boss
 Spawna um boss aleatório.
 
-Se houver mob ativo, o boss entra na fila de espera.
+Se houver mob:
+- entra na fila
 
-```txt
-!boss
-```
+---
 
-## `!bossid ID_DO_BOSS`
+## !boss nome
 Spawna um boss específico.
 
+Ex:
 ```txt
-!bossid Jean_Darwin
-```
-
-## `!killboss`
-Remove boss ativo preso ou bugado.
-
-Disponível apenas para SilenceWorky.
-
-```txt
-!killboss
+!boss Jean_Darwin
 ```
 
 ---
 
-# ⚔️ PvP
+## !viewboss
+Mostra:
+- boss ativo
+- HP
+- tempo restante
+- boss na fila
+- bosses disponíveis
 
-## `!duelo USUARIO`
-Desafia outro usuário para um duelo.
+---
 
-```txt
-!duelo Worky
-```
+## !killboss
+Remove o boss ativo.
 
-## `!aceito`
-Aceita um duelo recebido.
+---
 
-```txt
-!aceito
-```
+## !bosson
+Ativa spawn automático de bosses.
 
-## `!recuso`
-Recusa um duelo recebido.
+---
 
-```txt
-!recuso
-```
+## !bossoff
+Desativa spawn automático de bosses.
 
-## `!responder PALAVRA`
-Responde a palavra rápida do duelo.
+---
 
-Quem acertar primeiro ganha vantagem.
+# ⚔️ PVP
 
-```txt
-!responder caos
-```
+## Sistema PvP
+- Duelo ✔️
+- Rank ✔️
+- RP ✔️
+- Winrate ✔️
+- Sistema de streak ✔️
+- Sistema de vantagem elemental ✔️
+- Palavra rápida ✔️
 
-## `!pvp`
-Mostra seu histórico PvP.
+---
 
-```txt
-!pvp
-```
+## !duelo @usuario
+Desafia outro jogador.
 
+---
+
+## !aceito
+Aceita duelo.
+
+---
+
+## !recuso
+Recusa duelo.
+
+---
+
+## !responder palavra
+Sistema de vantagem rápida.
+
+---
+
+## !pvp
 Mostra:
 - rank
 - RP
 - vitórias
 - derrotas
-- duelos
-- winrate
-- aceitos
-- recusados
 - streak
-- recorde de streak
+- melhor streak
+- winrate
 
-## `!toprank`
-Mostra o Top 5 PvP.
+---
 
+## !toprank
+Mostra top ranking PvP.
+
+---
+
+## !toprank usuario
+Mostra posição específica.
+
+Ex:
 ```txt
-!toprank
-```
-
-## `!rankuser USUARIO`
-Mostra a posição de um usuário no ranking PvP.
-
-```txt
-!rankuser Worky
+!toprank SilenceWorky
 ```
 
 ---
 
-# 🏆 Ranks PvP
+# 🎒 ITENS
 
-| Rank | RP necessário |
-|---|---:|
-| Iniciante | 0 |
-| Bronze | 100 |
-| Prata | 250 |
-| Ouro | 500 |
-| Diamante | 900 |
-| Mestre | 1400 |
-| Prodígio | 2000 |
-
-Vitória: **+25 RP**  
-Derrota: **-15 RP**  
-Streak pode dar bônus extra.
+## Sistema de itens
+- Inventário ✔️
+- Drops ✔️
+- Itens customizados ✔️
 
 ---
 
-# 🔄 Elementos
+## !inventario
+Mostra o inventário.
 
-## `!reroll`
-Rerolla seus elementos.
+---
 
-Disponível apenas para subs.
+## !item nome
+Mostra:
+- descrição
+- raridade
+- tipo
+- emoji
 
-Cooldown: **24 horas**
-
+Ex:
 ```txt
-!reroll
+!item Fragmento_Corrompido
 ```
 
 ---
 
-# 🛠️ Comandos Administrativos
+## !giveitem
+Entrega item manualmente.
 
-Disponíveis apenas para SilenceWorky.
-
-## `!setlvl @usuario NÍVEL`
-Define o nível geral de um usuário.
-
+Ex:
 ```txt
-!setlvl @Worky 50
+!giveitem @usuario item quantidade
 ```
-
-## `!setlvlelem usuario Elemento NÍVEL`
-Define o nível elemental de um usuário.
-
-```txt
-!setlvlelem SilenceWorky Agua 10
-```
-
-## `!resetelemento @usuario`
-Remove elementos e progresso elemental.
-
-```txt
-!resetelemento @Worky
-```
-
-## `!resetraca @usuario`
-Apaga completamente o perfil.
-
-```txt
-!resetraca @Worky
-```
-
-## `!synclevel`
-Sincroniza nível com base no XP.
-
-```txt
-!synclevel
-```
-
-## `!admsettag @usuario NOME`
-Define manualmente a tag de alguém.
-
-```txt
-!admsettag @Worky Filho da Singularidade
-```
-
-## `!addtag NOME`
-Cria uma tag customizada.
-
-```txt
-!addtag Caçador de Corrompidos
-```
-
-## `!removetag NOME`
-Remove uma tag customizada.
-
-```txt
-!removetag Caçador de Corrompidos
-```
-
-## `!giveitem @usuario ITEM QUANTIDADE`
-Entrega item manualmente para um usuário.
-
-```txt
-!giveitem @Worky Nucleo_de_Slime 3
-```
-
----
-
-# 🌌 Sobre
-
-O RPG é persistente.
-
-Seus dados ficam salvos entre lives:
-- raça
-- elementos
-- XP
-- nível
-- tags
-- PvP
-- ranking
-- inventário
-- progresso elemental
 
 ---
 
 # 🔮 Sistemas Futuros
 
-Esta seção mostra sistemas planejados ou possíveis para o RPG Marbion.
-
-## Planejados
-
-- Histórico PvP ✔️
-- Rank PvP ✔️
-- Top Rank PvP ✔️
-- Spawn automático de mobs ✔️
-- Controle manual de spawn de mobs ✔️
-- Inventário ✔️
-- Sistema de loot ✔️
-- Spawn manual de mobs específicos ✔️
-- Spawn manual por raridade: `!mobid raro` ✔️
-- Sistema de bosses ✔️
-- Lista de bosses: `!viewboss` ✔️
-- Spawn manual de boss: `!boss` ✔️
-- Fila de boss ⏳
-- Spawn automático de boss ⏳
-- Boss global / Raid Boss ⏳
-- Spawn manual de evento: `!mob evento` ⏳
-- Itens colecionáveis ⏳
-- Itens mágicos ⏳
-- Skills elementais ⏳
-- Edição manual de vitórias PvP ⏳
+- Overlay OBS de boss ⏳
+- Alertas animados de boss ⏳
+- Raid Boss global ⏳
+- Bosses com múltiplas fases ⏳
+- Sistema de skills ⏳
+- Sistema de classes ⏳
 - Sistema de guildas ⏳
-- Sistema PvP em turnos ⏳
-- 4 habilidades por jogador ⏳
-- Defesa em combate ⏳
-- Fugir da batalha ⏳
-- Combate estratégico contra mobs ⏳
-- Sistema de mapa ⏳
-- Exploração de regiões ⏳
-- Boss por região ⏳
-
-## Possíveis
-
-- Temporadas PvP
-- Reset de rank por season
-- Títulos automáticos por conquista
-- Relíquias raras
-- Eventos globais
-- Mercado/trocas entre viewers
-- Sistema de corrupção
-- Compatibilidade raça-elemento
-- Sistema de classes
-- Missões do chat
+- Sistema de crafting ⏳
+- Sistema de marketplace ⏳
+- Sistema de quests ⏳
+- Sistema de NPCs ⏳
+- Sistema de biomas ⏳
+- Eventos globais ⏳
+- Sistema de dungeons ⏳
+- Sistema de achievements ⏳
+- Sistema de títulos ⏳
+- Sistema de relíquias ⏳
+- Sistema de armas ⏳
+- Sistema de armaduras ⏳
+- Sistema de efeitos/status ⏳
+- Sistema de pets ⏳
+- Sistema de pesca ⏳
+- Sistema de mineração ⏳
+- Sistema de alquimia ⏳
+- Sistema de economia ⏳
+- Sistema de loja ⏳
+- Sistema de trade ⏳
+- Sistema de clans ⏳
+- Leaderboard PvP global ✔️
+- Leaderboard global geral ⏳
+- Sistema de drops ✔️
+- Sistema de bosses ✔️
+- Sistema de fila de bosses ✔️
+- Spawn automático de bosses ✔️
+- Spawn automático de mobs ✔️
+- PvP ranqueado ✔️
