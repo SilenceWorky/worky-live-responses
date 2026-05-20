@@ -427,6 +427,23 @@ Ex:
 - Sistema de loja ⏳
 - Sistema de trade ⏳
 - Sistema de clans ⏳
+- Sistema de Reencarnação ⏳
+- Limite de 10 Reencarnações ⏳
+- Último Ciclo ⏳
+- Recomeço oficial sem buffs ⏳
+- Reencarnação voluntária com bônus ⏳
+- Reencarnação forçada por morte ⏳
+- Morte por mob/boss/player contar como reencarnação sem benefício ⏳
+- Sistema de poupar/executar em duelos ⏳
+- Comando `!poupar` ⏳
+- Comando `!executar` ⏳
+- Títulos por misericórdia/carrasco ⏳
+- Sistema de armas ⏳
+- Armas permanentes por perfil ⏳
+- Durabilidade de armas ⏳
+- Ferreiro/reparo de armas ⏳
+- Comando ADM `!rearma` ⏳
+- 7 armas especiais de ADM ⏳
 - Leaderboard PvP global ✔️
 - Leaderboard global geral ⏳
 - Sistema de drops ✔️
