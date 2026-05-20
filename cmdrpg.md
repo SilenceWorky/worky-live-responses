@@ -399,53 +399,117 @@ Ex:
 
 # 🔮 Sistemas Futuros
 
-- Overlay OBS de boss ⏳
-- Alertas animados de boss ⏳
+## 🌟 PRIORIDADE MÁXIMA
+
+- Sistema de fases de boss ⏳
+- Boss enfurecido ⏳
+- Mudança visual da barra por HP ⏳
+- Alertas especiais de fase ⏳
+- Sistema de execução/piedade PvP ⏳
+- Comando `!poupar` ⏳
+- Comando `!executar` ⏳
+- Reencarnação forçada ⏳
+- Sistema de Reencarnação ⏳
+- Limite de 10 Reencarnações ⏳
+- Último Ciclo ⏳
+- Recomeço oficial sem buffs ⏳
+
+---
+
+## 👑 SISTEMA DE BOSSES
+
 - Raid Boss global ⏳
 - Bosses com múltiplas fases ⏳
+- Bosses lendários ultra raros ⏳
+- Música dinâmica de boss ⏳
+- Overlay de raid ⏳
+- Overlay de loot ⏳
+- Overlay de level up ⏳
+- Overlay PvP ⏳
+- Kill feed ⏳
+- Mini mapa de eventos ⏳
+- HUD MMORPG completa ⏳
+
+---
+
+## ⚔️ COMBATE
+
 - Sistema de skills ⏳
 - Sistema de classes ⏳
+- Sistema de efeitos/status ⏳
+- Crítico ⏳
+- Esquiva ⏳
+- Buffs/Debuffs ⏳
+- Dano elemental ⏳
+- Resistências elementais ⏳
+- Fraquezas elementais ⏳
+- Combos elementais ⏳
+
+---
+
+## 🗡️ ARMAS
+
+- Sistema de armas ⏳
+- Armas permanentes por perfil ⏳
+- Sistema de armaduras ⏳
+- Durabilidade de armas ⏳
+- Ferreiro/reparo de armas ⏳
+- Efeitos especiais de armas ⏳
+- Armas infinitas ⏳
+- Comando ADM `!rearma` ⏳
+- 7 armas especiais de ADM ⏳
+
+---
+
+## 🏛️ SOCIAL
+
 - Sistema de guildas ⏳
-- Sistema de crafting ⏳
+- Sistema de clans ⏳
+- Guerra de guildas ⏳
+- Boss de guilda ⏳
+- Chat de guilda ⏳
+- Sistema de títulos ⏳
+- Sistema de achievements ⏳
+
+---
+
+## 💰 ECONOMIA
+
+- Sistema de economia ⏳
+- Sistema de loja ⏳
+- Sistema de trade ⏳
 - Sistema de marketplace ⏳
+- Sistema de crafting ⏳
+
+---
+
+## 🌎 MUNDO
+
 - Sistema de quests ⏳
 - Sistema de NPCs ⏳
 - Sistema de biomas ⏳
 - Eventos globais ⏳
 - Sistema de dungeons ⏳
-- Sistema de achievements ⏳
-- Sistema de títulos ⏳
 - Sistema de relíquias ⏳
-- Sistema de armas ⏳
-- Sistema de armaduras ⏳
-- Sistema de efeitos/status ⏳
-- Sistema de pets ⏳
+
+---
+
+## 🎣 PROFISSÕES
+
 - Sistema de pesca ⏳
 - Sistema de mineração ⏳
 - Sistema de alquimia ⏳
-- Sistema de economia ⏳
-- Sistema de loja ⏳
-- Sistema de trade ⏳
-- Sistema de clans ⏳
-- Sistema de Reencarnação ⏳
-- Limite de 10 Reencarnações ⏳
-- Último Ciclo ⏳
-- Recomeço oficial sem buffs ⏳
-- Reencarnação voluntária com bônus ⏳
-- Reencarnação forçada por morte ⏳
-- Morte por mob/boss/player contar como reencarnação sem benefício ⏳
-- Sistema de poupar/executar em duelos ⏳
-- Comando `!poupar` ⏳
-- Comando `!executar` ⏳
-- Títulos por misericórdia/carrasco ⏳
-- Sistema de armas ⏳
-- Armas permanentes por perfil ⏳
-- Durabilidade de armas ⏳
-- Ferreiro/reparo de armas ⏳
-- Comando ADM `!rearma` ⏳
-- 7 armas especiais de ADM ⏳
+- Sistema de pets ⏳
+
+---
+
+## ✅ SISTEMAS JÁ IMPLEMENTADOS
+
+- Overlay OBS de boss ✔️
+- Alertas animados de boss ✔️
+- Barra global de HP ✔️
+- Sons personalizados de boss ✔️
 - Leaderboard PvP global ✔️
-- Leaderboard global geral ⏳
 - Sistema de drops ✔️
 - Sistema de bosses ✔️
 - Sistema de fila de bosses ✔️
