@@ -4163,10 +4163,10 @@
       "elementos": [],
       "dano": 999,
       "durabilidade": -1,
-      "efeito": "Definido pelo ADM.",
+      "efeito": "Hitkill contra Fogo e Lava. Absorção de dano contra Água e Gelo.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "Khopesh dos Rios é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
+      "descricao": "Khopesh dos Rios é uma das sete Armas de ADM. Sua lâmina carrega o fluxo absoluto das águas de Marbion. Usuários dos elementos Fogo e Lava são eliminados instantaneamente ao serem atingidos. Contra Água e Gelo, a arma converte o dano causado em regeneração para o portador. Seus elementos e efeitos adicionais são definidos pelo ADM portador.",
       "emoji": "🌀"
     }
   }
