@@ -1,328 +1,4172 @@
 {
-  "Vinculos": {
-
+  "Comum": {
     "Espada_Tesoura": {
       "nome": "Espada Tesoura",
       "categoria": "Vínculo",
       "raridade": "Comum",
       "tipo": "Espada",
-      "elementos": ["Metal"],
-      "dano": 12,
-      "durabilidade": 140,
-      "efeito": "As lâminas podem se separar como tesouras gigantes.",
-      "passiva": "Ataques consecutivos aumentam velocidade.",
-      "critico": 4,
-      "descricao": "Uma espada articulada criada para cortes rápidos.",
+      "elementos": [
+        "Metal"
+      ],
+      "dano": 10,
+      "durabilidade": 221,
+      "efeito": "As lâminas se abrem como uma tesoura gigante.",
+      "passiva": "Cortes consecutivos aumentam levemente a velocidade.",
+      "critico": 2,
+      "descricao": "Uma espada articulada feita para cortes rápidos e precisos.",
       "emoji": "✂️"
     },
-
     "Manopla_de_Garras": {
       "nome": "Manopla de Garras",
       "categoria": "Vínculo",
       "raridade": "Comum",
       "tipo": "Manopla",
-      "elementos": ["Metal"],
-      "dano": 16,
-      "durabilidade": 180,
-      "efeito": "Golpes perfuram armaduras leves.",
-      "passiva": "Aumenta dano em ataques rápidos.",
-      "critico": 12,
-      "descricao": "Uma manopla bestial usada por caçadores.",
+      "elementos": [
+        "Metal"
+      ],
+      "dano": 10,
+      "durabilidade": 205,
+      "efeito": "Garras perfuram armaduras leves.",
+      "passiva": "Ataques rápidos recebem pequeno bônus de crítico.",
+      "critico": 1,
+      "descricao": "Manopla bestial usada por lutadores de curta distância.",
       "emoji": "🦾"
     },
-
-    "Galho_Quebrado": {
-      "nome": "Galho Quebrado",
+    "Adagas_de_Bolso": {
+      "nome": "Adagas de Bolso",
       "categoria": "Vínculo",
-      "raridade": "Lendário",
-      "tipo": "Galho",
-      "elementos": ["Natureza", "Tempo"],
-      "dano": 38,
-      "durabilidade": 260,
-      "efeito": "Cria florestas instantaneamente.",
-      "passiva": "A vegetação cresce mesmo em locais mortos.",
-      "critico": 6,
-      "descricao": "Um galho vindo de uma árvore ancestral impossível.",
-      "emoji": "🌿"
-    },
-
-    "Caneta_da_Criacao": {
-      "nome": "Caneta da Criação",
-      "categoria": "Vínculo",
-      "raridade": "Lendário",
-      "tipo": "Caneta",
-      "elementos": ["Espaço", "Matéria"],
-      "dano": 5,
-      "durabilidade": 220,
-      "efeito": "Tudo desenhado sobre o corpo do usuário torna-se real.",
-      "passiva": "Os desenhos continuam existindo após batalhas.",
-      "critico": 0,
-      "descricao": "Uma caneta usada por arquitetos do universo.",
-      "emoji": "🖊️"
-    },
-
-    "Aneis_Dimensionais": {
-      "nome": "Anéis Dimensionais",
-      "categoria": "Vínculo",
-      "raridade": "Mítico",
-      "tipo": "Anéis",
-      "elementos": ["Espaço"],
-      "dano": 10,
-      "durabilidade": 280,
-      "efeito": "Criam portais conectados entre si.",
-      "passiva": "Objetos podem atravessar dimensões instantaneamente.",
-      "critico": 2,
-      "descricao": "Anéis usados por navegadores dimensionais.",
-      "emoji": "💍"
-    },
-
-    "Katana_das_Almas": {
-      "nome": "Katana das Almas",
-      "categoria": "Vínculo",
-      "raridade": "Lendário",
-      "tipo": "Katana",
-      "elementos": ["Sombra"],
-      "dano": 42,
-      "durabilidade": 320,
-      "efeito": "Absorve almas de inimigos derrotados.",
-      "passiva": "As almas podem ser invocadas temporariamente.",
-      "critico": 18,
-      "descricao": "Uma katana amaldiçoada pelo submundo.",
+      "raridade": "Comum",
+      "tipo": "Adaga",
+      "elementos": [
+        "Metal"
+      ],
+      "dano": 9,
+      "durabilidade": 213,
+      "efeito": "Permite dois cortes em sequência.",
+      "passiva": "Bônus contra inimigos mais fracos.",
+      "critico": 4,
+      "descricao": "Par de adagas simples que responde aos reflexos do portador.",
       "emoji": "🗡️"
     },
-
-    "Massa_Tectonica": {
-      "nome": "Massa Tectônica",
+    "Pistola_de_Eco": {
+      "nome": "Pistola de Eco",
       "categoria": "Vínculo",
-      "raridade": "Épico",
-      "tipo": "Massa",
-      "elementos": ["Terra"],
-      "dano": 36,
-      "durabilidade": 300,
-      "efeito": "Cria espinhos minerais gigantes.",
-      "passiva": "Quanto mais dano recebe, mais pesada fica.",
-      "critico": 5,
-      "descricao": "Uma arma criada do núcleo tectônico.",
-      "emoji": "🔨"
+      "raridade": "Comum",
+      "tipo": "Pistola",
+      "elementos": [
+        "Som",
+        "Metal"
+      ],
+      "dano": 9,
+      "durabilidade": 196,
+      "efeito": "Dispara projéteis sonoros condensados.",
+      "passiva": "O primeiro disparo de cada combate tem mais precisão.",
+      "critico": 2,
+      "descricao": "Uma pistola que usa vibração em vez de pólvora.",
+      "emoji": "🔫"
     },
-
+    "Foice_de_Capim": {
+      "nome": "Foice de Capim",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Foice",
+      "elementos": [
+        "Natureza",
+        "Metal"
+      ],
+      "dano": 9,
+      "durabilidade": 221,
+      "efeito": "Corta vegetação e cria cipós curtos.",
+      "passiva": "Ganha eficiência em campos naturais.",
+      "critico": 2,
+      "descricao": "Foice rústica vinculada ao trabalho rural.",
+      "emoji": "☠️"
+    },
+    "Cartas_de_Baralho": {
+      "nome": "Cartas de Baralho",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Cartas",
+      "elementos": [
+        "Som"
+      ],
+      "dano": 7,
+      "durabilidade": 188,
+      "efeito": "Cartas lançadas cortam como lâminas finas.",
+      "passiva": "Quanto mais cartas restam, maior a chance de combo.",
+      "critico": 4,
+      "descricao": "Um baralho que nunca embaralha do mesmo jeito.",
+      "emoji": "🃏"
+    },
+    "Peso_de_Metal": {
+      "nome": "Peso de Metal",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Peso",
+      "elementos": [
+        "Metal",
+        "Terra"
+      ],
+      "dano": 9,
+      "durabilidade": 211,
+      "efeito": "Aumenta massa no momento do impacto.",
+      "passiva": "Quanto mais parado o usuário, mais pesado o golpe.",
+      "critico": 2,
+      "descricao": "Um peso de treino que virou arma espiritual.",
+      "emoji": "🏋️"
+    },
+    "Estilingue_de_Cristal": {
+      "nome": "Estilingue de Cristal",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Estilingue",
+      "elementos": [
+        "Cristal"
+      ],
+      "dano": 13,
+      "durabilidade": 236,
+      "efeito": "Dispara fragmentos cristalinos.",
+      "passiva": "Tem maior crítico contra alvos frágeis.",
+      "critico": 2,
+      "descricao": "Estilingue simples com elástico encantado.",
+      "emoji": "🪃"
+    },
+    "Espada_de_Soco": {
+      "nome": "Espada de Soco",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Manopla",
+      "elementos": [
+        "Metal"
+      ],
+      "dano": 13,
+      "durabilidade": 239,
+      "efeito": "Projeta uma lâmina curta ao socar.",
+      "passiva": "Combos corpo a corpo reduzem recuo.",
+      "critico": 5,
+      "descricao": "Arma híbrida entre manopla e espada.",
+      "emoji": "🦾"
+    },
+    "Soco_Ingles_de_Ferro": {
+      "nome": "Soco Inglês de Ferro",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Soco Inglês",
+      "elementos": [
+        "Metal"
+      ],
+      "dano": 8,
+      "durabilidade": 214,
+      "efeito": "Aumenta dano de socos diretos.",
+      "passiva": "Maior chance de crítico em curta distância.",
+      "critico": 5,
+      "descricao": "Soco inglês pesado e direto.",
+      "emoji": "👊"
+    },
+    "Espada_Errante_do_Sal": {
+      "nome": "Espada Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Espada",
+      "elementos": [],
+      "dano": 9,
+      "durabilidade": 226,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 2,
+      "descricao": "Espada Errante do Sal é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Adaga_Astral_da_Nevoa": {
+      "nome": "Adaga Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Adaga",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 12,
+      "durabilidade": 207,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 3,
+      "descricao": "Adaga Astral da Névoa é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Guarda_Chuva_Inversa_do_Vidro": {
+      "nome": "Guarda-Chuva Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Guarda-Chuva",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 7,
+      "durabilidade": 235,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 1,
+      "descricao": "Guarda-Chuva Inversa do Vidro é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☂️"
+    },
+    "Foice_Solar_da_Raiz": {
+      "nome": "Foice Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Foice",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 11,
+      "durabilidade": 198,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 4,
+      "descricao": "Foice Solar da Raiz é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☠️"
+    },
+    "Cartas_Ruidosa_do_Sino": {
+      "nome": "Cartas Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Cartas",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 12,
+      "durabilidade": 189,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 5,
+      "descricao": "Cartas Ruidosa do Sino é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🃏"
+    },
+    "Luvas_Azul_da_Cinza": {
+      "nome": "Luvas Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Luvas",
+      "elementos": [],
+      "dano": 7,
+      "durabilidade": 229,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Luvas Azul da Cinza é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧤"
+    },
+    "Frasco_Oculta_do_Eclipse": {
+      "nome": "Frasco Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Frasco",
+      "elementos": [
+        "Lava",
+        "Cristal"
+      ],
+      "dano": 12,
+      "durabilidade": 198,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Frasco Oculta do Eclipse é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🫧"
+    },
+    "Cordao_do_Norte_do_Coral": {
+      "nome": "Cordão do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Cordão",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 8,
+      "durabilidade": 197,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 3,
+      "descricao": "Cordão do Norte do Coral é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📿"
+    },
+    "Tornozeleira_do_Veu_do_Carvao": {
+      "nome": "Tornozeleira do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Tornozeleira",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 9,
+      "durabilidade": 238,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 4,
+      "descricao": "Tornozeleira do Véu do Carvão é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bracelete_da_Fenda_da_Aurora": {
+      "nome": "Bracelete da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Bracelete",
+      "elementos": [
+        "Veneno",
+        "Gelo"
+      ],
+      "dano": 8,
+      "durabilidade": 181,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 2,
+      "descricao": "Bracelete da Fenda da Aurora é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💪"
+    },
+    "CD_Errante_do_Prisma": {
+      "nome": "CD Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "CD",
+      "elementos": [],
+      "dano": 12,
+      "durabilidade": 223,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "CD Errante do Prisma é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💿"
+    },
+    "Pincel_Astral_da_Ferrugem": {
+      "nome": "Pincel Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Pincel",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 9,
+      "durabilidade": 180,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 1,
+      "descricao": "Pincel Astral da Ferrugem é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🖌️"
+    },
+    "Peso_Inversa_da_Memoria": {
+      "nome": "Peso Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Peso",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 13,
+      "durabilidade": 234,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 5,
+      "descricao": "Peso Inversa da Memória é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏋️"
+    },
+    "Espelho_Solar_do_Rastro": {
+      "nome": "Espelho Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Espelho",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 12,
+      "durabilidade": 195,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 1,
+      "descricao": "Espelho Solar do Rastro é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪞"
+    },
+    "Alabarda_Ruidosa_da_Cometa": {
+      "nome": "Alabarda Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Alabarda",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 10,
+      "durabilidade": 237,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 3,
+      "descricao": "Alabarda Ruidosa da Cometa é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔱"
+    },
+    "Estilingue_Azul_do_Brejo": {
+      "nome": "Estilingue Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Estilingue",
+      "elementos": [],
+      "dano": 12,
+      "durabilidade": 226,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 2,
+      "descricao": "Estilingue Azul do Brejo é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪃"
+    },
+    "Machado_Oculta_da_Orquidea": {
+      "nome": "Machado Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Machado",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 11,
+      "durabilidade": 212,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 3,
+      "descricao": "Machado Oculta da Orquídea é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪓"
+    },
+    "Nunchakus_do_Norte_do_Pulso": {
+      "nome": "Nunchakus do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Nunchakus",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 11,
+      "durabilidade": 205,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 1,
+      "descricao": "Nunchakus do Norte do Pulso é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🥋"
+    },
+    "Cajado_do_Veu_da_Gravura": {
+      "nome": "Cajado do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Cajado",
+      "elementos": [
+        "Fluxo",
+        "Terra"
+      ],
+      "dano": 10,
+      "durabilidade": 238,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Cajado do Véu da Gravura é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Soco_Ingles_da_Fenda_do_Fragmento": {
+      "nome": "Soco Inglês da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Soco Inglês",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 9,
+      "durabilidade": 184,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 5,
+      "descricao": "Soco Inglês da Fenda do Fragmento é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "👊"
+    },
+    "Rapieira_Errante_do_Sal": {
+      "nome": "Rapieira Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Rapieira",
+      "elementos": [],
+      "dano": 8,
+      "durabilidade": 209,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 5,
+      "descricao": "Rapieira Errante do Sal é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⚔️"
+    },
+    "Livro_Astral_da_Nevoa": {
+      "nome": "Livro Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Livro",
+      "elementos": [
+        "Natureza",
+        "Luz"
+      ],
+      "dano": 11,
+      "durabilidade": 209,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Livro Astral da Névoa é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📖"
+    },
+    "Instrumento_Inversa_do_Vidro": {
+      "nome": "Instrumento Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Instrumento",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 13,
+      "durabilidade": 223,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Instrumento Inversa do Vidro é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎻"
+    },
+    "Relogio_Solar_da_Raiz": {
+      "nome": "Relógio Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Relógio",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 7,
+      "durabilidade": 205,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 1,
+      "descricao": "Relógio Solar da Raiz é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⏱️"
+    },
+    "Mascara_Ruidosa_do_Sino": {
+      "nome": "Máscara Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Máscara",
+      "elementos": [
+        "Psíquico",
+        "Tempo"
+      ],
+      "dano": 13,
+      "durabilidade": 227,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 3,
+      "descricao": "Máscara Ruidosa do Sino é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎭"
+    },
+    "Agulha_Azul_da_Cinza": {
+      "nome": "Agulha Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Agulha",
+      "elementos": [],
+      "dano": 8,
+      "durabilidade": 180,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 1,
+      "descricao": "Agulha Azul da Cinza é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪡"
+    },
+    "Chave_Oculta_do_Eclipse": {
+      "nome": "Chave Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Chave",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 12,
+      "durabilidade": 199,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 5,
+      "descricao": "Chave Oculta do Eclipse é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗝️"
+    },
+    "Lanterna_do_Norte_do_Coral": {
+      "nome": "Lanterna do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Lanterna",
+      "elementos": [
+        "Espaço",
+        "Fogo"
+      ],
+      "dano": 8,
+      "durabilidade": 228,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 4,
+      "descricao": "Lanterna do Norte do Coral é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏮"
+    },
+    "Leque_do_Veu_do_Carvao": {
+      "nome": "Leque do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Leque",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 9,
+      "durabilidade": 188,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 4,
+      "descricao": "Leque do Véu do Carvão é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪭"
+    },
+    "Sino_da_Fenda_da_Aurora": {
+      "nome": "Sino da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Sino",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 11,
+      "durabilidade": 227,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 3,
+      "descricao": "Sino da Fenda da Aurora é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔔"
+    },
+    "Cubo_Errante_do_Prisma": {
+      "nome": "Cubo Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Cubo",
+      "elementos": [],
+      "dano": 11,
+      "durabilidade": 181,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 2,
+      "descricao": "Cubo Errante do Prisma é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⬛"
+    },
+    "Fita_Astral_da_Ferrugem": {
+      "nome": "Fita Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Fita",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 11,
+      "durabilidade": 205,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 1,
+      "descricao": "Fita Astral da Ferrugem é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎗️"
+    },
+    "Ampulheta_Inversa_da_Memoria": {
+      "nome": "Ampulheta Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Ampulheta",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 10,
+      "durabilidade": 216,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 2,
+      "descricao": "Ampulheta Inversa da Memória é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⌛"
+    },
+    "Corrente_Solar_do_Rastro": {
+      "nome": "Corrente Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Corrente",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 7,
+      "durabilidade": 189,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Corrente Solar do Rastro é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bussola_Ruidosa_da_Cometa": {
+      "nome": "Bússola Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Bússola",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 12,
+      "durabilidade": 203,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Bússola Ruidosa da Cometa é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧭"
+    },
+    "Manopla_Azul_do_Brejo": {
+      "nome": "Manopla Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Manopla",
+      "elementos": [],
+      "dano": 11,
+      "durabilidade": 189,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 5,
+      "descricao": "Manopla Azul do Brejo é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🦾"
+    },
+    "Pistola_Oculta_da_Orquidea": {
+      "nome": "Pistola Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Pistola",
+      "elementos": [
+        "Lava",
+        "Cristal"
+      ],
+      "dano": 9,
+      "durabilidade": 199,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 5,
+      "descricao": "Pistola Oculta da Orquídea é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔫"
+    },
+    "Lanca_do_Norte_do_Pulso": {
+      "nome": "Lança do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Lança",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 7,
+      "durabilidade": 232,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 3,
+      "descricao": "Lança do Norte do Pulso é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Arco_do_Veu_da_Gravura": {
+      "nome": "Arco do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Arco",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 10,
+      "durabilidade": 229,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 5,
+      "descricao": "Arco do Véu da Gravura é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏹"
+    },
+    "Espada_da_Fenda_do_Fragmento": {
+      "nome": "Espada da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Espada",
+      "elementos": [
+        "Veneno",
+        "Gelo"
+      ],
+      "dano": 8,
+      "durabilidade": 195,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 1,
+      "descricao": "Espada da Fenda do Fragmento é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Adaga_Errante_do_Sal": {
+      "nome": "Adaga Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Adaga",
+      "elementos": [],
+      "dano": 7,
+      "durabilidade": 218,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 4,
+      "descricao": "Adaga Errante do Sal é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Guarda_Chuva_Astral_da_Nevoa": {
+      "nome": "Guarda-Chuva Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Guarda-Chuva",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 8,
+      "durabilidade": 229,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Guarda-Chuva Astral da Névoa é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☂️"
+    },
+    "Foice_Inversa_do_Vidro": {
+      "nome": "Foice Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Foice",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 7,
+      "durabilidade": 237,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 3,
+      "descricao": "Foice Inversa do Vidro é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☠️"
+    },
+    "Cartas_Solar_da_Raiz": {
+      "nome": "Cartas Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Cartas",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 12,
+      "durabilidade": 198,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 4,
+      "descricao": "Cartas Solar da Raiz é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🃏"
+    },
+    "Luvas_Ruidosa_do_Sino": {
+      "nome": "Luvas Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Luvas",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 13,
+      "durabilidade": 226,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 2,
+      "descricao": "Luvas Ruidosa do Sino é uma Arma Vínculo de raridade Comum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧤"
+    }
+  },
+  "Incomum": {
+    "Frasco_de_Bolhas_de_Sabao": {
+      "nome": "Frasco de Bolhas de Sabão",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Frasco",
+      "elementos": [
+        "Água",
+        "Vento"
+      ],
+      "dano": 14,
+      "durabilidade": 233,
+      "efeito": "Bolhas prendem pequenos alvos temporariamente.",
+      "passiva": "Bolhas refletem parte de ataques leves.",
+      "critico": 7,
+      "descricao": "Frasco aparentemente infantil com pressão impossível.",
+      "emoji": "🫧"
+    },
+    "Cordao_de_Contas": {
+      "nome": "Cordão de Contas",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Cordão",
+      "elementos": [
+        "Luz",
+        "Som"
+      ],
+      "dano": 14,
+      "durabilidade": 271,
+      "efeito": "Cada conta vibra e libera uma onda de impacto.",
+      "passiva": "Quanto mais calmo o usuário, mais forte o efeito.",
+      "critico": 5,
+      "descricao": "Cordão usado em ritos antigos de concentração.",
+      "emoji": "📿"
+    },
+    "Tornozeleira_de_Passo_Vivo": {
+      "nome": "Tornozeleira de Passo Vivo",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Tornozeleira",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 13,
+      "durabilidade": 273,
+      "efeito": "Aumenta mobilidade e saltos curtos.",
+      "passiva": "Reduz chance de errar contra inimigos lentos.",
+      "critico": 7,
+      "descricao": "Tornozeleira que puxa o pé antes da queda.",
+      "emoji": "⛓️"
+    },
+    "Alabarda_de_Mare": {
+      "nome": "Alabarda de Maré",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Alabarda",
+      "elementos": [
+        "Água",
+        "Metal"
+      ],
+      "dano": 14,
+      "durabilidade": 222,
+      "efeito": "Golpes longos empurram inimigos.",
+      "passiva": "Fica mais forte durante chuva.",
+      "critico": 6,
+      "descricao": "Alabarda com lâmina que pinga água mesmo seca.",
+      "emoji": "🔱"
+    },
+    "Espada_Longa_de_Vento": {
+      "nome": "Espada Longa de Vento",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Espada",
+      "elementos": [
+        "Vento",
+        "Metal"
+      ],
+      "dano": 17,
+      "durabilidade": 268,
+      "efeito": "Aumenta alcance com lâmina de ar.",
+      "passiva": "Ataques carregados cortam à distância.",
+      "critico": 7,
+      "descricao": "Espada longa que parece mais leve do que deveria.",
+      "emoji": "🗡️"
+    },
+    "Nunchakus_de_Faisca": {
+      "nome": "Nunchakus de Faísca",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Nunchakus",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 19,
+      "durabilidade": 224,
+      "efeito": "Ataques giratórios acumulam carga elétrica.",
+      "passiva": "Cada terceiro golpe solta uma faísca.",
+      "critico": 8,
+      "descricao": "Nunchakus que cantam como cabos energizados.",
+      "emoji": "🥋"
+    },
+    "Frasco_Azul_da_Cinza": {
+      "nome": "Frasco Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Frasco",
+      "elementos": [
+        "Sombra",
+        "Matéria"
+      ],
+      "dano": 19,
+      "durabilidade": 232,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 6,
+      "descricao": "Frasco Azul da Cinza é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🫧"
+    },
+    "Cordao_Oculta_do_Eclipse": {
+      "nome": "Cordão Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Cordão",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 16,
+      "durabilidade": 242,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 6,
+      "descricao": "Cordão Oculta do Eclipse é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📿"
+    },
+    "Tornozeleira_do_Norte_do_Coral": {
+      "nome": "Tornozeleira do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Tornozeleira",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 16,
+      "durabilidade": 245,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 4,
+      "descricao": "Tornozeleira do Norte do Coral é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bracelete_do_Veu_do_Carvao": {
+      "nome": "Bracelete do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Bracelete",
+      "elementos": [
+        "Fluxo",
+        "Terra"
+      ],
+      "dano": 18,
+      "durabilidade": 263,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 7,
+      "descricao": "Bracelete do Véu do Carvão é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💪"
+    },
+    "CD_da_Fenda_da_Aurora": {
+      "nome": "CD da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "CD",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 16,
+      "durabilidade": 233,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 7,
+      "descricao": "CD da Fenda da Aurora é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💿"
+    },
+    "Pincel_Errante_do_Prisma": {
+      "nome": "Pincel Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Pincel",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 17,
+      "durabilidade": 251,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 5,
+      "descricao": "Pincel Errante do Prisma é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🖌️"
+    },
+    "Peso_Astral_da_Ferrugem": {
+      "nome": "Peso Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Peso",
+      "elementos": [
+        "Natureza",
+        "Luz"
+      ],
+      "dano": 15,
+      "durabilidade": 264,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 8,
+      "descricao": "Peso Astral da Ferrugem é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏋️"
+    },
+    "Espelho_Inversa_da_Memoria": {
+      "nome": "Espelho Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Espelho",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 17,
+      "durabilidade": 227,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 6,
+      "descricao": "Espelho Inversa da Memória é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪞"
+    },
+    "Alabarda_Solar_do_Rastro": {
+      "nome": "Alabarda Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Alabarda",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 18,
+      "durabilidade": 231,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Alabarda Solar do Rastro é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔱"
+    },
+    "Estilingue_Ruidosa_da_Cometa": {
+      "nome": "Estilingue Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Estilingue",
+      "elementos": [
+        "Psíquico",
+        "Tempo"
+      ],
+      "dano": 16,
+      "durabilidade": 250,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Estilingue Ruidosa da Cometa é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪃"
+    },
+    "Machado_Azul_do_Brejo": {
+      "nome": "Machado Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Machado",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 18,
+      "durabilidade": 262,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 6,
+      "descricao": "Machado Azul do Brejo é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪓"
+    },
+    "Nunchakus_Oculta_da_Orquidea": {
+      "nome": "Nunchakus Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Nunchakus",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 17,
+      "durabilidade": 271,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 5,
+      "descricao": "Nunchakus Oculta da Orquídea é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🥋"
+    },
+    "Cajado_do_Norte_do_Pulso": {
+      "nome": "Cajado do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Cajado",
+      "elementos": [
+        "Espaço",
+        "Fogo"
+      ],
+      "dano": 15,
+      "durabilidade": 239,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 8,
+      "descricao": "Cajado do Norte do Pulso é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Soco_Ingles_do_Veu_da_Gravura": {
+      "nome": "Soco Inglês do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Soco Inglês",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 15,
+      "durabilidade": 279,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 8,
+      "descricao": "Soco Inglês do Véu da Gravura é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "👊"
+    },
+    "Rapieira_da_Fenda_do_Fragmento": {
+      "nome": "Rapieira da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Rapieira",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 13,
+      "durabilidade": 278,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 7,
+      "descricao": "Rapieira da Fenda do Fragmento é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⚔️"
+    },
+    "Livro_Errante_do_Sal": {
+      "nome": "Livro Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Livro",
+      "elementos": [
+        "Água",
+        "Som"
+      ],
+      "dano": 19,
+      "durabilidade": 260,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 4,
+      "descricao": "Livro Errante do Sal é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📖"
+    },
+    "Instrumento_Astral_da_Nevoa": {
+      "nome": "Instrumento Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Instrumento",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 13,
+      "durabilidade": 257,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 6,
+      "descricao": "Instrumento Astral da Névoa é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎻"
+    },
+    "Relogio_Inversa_do_Vidro": {
+      "nome": "Relógio Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Relógio",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 16,
+      "durabilidade": 224,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 8,
+      "descricao": "Relógio Inversa do Vidro é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⏱️"
+    },
+    "Mascara_Solar_da_Raiz": {
+      "nome": "Máscara Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Máscara",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 19,
+      "durabilidade": 276,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 5,
+      "descricao": "Máscara Solar da Raiz é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎭"
+    },
+    "Agulha_Ruidosa_do_Sino": {
+      "nome": "Agulha Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Agulha",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 13,
+      "durabilidade": 277,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 6,
+      "descricao": "Agulha Ruidosa do Sino é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪡"
+    },
+    "Chave_Azul_da_Cinza": {
+      "nome": "Chave Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Chave",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 19,
+      "durabilidade": 233,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 7,
+      "descricao": "Chave Azul da Cinza é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗝️"
+    },
+    "Lanterna_Oculta_do_Eclipse": {
+      "nome": "Lanterna Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Lanterna",
+      "elementos": [
+        "Lava",
+        "Cristal"
+      ],
+      "dano": 16,
+      "durabilidade": 273,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 7,
+      "descricao": "Lanterna Oculta do Eclipse é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏮"
+    },
+    "Leque_do_Norte_do_Coral": {
+      "nome": "Leque do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Leque",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 16,
+      "durabilidade": 255,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 4,
+      "descricao": "Leque do Norte do Coral é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪭"
+    },
+    "Sino_do_Veu_do_Carvao": {
+      "nome": "Sino do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Sino",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 14,
+      "durabilidade": 249,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 8,
+      "descricao": "Sino do Véu do Carvão é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔔"
+    },
+    "Cubo_da_Fenda_da_Aurora": {
+      "nome": "Cubo da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Cubo",
+      "elementos": [
+        "Veneno",
+        "Gelo"
+      ],
+      "dano": 15,
+      "durabilidade": 251,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Cubo da Fenda da Aurora é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⬛"
+    },
+    "Fita_Errante_do_Prisma": {
+      "nome": "Fita Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Fita",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 19,
+      "durabilidade": 276,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 5,
+      "descricao": "Fita Errante do Prisma é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎗️"
+    },
+    "Ampulheta_Astral_da_Ferrugem": {
+      "nome": "Ampulheta Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Ampulheta",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 19,
+      "durabilidade": 246,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 5,
+      "descricao": "Ampulheta Astral da Ferrugem é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⌛"
+    },
+    "Corrente_Inversa_da_Memoria": {
+      "nome": "Corrente Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Corrente",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 19,
+      "durabilidade": 221,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 5,
+      "descricao": "Corrente Inversa da Memória é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bussola_Solar_do_Rastro": {
+      "nome": "Bússola Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Bússola",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 13,
+      "durabilidade": 257,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 6,
+      "descricao": "Bússola Solar do Rastro é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧭"
+    },
+    "Manopla_Ruidosa_da_Cometa": {
+      "nome": "Manopla Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Manopla",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 15,
+      "durabilidade": 273,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 7,
+      "descricao": "Manopla Ruidosa da Cometa é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🦾"
+    },
+    "Pistola_Azul_do_Brejo": {
+      "nome": "Pistola Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Pistola",
+      "elementos": [
+        "Sombra",
+        "Matéria"
+      ],
+      "dano": 16,
+      "durabilidade": 249,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 8,
+      "descricao": "Pistola Azul do Brejo é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔫"
+    },
+    "Lanca_Oculta_da_Orquidea": {
+      "nome": "Lança Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Lança",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 13,
+      "durabilidade": 238,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 7,
+      "descricao": "Lança Oculta da Orquídea é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Arco_do_Norte_do_Pulso": {
+      "nome": "Arco do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Arco",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 15,
+      "durabilidade": 230,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 4,
+      "descricao": "Arco do Norte do Pulso é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏹"
+    },
+    "Espada_do_Veu_da_Gravura": {
+      "nome": "Espada do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Espada",
+      "elementos": [
+        "Fluxo",
+        "Terra"
+      ],
+      "dano": 14,
+      "durabilidade": 230,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Espada do Véu da Gravura é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Adaga_da_Fenda_do_Fragmento": {
+      "nome": "Adaga da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Adaga",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 19,
+      "durabilidade": 227,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 6,
+      "descricao": "Adaga da Fenda do Fragmento é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Guarda_Chuva_Errante_do_Sal": {
+      "nome": "Guarda-Chuva Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Guarda-Chuva",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 16,
+      "durabilidade": 220,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 4,
+      "descricao": "Guarda-Chuva Errante do Sal é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☂️"
+    },
+    "Foice_Astral_da_Nevoa": {
+      "nome": "Foice Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Foice",
+      "elementos": [
+        "Natureza",
+        "Luz"
+      ],
+      "dano": 14,
+      "durabilidade": 271,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Foice Astral da Névoa é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☠️"
+    },
+    "Cartas_Inversa_do_Vidro": {
+      "nome": "Cartas Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Cartas",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 14,
+      "durabilidade": 277,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 6,
+      "descricao": "Cartas Inversa do Vidro é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🃏"
+    },
+    "Luvas_Solar_da_Raiz": {
+      "nome": "Luvas Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Luvas",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 19,
+      "durabilidade": 275,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 4,
+      "descricao": "Luvas Solar da Raiz é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧤"
+    },
+    "Frasco_Ruidosa_do_Sino": {
+      "nome": "Frasco Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Frasco",
+      "elementos": [
+        "Psíquico",
+        "Tempo"
+      ],
+      "dano": 18,
+      "durabilidade": 229,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 8,
+      "descricao": "Frasco Ruidosa do Sino é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🫧"
+    },
+    "Cordao_Azul_da_Cinza": {
+      "nome": "Cordão Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Cordão",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 17,
+      "durabilidade": 236,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Cordão Azul da Cinza é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📿"
+    },
+    "Tornozeleira_Oculta_do_Eclipse": {
+      "nome": "Tornozeleira Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Tornozeleira",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 18,
+      "durabilidade": 250,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Tornozeleira Oculta do Eclipse é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bracelete_do_Norte_do_Coral": {
+      "nome": "Bracelete do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Bracelete",
+      "elementos": [
+        "Espaço",
+        "Fogo"
+      ],
+      "dano": 19,
+      "durabilidade": 230,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 4,
+      "descricao": "Bracelete do Norte do Coral é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💪"
+    },
+    "CD_do_Veu_do_Carvao": {
+      "nome": "CD do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "CD",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 13,
+      "durabilidade": 275,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 4,
+      "descricao": "CD do Véu do Carvão é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💿"
+    },
+    "Pincel_da_Fenda_da_Aurora": {
+      "nome": "Pincel da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Pincel",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 15,
+      "durabilidade": 221,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 5,
+      "descricao": "Pincel da Fenda da Aurora é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🖌️"
+    },
+    "Peso_Errante_do_Prisma": {
+      "nome": "Peso Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Peso",
+      "elementos": [
+        "Água",
+        "Som"
+      ],
+      "dano": 17,
+      "durabilidade": 235,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 4,
+      "descricao": "Peso Errante do Prisma é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏋️"
+    },
+    "Espelho_Astral_da_Ferrugem": {
+      "nome": "Espelho Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Espelho",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 13,
+      "durabilidade": 277,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 6,
+      "descricao": "Espelho Astral da Ferrugem é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪞"
+    },
+    "Alabarda_Inversa_da_Memoria": {
+      "nome": "Alabarda Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Alabarda",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 17,
+      "durabilidade": 223,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 7,
+      "descricao": "Alabarda Inversa da Memória é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔱"
+    },
+    "Estilingue_Solar_do_Rastro": {
+      "nome": "Estilingue Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Estilingue",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 18,
+      "durabilidade": 264,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 8,
+      "descricao": "Estilingue Solar do Rastro é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪃"
+    },
+    "Machado_Ruidosa_da_Cometa": {
+      "nome": "Machado Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Incomum",
+      "tipo": "Machado",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 16,
+      "durabilidade": 246,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 5,
+      "descricao": "Machado Ruidosa da Cometa é uma Arma Vínculo de raridade Incomum, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪓"
+    }
+  },
+  "Raro": {
     "Xuxa_Viva": {
       "nome": "Xuxa Viva",
       "categoria": "Vínculo",
       "raridade": "Raro",
       "tipo": "Acessório",
-      "elementos": ["Natureza"],
-      "dano": 14,
-      "durabilidade": 160,
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 27,
+      "durabilidade": 300,
       "efeito": "Controla cabelos como membros vivos.",
       "passiva": "O cabelo reage sozinho ao perigo.",
-      "critico": 7,
+      "critico": 8,
       "descricao": "Uma xuxa viva criada por magia biológica.",
       "emoji": "🎀"
     },
-
+    "Luvas_de_Contencao_Magica": {
+      "nome": "Luvas de Contenção Mágica",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Luvas",
+      "elementos": [
+        "Fluxo",
+        "Matéria"
+      ],
+      "dano": 22,
+      "durabilidade": 290,
+      "efeito": "Prendem energia instável entre as mãos.",
+      "passiva": "Reduz dano recebido de técnicas energéticas.",
+      "critico": 8,
+      "descricao": "Luvas feitas para segurar magia que deveria explodir.",
+      "emoji": "🧤"
+    },
+    "Bracelete_de_Forca_Fisica": {
+      "nome": "Bracelete de Força Física",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Bracelete",
+      "elementos": [
+        "Terra",
+        "Metal"
+      ],
+      "dano": 26,
+      "durabilidade": 306,
+      "efeito": "Amplifica força bruta dos braços.",
+      "passiva": "Golpes corpo a corpo ganham dano extra.",
+      "critico": 9,
+      "descricao": "Bracelete pesado que só obedece quem consegue carregá-lo.",
+      "emoji": "💪"
+    },
+    "CD_Musical": {
+      "nome": "CD Musical",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "CD",
+      "elementos": [
+        "Som"
+      ],
+      "dano": 24,
+      "durabilidade": 325,
+      "efeito": "Reproduz músicas que distorcem percepção.",
+      "passiva": "Inimigos afetados têm menor precisão.",
+      "critico": 8,
+      "descricao": "Um disco com faixas que nunca terminam.",
+      "emoji": "💿"
+    },
+    "Espelho_de_Retorno": {
+      "nome": "Espelho de Retorno",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Espelho",
+      "elementos": [
+        "Luz",
+        "Espaço"
+      ],
+      "dano": 22,
+      "durabilidade": 330,
+      "efeito": "Reflete ataques fracos em ângulo distorcido.",
+      "passiva": "Revela ilusões próximas.",
+      "critico": 8,
+      "descricao": "Espelho que mostra o ataque antes dele terminar.",
+      "emoji": "🪞"
+    },
+    "Machado_de_Duas_Laminas": {
+      "nome": "Machado de Duas Lâminas",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Machado",
+      "elementos": [
+        "Metal",
+        "Terra"
+      ],
+      "dano": 26,
+      "durabilidade": 337,
+      "efeito": "Causa dano pesado em área curta.",
+      "passiva": "Quanto menor a mobilidade, maior o dano.",
+      "critico": 10,
+      "descricao": "Machado duplo feito para romper defesa.",
+      "emoji": "🪓"
+    },
+    "Cajado_com_Pedra_de_Mana": {
+      "nome": "Cajado com Pedra de Mana",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Cajado",
+      "elementos": [
+        "Fluxo",
+        "Cristal"
+      ],
+      "dano": 27,
+      "durabilidade": 339,
+      "efeito": "Canaliza energia elemental com estabilidade.",
+      "passiva": "Reduz falhas de técnicas elementais.",
+      "critico": 12,
+      "descricao": "Cajado com uma pedra de mana no núcleo.",
+      "emoji": "🪄"
+    },
+    "Rapieira_de_Luz": {
+      "nome": "Rapieira de Luz",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Rapieira",
+      "elementos": [
+        "Luz",
+        "Metal"
+      ],
+      "dano": 21,
+      "durabilidade": 293,
+      "efeito": "Perfura com estocadas luminosas.",
+      "passiva": "Crítico aumenta contra inimigos de Sombra.",
+      "critico": 11,
+      "descricao": "Rapieira elegante feita para duelos rápidos.",
+      "emoji": "⚔️"
+    },
+    "Katana_de_Fogo": {
+      "nome": "Katana de Fogo",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Katana",
+      "elementos": [
+        "Fogo",
+        "Metal"
+      ],
+      "dano": 27,
+      "durabilidade": 332,
+      "efeito": "Incendeia cortes profundos.",
+      "passiva": "Golpes consecutivos aumentam calor.",
+      "critico": 10,
+      "descricao": "Katana cujo fio parece uma brasa viva.",
+      "emoji": "🗡️"
+    },
+    "Nunchakus_Azul_do_Brejo": {
+      "nome": "Nunchakus Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Nunchakus",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 26,
+      "durabilidade": 281,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 9,
+      "descricao": "Nunchakus Azul do Brejo é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🥋"
+    },
+    "Cajado_Oculta_da_Orquidea": {
+      "nome": "Cajado Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Cajado",
+      "elementos": [
+        "Lava",
+        "Cristal"
+      ],
+      "dano": 23,
+      "durabilidade": 325,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 8,
+      "descricao": "Cajado Oculta da Orquídea é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Soco_Ingles_do_Norte_do_Pulso": {
+      "nome": "Soco Inglês do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Soco Inglês",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 22,
+      "durabilidade": 300,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 8,
+      "descricao": "Soco Inglês do Norte do Pulso é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "👊"
+    },
+    "Rapieira_do_Veu_da_Gravura": {
+      "nome": "Rapieira do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Rapieira",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 21,
+      "durabilidade": 333,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 11,
+      "descricao": "Rapieira do Véu da Gravura é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⚔️"
+    },
+    "Livro_da_Fenda_do_Fragmento": {
+      "nome": "Livro da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Livro",
+      "elementos": [
+        "Veneno",
+        "Gelo"
+      ],
+      "dano": 26,
+      "durabilidade": 289,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 12,
+      "descricao": "Livro da Fenda do Fragmento é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📖"
+    },
+    "Instrumento_Errante_do_Sal": {
+      "nome": "Instrumento Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Instrumento",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 23,
+      "durabilidade": 328,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 11,
+      "descricao": "Instrumento Errante do Sal é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎻"
+    },
+    "Relogio_Astral_da_Nevoa": {
+      "nome": "Relógio Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Relógio",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 25,
+      "durabilidade": 338,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 11,
+      "descricao": "Relógio Astral da Névoa é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⏱️"
+    },
+    "Mascara_Inversa_do_Vidro": {
+      "nome": "Máscara Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Máscara",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 23,
+      "durabilidade": 315,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 8,
+      "descricao": "Máscara Inversa do Vidro é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎭"
+    },
+    "Agulha_Solar_da_Raiz": {
+      "nome": "Agulha Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Agulha",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 21,
+      "durabilidade": 286,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 9,
+      "descricao": "Agulha Solar da Raiz é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪡"
+    },
+    "Chave_Ruidosa_do_Sino": {
+      "nome": "Chave Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Chave",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 26,
+      "durabilidade": 290,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 8,
+      "descricao": "Chave Ruidosa do Sino é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗝️"
+    },
+    "Lanterna_Azul_da_Cinza": {
+      "nome": "Lanterna Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Lanterna",
+      "elementos": [
+        "Sombra",
+        "Matéria"
+      ],
+      "dano": 25,
+      "durabilidade": 327,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 10,
+      "descricao": "Lanterna Azul da Cinza é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏮"
+    },
+    "Leque_Oculta_do_Eclipse": {
+      "nome": "Leque Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Leque",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 26,
+      "durabilidade": 320,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 8,
+      "descricao": "Leque Oculta do Eclipse é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪭"
+    },
+    "Sino_do_Norte_do_Coral": {
+      "nome": "Sino do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Sino",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 23,
+      "durabilidade": 336,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 9,
+      "descricao": "Sino do Norte do Coral é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔔"
+    },
+    "Cubo_do_Veu_do_Carvao": {
+      "nome": "Cubo do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Cubo",
+      "elementos": [
+        "Fluxo",
+        "Terra"
+      ],
+      "dano": 27,
+      "durabilidade": 293,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 11,
+      "descricao": "Cubo do Véu do Carvão é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⬛"
+    },
+    "Fita_da_Fenda_da_Aurora": {
+      "nome": "Fita da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Fita",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 25,
+      "durabilidade": 306,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 9,
+      "descricao": "Fita da Fenda da Aurora é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎗️"
+    },
+    "Ampulheta_Errante_do_Prisma": {
+      "nome": "Ampulheta Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Ampulheta",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 22,
+      "durabilidade": 337,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 10,
+      "descricao": "Ampulheta Errante do Prisma é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⌛"
+    },
+    "Corrente_Astral_da_Ferrugem": {
+      "nome": "Corrente Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Corrente",
+      "elementos": [
+        "Natureza",
+        "Luz"
+      ],
+      "dano": 23,
+      "durabilidade": 331,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 9,
+      "descricao": "Corrente Astral da Ferrugem é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bussola_Inversa_da_Memoria": {
+      "nome": "Bússola Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Bússola",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 27,
+      "durabilidade": 309,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 12,
+      "descricao": "Bússola Inversa da Memória é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧭"
+    },
+    "Manopla_Solar_do_Rastro": {
+      "nome": "Manopla Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Manopla",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 25,
+      "durabilidade": 287,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 10,
+      "descricao": "Manopla Solar do Rastro é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🦾"
+    },
+    "Pistola_Ruidosa_da_Cometa": {
+      "nome": "Pistola Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Pistola",
+      "elementos": [
+        "Psíquico",
+        "Tempo"
+      ],
+      "dano": 22,
+      "durabilidade": 293,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 11,
+      "descricao": "Pistola Ruidosa da Cometa é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔫"
+    },
+    "Lanca_Azul_do_Brejo": {
+      "nome": "Lança Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Lança",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 22,
+      "durabilidade": 308,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 11,
+      "descricao": "Lança Azul do Brejo é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Arco_Oculta_da_Orquidea": {
+      "nome": "Arco Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Arco",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 23,
+      "durabilidade": 316,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 9,
+      "descricao": "Arco Oculta da Orquídea é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏹"
+    },
+    "Espada_do_Norte_do_Pulso": {
+      "nome": "Espada do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Espada",
+      "elementos": [
+        "Espaço",
+        "Fogo"
+      ],
+      "dano": 21,
+      "durabilidade": 311,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 9,
+      "descricao": "Espada do Norte do Pulso é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Adaga_do_Veu_da_Gravura": {
+      "nome": "Adaga do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Adaga",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 27,
+      "durabilidade": 282,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 10,
+      "descricao": "Adaga do Véu da Gravura é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Guarda_Chuva_da_Fenda_do_Fragmento": {
+      "nome": "Guarda-Chuva da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Guarda-Chuva",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 23,
+      "durabilidade": 309,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 12,
+      "descricao": "Guarda-Chuva da Fenda do Fragmento é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☂️"
+    },
+    "Foice_Errante_do_Sal": {
+      "nome": "Foice Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Foice",
+      "elementos": [
+        "Água",
+        "Som"
+      ],
+      "dano": 24,
+      "durabilidade": 282,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 10,
+      "descricao": "Foice Errante do Sal é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☠️"
+    },
+    "Cartas_Astral_da_Nevoa": {
+      "nome": "Cartas Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Cartas",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 23,
+      "durabilidade": 331,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 9,
+      "descricao": "Cartas Astral da Névoa é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🃏"
+    },
+    "Luvas_Inversa_do_Vidro": {
+      "nome": "Luvas Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Luvas",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 23,
+      "durabilidade": 314,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 12,
+      "descricao": "Luvas Inversa do Vidro é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧤"
+    },
+    "Frasco_Solar_da_Raiz": {
+      "nome": "Frasco Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Frasco",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 26,
+      "durabilidade": 298,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 11,
+      "descricao": "Frasco Solar da Raiz é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🫧"
+    },
+    "Cordao_Ruidosa_do_Sino": {
+      "nome": "Cordão Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Cordão",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 24,
+      "durabilidade": 293,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 11,
+      "descricao": "Cordão Ruidosa do Sino é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📿"
+    },
+    "Tornozeleira_Azul_da_Cinza": {
+      "nome": "Tornozeleira Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Tornozeleira",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 27,
+      "durabilidade": 304,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 12,
+      "descricao": "Tornozeleira Azul da Cinza é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bracelete_Oculta_do_Eclipse": {
+      "nome": "Bracelete Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Bracelete",
+      "elementos": [
+        "Lava",
+        "Cristal"
+      ],
+      "dano": 22,
+      "durabilidade": 295,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 8,
+      "descricao": "Bracelete Oculta do Eclipse é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💪"
+    },
+    "CD_do_Norte_do_Coral": {
+      "nome": "CD do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "CD",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 22,
+      "durabilidade": 302,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 10,
+      "descricao": "CD do Norte do Coral é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💿"
+    },
+    "Pincel_do_Veu_do_Carvao": {
+      "nome": "Pincel do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Pincel",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 27,
+      "durabilidade": 323,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 11,
+      "descricao": "Pincel do Véu do Carvão é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🖌️"
+    },
+    "Peso_da_Fenda_da_Aurora": {
+      "nome": "Peso da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Peso",
+      "elementos": [
+        "Veneno",
+        "Gelo"
+      ],
+      "dano": 23,
+      "durabilidade": 325,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 8,
+      "descricao": "Peso da Fenda da Aurora é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏋️"
+    },
+    "Espelho_Errante_do_Prisma": {
+      "nome": "Espelho Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Espelho",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 23,
+      "durabilidade": 308,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 11,
+      "descricao": "Espelho Errante do Prisma é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪞"
+    },
+    "Alabarda_Astral_da_Ferrugem": {
+      "nome": "Alabarda Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Alabarda",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 21,
+      "durabilidade": 333,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 11,
+      "descricao": "Alabarda Astral da Ferrugem é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔱"
+    },
+    "Estilingue_Inversa_da_Memoria": {
+      "nome": "Estilingue Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Estilingue",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 25,
+      "durabilidade": 316,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 9,
+      "descricao": "Estilingue Inversa da Memória é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪃"
+    },
+    "Machado_Solar_do_Rastro": {
+      "nome": "Machado Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Machado",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 26,
+      "durabilidade": 320,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 8,
+      "descricao": "Machado Solar do Rastro é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪓"
+    },
+    "Nunchakus_Ruidosa_da_Cometa": {
+      "nome": "Nunchakus Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Nunchakus",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 24,
+      "durabilidade": 325,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 8,
+      "descricao": "Nunchakus Ruidosa da Cometa é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🥋"
+    },
+    "Cajado_Azul_do_Brejo": {
+      "nome": "Cajado Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Cajado",
+      "elementos": [
+        "Sombra",
+        "Matéria"
+      ],
+      "dano": 24,
+      "durabilidade": 335,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 8,
+      "descricao": "Cajado Azul do Brejo é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Soco_Ingles_Oculta_da_Orquidea": {
+      "nome": "Soco Inglês Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Soco Inglês",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 22,
+      "durabilidade": 326,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 9,
+      "descricao": "Soco Inglês Oculta da Orquídea é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "👊"
+    },
+    "Rapieira_do_Norte_do_Pulso": {
+      "nome": "Rapieira do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Rapieira",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 27,
+      "durabilidade": 294,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 12,
+      "descricao": "Rapieira do Norte do Pulso é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⚔️"
+    },
+    "Livro_do_Veu_da_Gravura": {
+      "nome": "Livro do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Livro",
+      "elementos": [
+        "Fluxo",
+        "Terra"
+      ],
+      "dano": 26,
+      "durabilidade": 284,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 12,
+      "descricao": "Livro do Véu da Gravura é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📖"
+    },
+    "Instrumento_da_Fenda_do_Fragmento": {
+      "nome": "Instrumento da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Instrumento",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 22,
+      "durabilidade": 297,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 10,
+      "descricao": "Instrumento da Fenda do Fragmento é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎻"
+    },
+    "Relogio_Errante_do_Sal": {
+      "nome": "Relógio Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Relógio",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 27,
+      "durabilidade": 289,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 12,
+      "descricao": "Relógio Errante do Sal é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⏱️"
+    },
+    "Mascara_Astral_da_Nevoa": {
+      "nome": "Máscara Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Máscara",
+      "elementos": [
+        "Natureza",
+        "Luz"
+      ],
+      "dano": 24,
+      "durabilidade": 309,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 12,
+      "descricao": "Máscara Astral da Névoa é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎭"
+    },
+    "Agulha_Inversa_do_Vidro": {
+      "nome": "Agulha Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Agulha",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 24,
+      "durabilidade": 325,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 8,
+      "descricao": "Agulha Inversa do Vidro é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪡"
+    },
+    "Chave_Solar_da_Raiz": {
+      "nome": "Chave Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Chave",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 26,
+      "durabilidade": 299,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 12,
+      "descricao": "Chave Solar da Raiz é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗝️"
+    },
+    "Lanterna_Ruidosa_do_Sino": {
+      "nome": "Lanterna Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Lanterna",
+      "elementos": [
+        "Psíquico",
+        "Tempo"
+      ],
+      "dano": 24,
+      "durabilidade": 324,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 12,
+      "descricao": "Lanterna Ruidosa do Sino é uma Arma Vínculo de raridade Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏮"
+    }
+  },
+  "Muito Raro": {
     "Oculos_Moleculares": {
       "nome": "Óculos Moleculares",
       "categoria": "Vínculo",
-      "raridade": "Mítico",
+      "raridade": "Muito Raro",
       "tipo": "Óculos",
-      "elementos": ["Matéria"],
-      "dano": 0,
-      "durabilidade": 240,
+      "elementos": [
+        "Matéria"
+      ],
+      "dano": 33,
+      "durabilidade": 361,
       "efeito": "Permite enxergar moléculas e estruturas ocultas.",
       "passiva": "Fraquezas físicas tornam-se visíveis.",
-      "critico": 0,
+      "critico": 13,
       "descricao": "Óculos criados por cientistas proibidos.",
       "emoji": "👓"
     },
-
+    "Pincel_das_Cores": {
+      "nome": "Pincel das Cores",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Pincel",
+      "elementos": [
+        "Luz",
+        "Matéria"
+      ],
+      "dano": 34,
+      "durabilidade": 387,
+      "efeito": "Tintas alteram a realidade local.",
+      "passiva": "As cores aplicadas influenciam emoções.",
+      "critico": 14,
+      "descricao": "Pincel usado por artistas cósmicos.",
+      "emoji": "🖌️"
+    },
+    "Espada_Quebrada_de_Luz": {
+      "nome": "Espada Quebrada de Luz",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Espada",
+      "elementos": [
+        "Luz",
+        "Metal"
+      ],
+      "dano": 36,
+      "durabilidade": 367,
+      "efeito": "Emite uma lâmina de luz a partir do fragmento quebrado.",
+      "passiva": "A lâmina cresce quando o usuário protege alguém.",
+      "critico": 14,
+      "descricao": "Uma espada incompleta que luta como se ainda estivesse inteira.",
+      "emoji": "🗡️"
+    },
+    "Aneis_Dimensionais": {
+      "nome": "Anéis Dimensionais",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Anéis",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 31,
+      "durabilidade": 391,
+      "efeito": "Criam portais conectados entre si.",
+      "passiva": "Objetos atravessam os anéis instantaneamente.",
+      "critico": 13,
+      "descricao": "Anéis usados por navegadores dimensionais.",
+      "emoji": "💍"
+    },
+    "Massa_Tectonica": {
+      "nome": "Massa Tectônica",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Massa",
+      "elementos": [
+        "Terra"
+      ],
+      "dano": 37,
+      "durabilidade": 368,
+      "efeito": "Cria espinhos minerais gigantes.",
+      "passiva": "Quanto mais dano recebe, mais pesada fica.",
+      "critico": 15,
+      "descricao": "Uma arma criada do núcleo tectônico.",
+      "emoji": "🔨"
+    },
+    "Leque_Azul_da_Cinza": {
+      "nome": "Leque Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Leque",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 37,
+      "durabilidade": 374,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 16,
+      "descricao": "Leque Azul da Cinza é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪭"
+    },
+    "Sino_Oculta_do_Eclipse": {
+      "nome": "Sino Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Sino",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 35,
+      "durabilidade": 341,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 13,
+      "descricao": "Sino Oculta do Eclipse é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔔"
+    },
+    "Cubo_do_Norte_do_Coral": {
+      "nome": "Cubo do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Cubo",
+      "elementos": [
+        "Espaço",
+        "Fogo"
+      ],
+      "dano": 31,
+      "durabilidade": 380,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 12,
+      "descricao": "Cubo do Norte do Coral é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⬛"
+    },
+    "Fita_do_Veu_do_Carvao": {
+      "nome": "Fita do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Fita",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 32,
+      "durabilidade": 348,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 15,
+      "descricao": "Fita do Véu do Carvão é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎗️"
+    },
+    "Ampulheta_da_Fenda_da_Aurora": {
+      "nome": "Ampulheta da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Ampulheta",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 37,
+      "durabilidade": 367,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 14,
+      "descricao": "Ampulheta da Fenda da Aurora é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⌛"
+    },
+    "Corrente_Errante_do_Prisma": {
+      "nome": "Corrente Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Corrente",
+      "elementos": [
+        "Água",
+        "Som"
+      ],
+      "dano": 35,
+      "durabilidade": 362,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 14,
+      "descricao": "Corrente Errante do Prisma é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bussola_Astral_da_Ferrugem": {
+      "nome": "Bússola Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Bússola",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 33,
+      "durabilidade": 359,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 16,
+      "descricao": "Bússola Astral da Ferrugem é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧭"
+    },
+    "Manopla_Inversa_da_Memoria": {
+      "nome": "Manopla Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Manopla",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 34,
+      "durabilidade": 399,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 16,
+      "descricao": "Manopla Inversa da Memória é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🦾"
+    },
+    "Pistola_Solar_do_Rastro": {
+      "nome": "Pistola Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Pistola",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 34,
+      "durabilidade": 367,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 14,
+      "descricao": "Pistola Solar do Rastro é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔫"
+    },
+    "Lanca_Ruidosa_da_Cometa": {
+      "nome": "Lança Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Lança",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 37,
+      "durabilidade": 352,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 14,
+      "descricao": "Lança Ruidosa da Cometa é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Arco_Azul_do_Brejo": {
+      "nome": "Arco Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Arco",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 34,
+      "durabilidade": 386,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 13,
+      "descricao": "Arco Azul do Brejo é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏹"
+    },
+    "Espada_Oculta_da_Orquidea": {
+      "nome": "Espada Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Espada",
+      "elementos": [
+        "Lava",
+        "Cristal"
+      ],
+      "dano": 31,
+      "durabilidade": 397,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 14,
+      "descricao": "Espada Oculta da Orquídea é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Adaga_do_Norte_do_Pulso": {
+      "nome": "Adaga do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Adaga",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 36,
+      "durabilidade": 363,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 15,
+      "descricao": "Adaga do Norte do Pulso é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Guarda_Chuva_do_Veu_da_Gravura": {
+      "nome": "Guarda-Chuva do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Guarda-Chuva",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 33,
+      "durabilidade": 364,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 16,
+      "descricao": "Guarda-Chuva do Véu da Gravura é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☂️"
+    },
+    "Foice_da_Fenda_do_Fragmento": {
+      "nome": "Foice da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Foice",
+      "elementos": [
+        "Veneno",
+        "Gelo"
+      ],
+      "dano": 33,
+      "durabilidade": 371,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 13,
+      "descricao": "Foice da Fenda do Fragmento é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☠️"
+    },
+    "Cartas_Errante_do_Sal": {
+      "nome": "Cartas Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Cartas",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 35,
+      "durabilidade": 342,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 14,
+      "descricao": "Cartas Errante do Sal é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🃏"
+    },
+    "Luvas_Astral_da_Nevoa": {
+      "nome": "Luvas Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Luvas",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 34,
+      "durabilidade": 368,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 15,
+      "descricao": "Luvas Astral da Névoa é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧤"
+    },
+    "Frasco_Inversa_do_Vidro": {
+      "nome": "Frasco Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Frasco",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 32,
+      "durabilidade": 397,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 14,
+      "descricao": "Frasco Inversa do Vidro é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🫧"
+    },
+    "Cordao_Solar_da_Raiz": {
+      "nome": "Cordão Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Cordão",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 34,
+      "durabilidade": 362,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 14,
+      "descricao": "Cordão Solar da Raiz é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📿"
+    },
+    "Tornozeleira_Ruidosa_do_Sino": {
+      "nome": "Tornozeleira Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Tornozeleira",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 36,
+      "durabilidade": 361,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 13,
+      "descricao": "Tornozeleira Ruidosa do Sino é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bracelete_Azul_da_Cinza": {
+      "nome": "Bracelete Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Bracelete",
+      "elementos": [
+        "Sombra",
+        "Matéria"
+      ],
+      "dano": 33,
+      "durabilidade": 349,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 16,
+      "descricao": "Bracelete Azul da Cinza é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💪"
+    },
+    "CD_Oculta_do_Eclipse": {
+      "nome": "CD Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "CD",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 34,
+      "durabilidade": 367,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 14,
+      "descricao": "CD Oculta do Eclipse é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💿"
+    },
+    "Pincel_do_Norte_do_Coral": {
+      "nome": "Pincel do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Pincel",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 31,
+      "durabilidade": 350,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 12,
+      "descricao": "Pincel do Norte do Coral é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🖌️"
+    },
+    "Peso_do_Veu_do_Carvao": {
+      "nome": "Peso do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Peso",
+      "elementos": [
+        "Fluxo",
+        "Terra"
+      ],
+      "dano": 37,
+      "durabilidade": 367,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 14,
+      "descricao": "Peso do Véu do Carvão é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏋️"
+    },
+    "Espelho_da_Fenda_da_Aurora": {
+      "nome": "Espelho da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Espelho",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 31,
+      "durabilidade": 398,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 15,
+      "descricao": "Espelho da Fenda da Aurora é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪞"
+    },
+    "Alabarda_Errante_do_Prisma": {
+      "nome": "Alabarda Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Alabarda",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 33,
+      "durabilidade": 364,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 16,
+      "descricao": "Alabarda Errante do Prisma é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔱"
+    },
+    "Estilingue_Astral_da_Ferrugem": {
+      "nome": "Estilingue Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Estilingue",
+      "elementos": [
+        "Natureza",
+        "Luz"
+      ],
+      "dano": 31,
+      "durabilidade": 366,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 13,
+      "descricao": "Estilingue Astral da Ferrugem é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪃"
+    },
+    "Machado_Inversa_da_Memoria": {
+      "nome": "Machado Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Machado",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 35,
+      "durabilidade": 372,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 14,
+      "descricao": "Machado Inversa da Memória é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪓"
+    },
+    "Nunchakus_Solar_do_Rastro": {
+      "nome": "Nunchakus Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Nunchakus",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 36,
+      "durabilidade": 399,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 16,
+      "descricao": "Nunchakus Solar do Rastro é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🥋"
+    },
+    "Cajado_Ruidosa_da_Cometa": {
+      "nome": "Cajado Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Cajado",
+      "elementos": [
+        "Psíquico",
+        "Tempo"
+      ],
+      "dano": 32,
+      "durabilidade": 379,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 16,
+      "descricao": "Cajado Ruidosa da Cometa é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Soco_Ingles_Azul_do_Brejo": {
+      "nome": "Soco Inglês Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Soco Inglês",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 33,
+      "durabilidade": 396,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 13,
+      "descricao": "Soco Inglês Azul do Brejo é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "👊"
+    },
+    "Rapieira_Oculta_da_Orquidea": {
+      "nome": "Rapieira Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Rapieira",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 37,
+      "durabilidade": 380,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 12,
+      "descricao": "Rapieira Oculta da Orquídea é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⚔️"
+    },
+    "Livro_do_Norte_do_Pulso": {
+      "nome": "Livro do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Livro",
+      "elementos": [
+        "Espaço",
+        "Fogo"
+      ],
+      "dano": 35,
+      "durabilidade": 365,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 12,
+      "descricao": "Livro do Norte do Pulso é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📖"
+    },
+    "Instrumento_do_Veu_da_Gravura": {
+      "nome": "Instrumento do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Instrumento",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 32,
+      "durabilidade": 352,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 14,
+      "descricao": "Instrumento do Véu da Gravura é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎻"
+    },
+    "Relogio_da_Fenda_do_Fragmento": {
+      "nome": "Relógio da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Relógio",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 36,
+      "durabilidade": 378,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 15,
+      "descricao": "Relógio da Fenda do Fragmento é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⏱️"
+    },
+    "Mascara_Errante_do_Sal": {
+      "nome": "Máscara Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Máscara",
+      "elementos": [
+        "Água",
+        "Som"
+      ],
+      "dano": 36,
+      "durabilidade": 380,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 12,
+      "descricao": "Máscara Errante do Sal é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎭"
+    },
+    "Agulha_Astral_da_Nevoa": {
+      "nome": "Agulha Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Agulha",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 35,
+      "durabilidade": 379,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 16,
+      "descricao": "Agulha Astral da Névoa é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪡"
+    },
+    "Chave_Inversa_do_Vidro": {
+      "nome": "Chave Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Chave",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 32,
+      "durabilidade": 398,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 15,
+      "descricao": "Chave Inversa do Vidro é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗝️"
+    },
+    "Lanterna_Solar_da_Raiz": {
+      "nome": "Lanterna Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Lanterna",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 34,
+      "durabilidade": 393,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 15,
+      "descricao": "Lanterna Solar da Raiz é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏮"
+    },
+    "Leque_Ruidosa_do_Sino": {
+      "nome": "Leque Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Leque",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 36,
+      "durabilidade": 371,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 13,
+      "descricao": "Leque Ruidosa do Sino é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪭"
+    },
+    "Sino_Azul_da_Cinza": {
+      "nome": "Sino Azul da Cinza",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Sino",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 36,
+      "durabilidade": 395,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 12,
+      "descricao": "Sino Azul da Cinza é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔔"
+    },
+    "Cubo_Oculta_do_Eclipse": {
+      "nome": "Cubo Oculta do Eclipse",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Cubo",
+      "elementos": [
+        "Lava",
+        "Cristal"
+      ],
+      "dano": 33,
+      "durabilidade": 385,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 12,
+      "descricao": "Cubo Oculta do Eclipse é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⬛"
+    },
+    "Fita_do_Norte_do_Coral": {
+      "nome": "Fita do Norte do Coral",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Fita",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 33,
+      "durabilidade": 375,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 12,
+      "descricao": "Fita do Norte do Coral é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🎗️"
+    },
+    "Ampulheta_do_Veu_do_Carvao": {
+      "nome": "Ampulheta do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Ampulheta",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 34,
+      "durabilidade": 349,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 16,
+      "descricao": "Ampulheta do Véu do Carvão é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⌛"
+    },
+    "Corrente_da_Fenda_da_Aurora": {
+      "nome": "Corrente da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Corrente",
+      "elementos": [
+        "Veneno",
+        "Gelo"
+      ],
+      "dano": 33,
+      "durabilidade": 392,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 14,
+      "descricao": "Corrente da Fenda da Aurora é uma Arma Vínculo de raridade Muito Raro, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    }
+  },
+  "Lendário": {
     "Casaco_de_Agua": {
       "nome": "Casaco de Água",
       "categoria": "Vínculo",
       "raridade": "Lendário",
       "tipo": "Casaco",
-      "elementos": ["Água"],
-      "dano": 34,
-      "durabilidade": 400,
-      "efeito": "Pode assumir qualquer forma de arma.",
-      "passiva": "O usuário respira melhor embaixo d'água.",
-      "critico": 10,
+      "elementos": [
+        "Água"
+      ],
+      "dano": 46,
+      "durabilidade": 461,
+      "efeito": "Assume qualquer forma de arma líquida.",
+      "passiva": "O usuário respira melhor embaixo d’água.",
+      "critico": 17,
       "descricao": "Uma arma líquida viva ligada aos mares.",
       "emoji": "🌊"
     },
-
-    "Pincel_das_Cores": {
-      "nome": "Pincel das Cores",
+    "Galho_Quebrado": {
+      "nome": "Galho Quebrado",
       "categoria": "Vínculo",
-      "raridade": "Mítico",
-      "tipo": "Pincel",
-      "elementos": ["Luz", "Matéria"],
-      "dano": 18,
-      "durabilidade": 260,
-      "efeito": "Tintas alteram a realidade local.",
-      "passiva": "As cores influenciam emoções.",
-      "critico": 3,
-      "descricao": "Um pincel usado por artistas cósmicos.",
-      "emoji": "🖌️"
+      "raridade": "Lendário",
+      "tipo": "Galho",
+      "elementos": [
+        "Natureza",
+        "Tempo"
+      ],
+      "dano": 48,
+      "durabilidade": 442,
+      "efeito": "Cria florestas instantaneamente.",
+      "passiva": "A vegetação cresce mesmo em locais mortos.",
+      "critico": 18,
+      "descricao": "Um galho vindo de uma árvore ancestral impossível.",
+      "emoji": "🌿"
     },
-
-    "CD_do_Fim": {
-      "nome": "CD do Fim",
+    "Caneta_da_Criacao": {
+      "nome": "Caneta da Criação",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Caneta",
+      "elementos": [
+        "Espaço",
+        "Matéria"
+      ],
+      "dano": 45,
+      "durabilidade": 421,
+      "efeito": "Tudo desenhado sobre o corpo do usuário torna-se real.",
+      "passiva": "Os desenhos permanecem após batalhas.",
+      "critico": 17,
+      "descricao": "Uma caneta usada por arquitetos do universo.",
+      "emoji": "🖊️"
+    },
+    "Katana_das_Almas": {
+      "nome": "Katana das Almas",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Katana",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 49,
+      "durabilidade": 442,
+      "efeito": "Absorve almas de inimigos derrotados.",
+      "passiva": "Almas podem ser invocadas temporariamente.",
+      "critico": 18,
+      "descricao": "Uma katana amaldiçoada pelo submundo.",
+      "emoji": "🗡️"
+    },
+    "Bussola_Errante_do_Prisma": {
+      "nome": "Bússola Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Bússola",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 47,
+      "durabilidade": 470,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 16,
+      "descricao": "Bússola Errante do Prisma é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧭"
+    },
+    "Manopla_Astral_da_Ferrugem": {
+      "nome": "Manopla Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Manopla",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 49,
+      "durabilidade": 469,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 20,
+      "descricao": "Manopla Astral da Ferrugem é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🦾"
+    },
+    "Pistola_Inversa_da_Memoria": {
+      "nome": "Pistola Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Pistola",
+      "elementos": [
+        "Eletricidade",
+        "Metal"
+      ],
+      "dano": 45,
+      "durabilidade": 439,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 20,
+      "descricao": "Pistola Inversa da Memória é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔫"
+    },
+    "Lanca_Solar_do_Rastro": {
+      "nome": "Lança Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Lança",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 44,
+      "durabilidade": 446,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 17,
+      "descricao": "Lança Solar do Rastro é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Arco_Ruidosa_da_Cometa": {
+      "nome": "Arco Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Arco",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 44,
+      "durabilidade": 450,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 16,
+      "descricao": "Arco Ruidosa da Cometa é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏹"
+    },
+    "Espada_Azul_do_Brejo": {
+      "nome": "Espada Azul do Brejo",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Espada",
+      "elementos": [
+        "Sombra",
+        "Matéria"
+      ],
+      "dano": 44,
+      "durabilidade": 427,
+      "efeito": "Cria uma barreira curta.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 18,
+      "descricao": "Espada Azul do Brejo é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Adaga_Oculta_da_Orquidea": {
+      "nome": "Adaga Oculta da Orquídea",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Adaga",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 48,
+      "durabilidade": 469,
+      "efeito": "Faz o golpe atingir com atraso.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 20,
+      "descricao": "Adaga Oculta da Orquídea é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🗡️"
+    },
+    "Guarda_Chuva_do_Norte_do_Pulso": {
+      "nome": "Guarda-Chuva do Norte do Pulso",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Guarda-Chuva",
+      "elementos": [
+        "Espaço"
+      ],
+      "dano": 44,
+      "durabilidade": 465,
+      "efeito": "Rouba equilíbrio do alvo.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 16,
+      "descricao": "Guarda-Chuva do Norte do Pulso é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☂️"
+    },
+    "Foice_do_Veu_da_Gravura": {
+      "nome": "Foice do Véu da Gravura",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Foice",
+      "elementos": [
+        "Fluxo",
+        "Terra"
+      ],
+      "dano": 45,
+      "durabilidade": 446,
+      "efeito": "Gera uma explosão compacta.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 17,
+      "descricao": "Foice do Véu da Gravura é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "☠️"
+    },
+    "Cartas_da_Fenda_do_Fragmento": {
+      "nome": "Cartas da Fenda do Fragmento",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Cartas",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 46,
+      "durabilidade": 451,
+      "efeito": "Invoca um símbolo elemental no ar.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 17,
+      "descricao": "Cartas da Fenda do Fragmento é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🃏"
+    },
+    "Luvas_Errante_do_Sal": {
+      "nome": "Luvas Errante do Sal",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Luvas",
+      "elementos": [
+        "Água"
+      ],
+      "dano": 48,
+      "durabilidade": 459,
+      "efeito": "Converte movimento em impacto elemental.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 20,
+      "descricao": "Luvas Errante do Sal é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🧤"
+    },
+    "Frasco_Astral_da_Nevoa": {
+      "nome": "Frasco Astral da Névoa",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Frasco",
+      "elementos": [
+        "Natureza",
+        "Luz"
+      ],
+      "dano": 45,
+      "durabilidade": 471,
+      "efeito": "Marca o alvo com um selo temporário.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 17,
+      "descricao": "Frasco Astral da Névoa é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🫧"
+    },
+    "Cordao_Inversa_do_Vidro": {
+      "nome": "Cordão Inversa do Vidro",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Cordão",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 49,
+      "durabilidade": 421,
+      "efeito": "Cria uma cópia frágil do último golpe.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 17,
+      "descricao": "Cordão Inversa do Vidro é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "📿"
+    },
+    "Tornozeleira_Solar_da_Raiz": {
+      "nome": "Tornozeleira Solar da Raiz",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Tornozeleira",
+      "elementos": [
+        "Vento"
+      ],
+      "dano": 48,
+      "durabilidade": 450,
+      "efeito": "Distorce a direção do ataque.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 16,
+      "descricao": "Tornozeleira Solar da Raiz é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "⛓️"
+    },
+    "Bracelete_Ruidosa_do_Sino": {
+      "nome": "Bracelete Ruidosa do Sino",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Bracelete",
+      "elementos": [
+        "Psíquico",
+        "Tempo"
+      ],
+      "dano": 44,
+      "durabilidade": 426,
+      "efeito": "Condensa energia no ponto de contato.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 17,
+      "descricao": "Bracelete Ruidosa do Sino é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "💪"
+    },
+    "CD_Azul_da_Cinza": {
+      "nome": "CD Azul da Cinza",
       "categoria": "Vínculo",
       "raridade": "Lendário",
       "tipo": "CD",
-      "elementos": ["Som", "Sombra"],
-      "dano": 24,
-      "durabilidade": 210,
-      "efeito": "Músicas alteram sanidade e emoções.",
-      "passiva": "O som continua mesmo no silêncio.",
-      "critico": 8,
-      "descricao": "Um disco amaldiçoado por ecos esquecidos.",
+      "elementos": [
+        "Sombra"
+      ],
+      "dano": 47,
+      "durabilidade": 441,
+      "efeito": "Gera uma zona curta de pressão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 17,
+      "descricao": "CD Azul da Cinza é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
       "emoji": "💿"
     },
-
-    "Guarda_Chuva_Temporal": {
-      "nome": "Guarda Chuva Temporal",
+    "Pincel_Oculta_do_Eclipse": {
+      "nome": "Pincel Oculta do Eclipse",
       "categoria": "Vínculo",
-      "raridade": "Muito Raro",
-      "tipo": "Guarda-Chuva",
-      "elementos": ["Tempo", "Água"],
-      "dano": 20,
-      "durabilidade": 240,
-      "efeito": "As gotas desaceleram objetos atingidos.",
-      "passiva": "A chuva acompanha o usuário.",
-      "critico": 6,
-      "descricao": "Um guarda-chuva preso a tempestades temporais.",
-      "emoji": "☂️"
+      "raridade": "Lendário",
+      "tipo": "Pincel",
+      "elementos": [
+        "Lava"
+      ],
+      "dano": 45,
+      "durabilidade": 435,
+      "efeito": "Puxa o inimigo alguns centímetros.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 16,
+      "descricao": "Pincel Oculta do Eclipse é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🖌️"
     },
-
-    "Guarda_Chuva_Abissal": {
-      "nome": "Guarda Chuva Abissal",
+    "Peso_do_Norte_do_Coral": {
+      "nome": "Peso do Norte do Coral",
       "categoria": "Vínculo",
-      "raridade": "Épico",
-      "tipo": "Guarda-Chuva",
-      "elementos": ["Sombra", "Água"],
-      "dano": 28,
-      "durabilidade": 260,
-      "efeito": "Cria chuva negra corrosiva.",
-      "passiva": "O usuário desaparece parcialmente na névoa.",
-      "critico": 11,
-      "descricao": "Uma arma criada no fundo do oceano sombrio.",
-      "emoji": "☔"
+      "raridade": "Lendário",
+      "tipo": "Peso",
+      "elementos": [
+        "Espaço",
+        "Fogo"
+      ],
+      "dano": 43,
+      "durabilidade": 474,
+      "efeito": "Fragmenta o dano em múltiplos cortes.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 20,
+      "descricao": "Peso do Norte do Coral é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🏋️"
+    },
+    "Espelho_do_Veu_do_Carvao": {
+      "nome": "Espelho do Véu do Carvão",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Espelho",
+      "elementos": [
+        "Fluxo"
+      ],
+      "dano": 47,
+      "durabilidade": 460,
+      "efeito": "Transforma defesa em contra-ataque.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 16,
+      "descricao": "Espelho do Véu do Carvão é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪞"
+    },
+    "Alabarda_da_Fenda_da_Aurora": {
+      "nome": "Alabarda da Fenda da Aurora",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Alabarda",
+      "elementos": [
+        "Veneno"
+      ],
+      "dano": 43,
+      "durabilidade": 474,
+      "efeito": "Cria uma trilha elemental no chão.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 20,
+      "descricao": "Alabarda da Fenda da Aurora é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🔱"
+    },
+    "Estilingue_Errante_do_Prisma": {
+      "nome": "Estilingue Errante do Prisma",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Estilingue",
+      "elementos": [
+        "Água",
+        "Som"
+      ],
+      "dano": 45,
+      "durabilidade": 477,
+      "efeito": "Silencia técnicas por um instante.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 18,
+      "descricao": "Estilingue Errante do Prisma é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪃"
+    },
+    "Machado_Astral_da_Ferrugem": {
+      "nome": "Machado Astral da Ferrugem",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Machado",
+      "elementos": [
+        "Natureza"
+      ],
+      "dano": 43,
+      "durabilidade": 442,
+      "efeito": "Rebate projéteis pequenos.",
+      "passiva": "Fortalece golpes após bloqueios.",
+      "critico": 18,
+      "descricao": "Machado Astral da Ferrugem é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪓"
+    },
+    "Nunchakus_Inversa_da_Memoria": {
+      "nome": "Nunchakus Inversa da Memória",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Nunchakus",
+      "elementos": [
+        "Eletricidade"
+      ],
+      "dano": 47,
+      "durabilidade": 471,
+      "efeito": "Divide o ataque em duas trajetórias.",
+      "passiva": "Fica mais forte quando o usuário está em desvantagem.",
+      "critico": 17,
+      "descricao": "Nunchakus Inversa da Memória é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🥋"
+    },
+    "Cajado_Solar_do_Rastro": {
+      "nome": "Cajado Solar do Rastro",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Cajado",
+      "elementos": [
+        "Vento",
+        "Gravidade"
+      ],
+      "dano": 46,
+      "durabilidade": 473,
+      "efeito": "Acelera o próximo golpe.",
+      "passiva": "Reage a perigo próximo.",
+      "critico": 19,
+      "descricao": "Cajado Solar do Rastro é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "🪄"
+    },
+    "Soco_Ingles_Ruidosa_da_Cometa": {
+      "nome": "Soco Inglês Ruidosa da Cometa",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Soco Inglês",
+      "elementos": [
+        "Psíquico"
+      ],
+      "dano": 43,
+      "durabilidade": 460,
+      "efeito": "Atrai matéria solta para a lâmina.",
+      "passiva": "Resiste melhor contra elementos opostos.",
+      "critico": 16,
+      "descricao": "Soco Inglês Ruidosa da Cometa é uma Arma Vínculo de raridade Lendário, feita para combates com identidade própria e risco real ao portador.",
+      "emoji": "👊"
     }
   },
-
   "ADM": {
-
     "Espada_do_Rei": {
       "nome": "Espada do Rei",
       "categoria": "ADM",
       "adminWeapon": true,
       "raridade": "ADM",
       "tipo": "Espada",
-      "elementos": ["Luz", "Tempo"],
+      "elementos": [],
       "dano": 999,
       "durabilidade": -1,
       "efeito": "Definido pelo ADM.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "Uma das sete armas absolutas.",
+      "descricao": "Espada do Rei é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
       "emoji": "👑"
     },
-
     "Adagas_do_Principe": {
       "nome": "Adagas do Príncipe",
       "categoria": "ADM",
       "adminWeapon": true,
       "raridade": "ADM",
       "tipo": "Adaga",
-      "elementos": ["Sombra", "Velocidade"],
+      "elementos": [],
       "dano": 999,
       "durabilidade": -1,
       "efeito": "Definido pelo ADM.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "Adagas imperiais da linhagem real.",
+      "descricao": "Adagas do Príncipe é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
       "emoji": "🗡️"
     },
-
     "Machado_do_Caos": {
       "nome": "Machado do Caos",
       "categoria": "ADM",
       "adminWeapon": true,
       "raridade": "ADM",
       "tipo": "Machado",
-      "elementos": ["Sombra", "Lava"],
+      "elementos": [],
       "dano": 999,
       "durabilidade": -1,
       "efeito": "Definido pelo ADM.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "Uma arma criada para destruir realidades.",
+      "descricao": "Machado do Caos é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
       "emoji": "🪓"
     },
-
     "Lanca_da_Guarda": {
       "nome": "Lança da Guarda",
       "categoria": "ADM",
       "adminWeapon": true,
       "raridade": "ADM",
       "tipo": "Lança",
-      "elementos": ["Metal", "Terra"],
+      "elementos": [],
       "dano": 999,
       "durabilidade": -1,
       "efeito": "Definido pelo ADM.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "A lança usada pelos guardiões imperiais.",
-      "emoji": "🪄"
+      "descricao": "Lança da Guarda é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
+      "emoji": "🔱"
     },
-
     "Arco_Imperial": {
       "nome": "Arco Imperial",
       "categoria": "ADM",
       "adminWeapon": true,
       "raridade": "ADM",
       "tipo": "Arco",
-      "elementos": ["Vento", "Luz"],
+      "elementos": [],
       "dano": 999,
       "durabilidade": -1,
       "efeito": "Definido pelo ADM.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "Um arco usado pelos imperadores antigos.",
+      "descricao": "Arco Imperial é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
       "emoji": "🏹"
     },
-
     "Foice_das_Sombras": {
       "nome": "Foice das Sombras",
       "categoria": "ADM",
       "adminWeapon": true,
       "raridade": "ADM",
       "tipo": "Foice",
-      "elementos": ["Sombra", "Tempo"],
+      "elementos": [],
       "dano": 999,
       "durabilidade": -1,
       "efeito": "Definido pelo ADM.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "Uma foice ligada ao submundo.",
+      "descricao": "Foice das Sombras é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
       "emoji": "☠️"
     },
-
     "Khopesh_dos_Rios": {
       "nome": "Khopesh dos Rios",
       "categoria": "ADM",
       "adminWeapon": true,
       "raridade": "ADM",
       "tipo": "Khopesh",
-      "elementos": ["Água", "Natureza"],
+      "elementos": [],
       "dano": 999,
       "durabilidade": -1,
       "efeito": "Definido pelo ADM.",
       "passiva": "Definida pelo ADM.",
       "critico": 100,
-      "descricao": "Uma arma ancestral moldada pelos rios sagrados.",
+      "descricao": "Khopesh dos Rios é uma das sete Armas de ADM. Seus elementos e efeitos especiais são definidos pelo ADM portador.",
       "emoji": "🌀"
     }
   }
