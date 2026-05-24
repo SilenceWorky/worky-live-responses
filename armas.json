@@ -1,0 +1,329 @@
+{
+  "Vinculos": {
+
+    "Espada_Tesoura": {
+      "nome": "Espada Tesoura",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Espada",
+      "elementos": ["Metal"],
+      "dano": 12,
+      "durabilidade": 140,
+      "efeito": "As lâminas podem se separar como tesouras gigantes.",
+      "passiva": "Ataques consecutivos aumentam velocidade.",
+      "critico": 4,
+      "descricao": "Uma espada articulada criada para cortes rápidos.",
+      "emoji": "✂️"
+    },
+
+    "Manopla_de_Garras": {
+      "nome": "Manopla de Garras",
+      "categoria": "Vínculo",
+      "raridade": "Comum",
+      "tipo": "Manopla",
+      "elementos": ["Metal"],
+      "dano": 16,
+      "durabilidade": 180,
+      "efeito": "Golpes perfuram armaduras leves.",
+      "passiva": "Aumenta dano em ataques rápidos.",
+      "critico": 12,
+      "descricao": "Uma manopla bestial usada por caçadores.",
+      "emoji": "🦾"
+    },
+
+    "Galho_Quebrado": {
+      "nome": "Galho Quebrado",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Galho",
+      "elementos": ["Natureza", "Tempo"],
+      "dano": 38,
+      "durabilidade": 260,
+      "efeito": "Cria florestas instantaneamente.",
+      "passiva": "A vegetação cresce mesmo em locais mortos.",
+      "critico": 6,
+      "descricao": "Um galho vindo de uma árvore ancestral impossível.",
+      "emoji": "🌿"
+    },
+
+    "Caneta_da_Criacao": {
+      "nome": "Caneta da Criação",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Caneta",
+      "elementos": ["Espaço", "Matéria"],
+      "dano": 5,
+      "durabilidade": 220,
+      "efeito": "Tudo desenhado sobre o corpo do usuário torna-se real.",
+      "passiva": "Os desenhos continuam existindo após batalhas.",
+      "critico": 0,
+      "descricao": "Uma caneta usada por arquitetos do universo.",
+      "emoji": "🖊️"
+    },
+
+    "Aneis_Dimensionais": {
+      "nome": "Anéis Dimensionais",
+      "categoria": "Vínculo",
+      "raridade": "Mítico",
+      "tipo": "Anéis",
+      "elementos": ["Espaço"],
+      "dano": 10,
+      "durabilidade": 280,
+      "efeito": "Criam portais conectados entre si.",
+      "passiva": "Objetos podem atravessar dimensões instantaneamente.",
+      "critico": 2,
+      "descricao": "Anéis usados por navegadores dimensionais.",
+      "emoji": "💍"
+    },
+
+    "Katana_das_Almas": {
+      "nome": "Katana das Almas",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Katana",
+      "elementos": ["Sombra"],
+      "dano": 42,
+      "durabilidade": 320,
+      "efeito": "Absorve almas de inimigos derrotados.",
+      "passiva": "As almas podem ser invocadas temporariamente.",
+      "critico": 18,
+      "descricao": "Uma katana amaldiçoada pelo submundo.",
+      "emoji": "🗡️"
+    },
+
+    "Massa_Tectonica": {
+      "nome": "Massa Tectônica",
+      "categoria": "Vínculo",
+      "raridade": "Épico",
+      "tipo": "Massa",
+      "elementos": ["Terra"],
+      "dano": 36,
+      "durabilidade": 300,
+      "efeito": "Cria espinhos minerais gigantes.",
+      "passiva": "Quanto mais dano recebe, mais pesada fica.",
+      "critico": 5,
+      "descricao": "Uma arma criada do núcleo tectônico.",
+      "emoji": "🔨"
+    },
+
+    "Xuxa_Viva": {
+      "nome": "Xuxa Viva",
+      "categoria": "Vínculo",
+      "raridade": "Raro",
+      "tipo": "Acessório",
+      "elementos": ["Natureza"],
+      "dano": 14,
+      "durabilidade": 160,
+      "efeito": "Controla cabelos como membros vivos.",
+      "passiva": "O cabelo reage sozinho ao perigo.",
+      "critico": 7,
+      "descricao": "Uma xuxa viva criada por magia biológica.",
+      "emoji": "🎀"
+    },
+
+    "Oculos_Moleculares": {
+      "nome": "Óculos Moleculares",
+      "categoria": "Vínculo",
+      "raridade": "Mítico",
+      "tipo": "Óculos",
+      "elementos": ["Matéria"],
+      "dano": 0,
+      "durabilidade": 240,
+      "efeito": "Permite enxergar moléculas e estruturas ocultas.",
+      "passiva": "Fraquezas físicas tornam-se visíveis.",
+      "critico": 0,
+      "descricao": "Óculos criados por cientistas proibidos.",
+      "emoji": "👓"
+    },
+
+    "Casaco_de_Agua": {
+      "nome": "Casaco de Água",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "Casaco",
+      "elementos": ["Água"],
+      "dano": 34,
+      "durabilidade": 400,
+      "efeito": "Pode assumir qualquer forma de arma.",
+      "passiva": "O usuário respira melhor embaixo d'água.",
+      "critico": 10,
+      "descricao": "Uma arma líquida viva ligada aos mares.",
+      "emoji": "🌊"
+    },
+
+    "Pincel_das_Cores": {
+      "nome": "Pincel das Cores",
+      "categoria": "Vínculo",
+      "raridade": "Mítico",
+      "tipo": "Pincel",
+      "elementos": ["Luz", "Matéria"],
+      "dano": 18,
+      "durabilidade": 260,
+      "efeito": "Tintas alteram a realidade local.",
+      "passiva": "As cores influenciam emoções.",
+      "critico": 3,
+      "descricao": "Um pincel usado por artistas cósmicos.",
+      "emoji": "🖌️"
+    },
+
+    "CD_do_Fim": {
+      "nome": "CD do Fim",
+      "categoria": "Vínculo",
+      "raridade": "Lendário",
+      "tipo": "CD",
+      "elementos": ["Som", "Sombra"],
+      "dano": 24,
+      "durabilidade": 210,
+      "efeito": "Músicas alteram sanidade e emoções.",
+      "passiva": "O som continua mesmo no silêncio.",
+      "critico": 8,
+      "descricao": "Um disco amaldiçoado por ecos esquecidos.",
+      "emoji": "💿"
+    },
+
+    "Guarda_Chuva_Temporal": {
+      "nome": "Guarda Chuva Temporal",
+      "categoria": "Vínculo",
+      "raridade": "Muito Raro",
+      "tipo": "Guarda-Chuva",
+      "elementos": ["Tempo", "Água"],
+      "dano": 20,
+      "durabilidade": 240,
+      "efeito": "As gotas desaceleram objetos atingidos.",
+      "passiva": "A chuva acompanha o usuário.",
+      "critico": 6,
+      "descricao": "Um guarda-chuva preso a tempestades temporais.",
+      "emoji": "☂️"
+    },
+
+    "Guarda_Chuva_Abissal": {
+      "nome": "Guarda Chuva Abissal",
+      "categoria": "Vínculo",
+      "raridade": "Épico",
+      "tipo": "Guarda-Chuva",
+      "elementos": ["Sombra", "Água"],
+      "dano": 28,
+      "durabilidade": 260,
+      "efeito": "Cria chuva negra corrosiva.",
+      "passiva": "O usuário desaparece parcialmente na névoa.",
+      "critico": 11,
+      "descricao": "Uma arma criada no fundo do oceano sombrio.",
+      "emoji": "☔"
+    }
+  },
+
+  "ADM": {
+
+    "Espada_do_Rei": {
+      "nome": "Espada do Rei",
+      "categoria": "ADM",
+      "adminWeapon": true,
+      "raridade": "ADM",
+      "tipo": "Espada",
+      "elementos": ["Luz", "Tempo"],
+      "dano": 999,
+      "durabilidade": -1,
+      "efeito": "Definido pelo ADM.",
+      "passiva": "Definida pelo ADM.",
+      "critico": 100,
+      "descricao": "Uma das sete armas absolutas.",
+      "emoji": "👑"
+    },
+
+    "Adagas_do_Principe": {
+      "nome": "Adagas do Príncipe",
+      "categoria": "ADM",
+      "adminWeapon": true,
+      "raridade": "ADM",
+      "tipo": "Adaga",
+      "elementos": ["Sombra", "Velocidade"],
+      "dano": 999,
+      "durabilidade": -1,
+      "efeito": "Definido pelo ADM.",
+      "passiva": "Definida pelo ADM.",
+      "critico": 100,
+      "descricao": "Adagas imperiais da linhagem real.",
+      "emoji": "🗡️"
+    },
+
+    "Machado_do_Caos": {
+      "nome": "Machado do Caos",
+      "categoria": "ADM",
+      "adminWeapon": true,
+      "raridade": "ADM",
+      "tipo": "Machado",
+      "elementos": ["Sombra", "Lava"],
+      "dano": 999,
+      "durabilidade": -1,
+      "efeito": "Definido pelo ADM.",
+      "passiva": "Definida pelo ADM.",
+      "critico": 100,
+      "descricao": "Uma arma criada para destruir realidades.",
+      "emoji": "🪓"
+    },
+
+    "Lanca_da_Guarda": {
+      "nome": "Lança da Guarda",
+      "categoria": "ADM",
+      "adminWeapon": true,
+      "raridade": "ADM",
+      "tipo": "Lança",
+      "elementos": ["Metal", "Terra"],
+      "dano": 999,
+      "durabilidade": -1,
+      "efeito": "Definido pelo ADM.",
+      "passiva": "Definida pelo ADM.",
+      "critico": 100,
+      "descricao": "A lança usada pelos guardiões imperiais.",
+      "emoji": "🪄"
+    },
+
+    "Arco_Imperial": {
+      "nome": "Arco Imperial",
+      "categoria": "ADM",
+      "adminWeapon": true,
+      "raridade": "ADM",
+      "tipo": "Arco",
+      "elementos": ["Vento", "Luz"],
+      "dano": 999,
+      "durabilidade": -1,
+      "efeito": "Definido pelo ADM.",
+      "passiva": "Definida pelo ADM.",
+      "critico": 100,
+      "descricao": "Um arco usado pelos imperadores antigos.",
+      "emoji": "🏹"
+    },
+
+    "Foice_das_Sombras": {
+      "nome": "Foice das Sombras",
+      "categoria": "ADM",
+      "adminWeapon": true,
+      "raridade": "ADM",
+      "tipo": "Foice",
+      "elementos": ["Sombra", "Tempo"],
+      "dano": 999,
+      "durabilidade": -1,
+      "efeito": "Definido pelo ADM.",
+      "passiva": "Definida pelo ADM.",
+      "critico": 100,
+      "descricao": "Uma foice ligada ao submundo.",
+      "emoji": "☠️"
+    },
+
+    "Khopesh_dos_Rios": {
+      "nome": "Khopesh dos Rios",
+      "categoria": "ADM",
+      "adminWeapon": true,
+      "raridade": "ADM",
+      "tipo": "Khopesh",
+      "elementos": ["Água", "Natureza"],
+      "dano": 999,
+      "durabilidade": -1,
+      "efeito": "Definido pelo ADM.",
+      "passiva": "Definida pelo ADM.",
+      "critico": 100,
+      "descricao": "Uma arma ancestral moldada pelos rios sagrados.",
+      "emoji": "🌀"
+    }
+  }
+}
