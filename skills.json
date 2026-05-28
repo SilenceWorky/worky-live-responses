@@ -1,1 +1,838 @@
-
+{
+  "Universais": {
+    "Ataque_Pesado": {
+      "nome": "Ataque Pesado",
+      "tipo": "Fisica",
+      "raridade": "Comum",
+      "elemento": "Universal",
+      "custoMentalidade": 10,
+      "cooldown": 2,
+      "escala": "strength",
+      "dano": 35,
+      "precisao": 75,
+      "efeito": "Golpe físico pesado que causa dano alto, mas possui precisão menor."
+    },
+    "Foco_Absoluto": {
+      "nome": "Foco Absoluto",
+      "tipo": "Buff",
+      "raridade": "Incomum",
+      "elemento": "Universal",
+      "custoMentalidade": 15,
+      "cooldown": 4,
+      "escala": "accuracy",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta temporariamente a pontaria e a chance de crítico."
+    },
+    "Recuperacao_Mental": {
+      "nome": "Recuperação Mental",
+      "tipo": "Suporte",
+      "raridade": "Comum",
+      "elemento": "Universal",
+      "custoMentalidade": 0,
+      "cooldown": 5,
+      "escala": "mentalidade",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Recupera parte da mentalidade do usuário."
+    }
+  },
+  "Fogo": {
+    "Chama_Devastadora": {
+      "nome": "Chama Devastadora",
+      "tipo": "Elemental",
+      "raridade": "Comum",
+      "elemento": "Fogo",
+      "custoMentalidade": 20,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 45,
+      "precisao": 90,
+      "efeito": "Causa dano de fogo e aplica queimadura leve."
+    },
+    "Explosao_Termica": {
+      "nome": "Explosão Térmica",
+      "tipo": "Elemental",
+      "raridade": "Incomum",
+      "elemento": "Fogo",
+      "custoMentalidade": 28,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 65,
+      "precisao": 85,
+      "efeito": "Explosão concentrada de calor com dano alto."
+    },
+    "Inferno_Escarlate": {
+      "nome": "Inferno Escarlate",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Fogo",
+      "custoMentalidade": 40,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 95,
+      "precisao": 78,
+      "efeito": "Ataque massivo de chamas com chance alta de queimadura."
+    }
+  },
+  "Água": {
+    "Pressao_do_Oceano": {
+      "nome": "Pressão do Oceano",
+      "tipo": "Elemental",
+      "raridade": "Comum",
+      "elemento": "Água",
+      "custoMentalidade": 18,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 40,
+      "precisao": 95,
+      "efeito": "Causa dano de água e reduz levemente a velocidade do alvo."
+    },
+    "Mare_Regenerativa": {
+      "nome": "Maré Regenerativa",
+      "tipo": "Cura",
+      "raridade": "Incomum",
+      "elemento": "Água",
+      "custoMentalidade": 25,
+      "cooldown": 5,
+      "escala": "magicStrength",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Recupera HP do usuário com base na Força Mágica."
+    },
+    "Diluvio_Azul": {
+      "nome": "Dilúvio Azul",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Água",
+      "custoMentalidade": 42,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 90,
+      "precisao": 85,
+      "efeito": "Grande onda destrutiva que causa alto dano de água."
+    }
+  },
+  "Vento": {
+    "Corte_de_Tufao": {
+      "nome": "Corte de Tufão",
+      "tipo": "Elemental",
+      "raridade": "Comum",
+      "elemento": "Vento",
+      "custoMentalidade": 16,
+      "cooldown": 2,
+      "escala": "speed",
+      "dano": 38,
+      "precisao": 95,
+      "efeito": "Corte de vento rápido que escala com velocidade."
+    },
+    "Passos_do_Vento": {
+      "nome": "Passos do Vento",
+      "tipo": "Buff",
+      "raridade": "Incomum",
+      "elemento": "Vento",
+      "custoMentalidade": 22,
+      "cooldown": 4,
+      "escala": "speed",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta temporariamente velocidade e esquiva."
+    },
+    "Furacao_Absoluto": {
+      "nome": "Furacão Absoluto",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Vento",
+      "custoMentalidade": 40,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 88,
+      "precisao": 86,
+      "efeito": "Cria um furacão concentrado de alto dano."
+    }
+  },
+  "Terra": {
+    "Punho_Sismico": {
+      "nome": "Punho Sísmico",
+      "tipo": "Fisica",
+      "raridade": "Comum",
+      "elemento": "Terra",
+      "custoMentalidade": 18,
+      "cooldown": 3,
+      "escala": "strength",
+      "dano": 48,
+      "precisao": 86,
+      "efeito": "Golpe terrestre pesado com dano físico elevado."
+    },
+    "Muralha_Tectonica": {
+      "nome": "Muralha Tectônica",
+      "tipo": "Buff",
+      "raridade": "Incomum",
+      "elemento": "Terra",
+      "custoMentalidade": 20,
+      "cooldown": 4,
+      "escala": "defense",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta temporariamente a defesa."
+    },
+    "Cataclismo_Pedregoso": {
+      "nome": "Cataclismo Pedregoso",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Terra",
+      "custoMentalidade": 45,
+      "cooldown": 7,
+      "escala": "strength",
+      "dano": 100,
+      "precisao": 75,
+      "efeito": "Grande impacto terrestre de dano massivo."
+    }
+  },
+  "Neutro": {
+    "Golpe_Puro": {
+      "nome": "Golpe Puro",
+      "tipo": "Fisica",
+      "raridade": "Especial",
+      "elemento": "Neutro",
+      "custoMentalidade": 15,
+      "cooldown": 2,
+      "escala": "strength",
+      "dano": 42,
+      "precisao": 92,
+      "efeito": "Ataque puro sem vantagem ou desvantagem elemental."
+    },
+    "Equilibrio_Absoluto": {
+      "nome": "Equilíbrio Absoluto",
+      "tipo": "Buff",
+      "raridade": "Especial",
+      "elemento": "Neutro",
+      "custoMentalidade": 25,
+      "cooldown": 5,
+      "escala": "mentalidade",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Estabiliza o corpo e reduz efeitos negativos."
+    },
+    "Ruptura_Neutra": {
+      "nome": "Ruptura Neutra",
+      "tipo": "Elemental",
+      "raridade": "Especial",
+      "elemento": "Neutro",
+      "custoMentalidade": 40,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 85,
+      "precisao": 88,
+      "efeito": "Dano neutro concentrado que ignora parte das resistências."
+    }
+  },
+  "Eletricidade": {
+    "Raio_Instantaneo": {
+      "nome": "Raio Instantâneo",
+      "tipo": "Elemental",
+      "raridade": "Incomum",
+      "elemento": "Eletricidade",
+      "custoMentalidade": 18,
+      "cooldown": 2,
+      "escala": "magicStrength",
+      "dano": 42,
+      "precisao": 100,
+      "efeito": "Ataque elétrico rápido com chance de atordoamento."
+    },
+    "Impulso_Eletromagnetico": {
+      "nome": "Impulso Eletromagnético",
+      "tipo": "Debuff",
+      "raridade": "Incomum",
+      "elemento": "Eletricidade",
+      "custoMentalidade": 26,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 25,
+      "precisao": 94,
+      "efeito": "Reduz temporariamente a pontaria do alvo."
+    },
+    "Tempestade_de_Tesla": {
+      "nome": "Tempestade de Tesla",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Eletricidade",
+      "custoMentalidade": 45,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 95,
+      "precisao": 82,
+      "efeito": "Descarga elétrica massiva com chance de stun."
+    }
+  },
+  "Fluxo": {
+    "Corrente_Fluida": {
+      "nome": "Corrente Fluida",
+      "tipo": "Elemental",
+      "raridade": "Incomum",
+      "elemento": "Fluxo",
+      "custoMentalidade": 18,
+      "cooldown": 3,
+      "escala": "speed",
+      "dano": 40,
+      "precisao": 94,
+      "efeito": "Ataque de fluxo contínuo que escala com velocidade."
+    },
+    "Transferencia_de_Impulso": {
+      "nome": "Transferência de Impulso",
+      "tipo": "Buff",
+      "raridade": "Incomum",
+      "elemento": "Fluxo",
+      "custoMentalidade": 24,
+      "cooldown": 4,
+      "escala": "mentalidade",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Converte mentalidade em aumento temporário de velocidade."
+    },
+    "Ritmo_Caotico": {
+      "nome": "Ritmo Caótico",
+      "tipo": "Debuff",
+      "raridade": "Raro",
+      "elemento": "Fluxo",
+      "custoMentalidade": 38,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 65,
+      "precisao": 88,
+      "efeito": "Desorganiza o fluxo do inimigo e reduz sua precisão."
+    }
+  },
+  "Cristal": {
+    "Fragmento_Cristalino": {
+      "nome": "Fragmento Cristalino",
+      "tipo": "Elemental",
+      "raridade": "Incomum",
+      "elemento": "Cristal",
+      "custoMentalidade": 18,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 44,
+      "precisao": 92,
+      "efeito": "Dispara fragmentos cristalinos cortantes."
+    },
+    "Prisma_Refletor": {
+      "nome": "Prisma Refletor",
+      "tipo": "Buff",
+      "raridade": "Incomum",
+      "elemento": "Cristal",
+      "custoMentalidade": 26,
+      "cooldown": 5,
+      "escala": "defense",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta defesa e chance de reduzir dano recebido."
+    },
+    "Tempestade_de_Cristal": {
+      "nome": "Tempestade de Cristal",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Cristal",
+      "custoMentalidade": 42,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 92,
+      "precisao": 84,
+      "efeito": "Chuva de lâminas cristalinas de alto dano."
+    }
+  },
+  "Som": {
+    "Onda_Sonica": {
+      "nome": "Onda Sônica",
+      "tipo": "Elemental",
+      "raridade": "Incomum",
+      "elemento": "Som",
+      "custoMentalidade": 15,
+      "cooldown": 2,
+      "escala": "magicStrength",
+      "dano": 36,
+      "precisao": 100,
+      "efeito": "Ataque sônico preciso com chance de atordoamento leve."
+    },
+    "Eco_Amplificado": {
+      "nome": "Eco Amplificado",
+      "tipo": "Buff",
+      "raridade": "Incomum",
+      "elemento": "Som",
+      "custoMentalidade": 22,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Amplifica temporariamente a Força Mágica."
+    },
+    "Sinfonia_do_Caos": {
+      "nome": "Sinfonia do Caos",
+      "tipo": "Debuff",
+      "raridade": "Raro",
+      "elemento": "Som",
+      "custoMentalidade": 40,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 70,
+      "precisao": 86,
+      "efeito": "Confunde o inimigo com vibrações caóticas."
+    }
+  },
+  "Natureza": {
+    "Raizes_Ancestrais": {
+      "nome": "Raízes Ancestrais",
+      "tipo": "Debuff",
+      "raridade": "Raro",
+      "elemento": "Natureza",
+      "custoMentalidade": 22,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 35,
+      "precisao": 94,
+      "efeito": "Imobiliza parcialmente o alvo."
+    },
+    "Polen_Toxico": {
+      "nome": "Pólen Tóxico",
+      "tipo": "Veneno",
+      "raridade": "Raro",
+      "elemento": "Natureza",
+      "custoMentalidade": 28,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 30,
+      "precisao": 98,
+      "efeito": "Aplica veneno natural."
+    },
+    "Floresta_Voraz": {
+      "nome": "Floresta Voraz",
+      "tipo": "Elemental",
+      "raridade": "Muito Raro",
+      "elemento": "Natureza",
+      "custoMentalidade": 45,
+      "cooldown": 7,
+      "escala": "magicStrength",
+      "dano": 98,
+      "precisao": 80,
+      "efeito": "Invoca crescimento vegetal agressivo de alto dano."
+    }
+  },
+  "Gelo": {
+    "Lanca_Glaciar": {
+      "nome": "Lança Glaciar",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Gelo",
+      "custoMentalidade": 22,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 46,
+      "precisao": 90,
+      "efeito": "Causa dano de gelo com chance de congelamento."
+    },
+    "Cristais_Frios": {
+      "nome": "Cristais Frios",
+      "tipo": "Buff",
+      "raridade": "Raro",
+      "elemento": "Gelo",
+      "custoMentalidade": 24,
+      "cooldown": 4,
+      "escala": "defense",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta defesa e reduz dano recebido."
+    },
+    "Era_do_Gelo": {
+      "nome": "Era do Gelo",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Gelo",
+      "custoMentalidade": 60,
+      "cooldown": 8,
+      "escala": "magicStrength",
+      "dano": 125,
+      "precisao": 75,
+      "efeito": "Ataque glacial extremo com alta chance de congelamento."
+    }
+  },
+  "Psíquico": {
+    "Pressao_Mental": {
+      "nome": "Pressão Mental",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Psíquico",
+      "custoMentalidade": 22,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 48,
+      "precisao": 92,
+      "efeito": "Pressiona a consciência do alvo."
+    },
+    "Quebra_de_Consciencia": {
+      "nome": "Quebra de Consciência",
+      "tipo": "Debuff",
+      "raridade": "Raro",
+      "elemento": "Psíquico",
+      "custoMentalidade": 32,
+      "cooldown": 5,
+      "escala": "magicStrength",
+      "dano": 45,
+      "precisao": 88,
+      "efeito": "Reduz precisão e força mágica do inimigo."
+    },
+    "Dominio_Psiquico": {
+      "nome": "Domínio Psíquico",
+      "tipo": "Elemental",
+      "raridade": "Muito Raro",
+      "elemento": "Psíquico",
+      "custoMentalidade": 50,
+      "cooldown": 7,
+      "escala": "magicStrength",
+      "dano": 105,
+      "precisao": 78,
+      "efeito": "Ataque mental avançado com chance de confusão."
+    }
+  },
+  "Lava": {
+    "Magma_Ascendente": {
+      "nome": "Magma Ascendente",
+      "tipo": "Elemental",
+      "raridade": "Raro",
+      "elemento": "Lava",
+      "custoMentalidade": 24,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 55,
+      "precisao": 86,
+      "efeito": "Coluna de lava que causa dano intenso."
+    },
+    "Nucleo_Incandescente": {
+      "nome": "Núcleo Incandescente",
+      "tipo": "Buff",
+      "raridade": "Raro",
+      "elemento": "Lava",
+      "custoMentalidade": 30,
+      "cooldown": 5,
+      "escala": "magicStrength",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta dano elemental por aquecimento interno."
+    },
+    "Erupcao_Vulcanica": {
+      "nome": "Erupção Vulcânica",
+      "tipo": "Elemental",
+      "raridade": "Muito Raro",
+      "elemento": "Lava",
+      "custoMentalidade": 55,
+      "cooldown": 8,
+      "escala": "magicStrength",
+      "dano": 118,
+      "precisao": 75,
+      "efeito": "Erupção de lava com chance alta de queimadura."
+    }
+  },
+  "Sombra": {
+    "Lamina_Sombria": {
+      "nome": "Lâmina Sombria",
+      "tipo": "Elemental",
+      "raridade": "Muito Raro",
+      "elemento": "Sombra",
+      "custoMentalidade": 24,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 52,
+      "precisao": 90,
+      "efeito": "Corte sombrio que ignora parte da defesa."
+    },
+    "Manto_da_Escuridao": {
+      "nome": "Manto da Escuridão",
+      "tipo": "Buff",
+      "raridade": "Muito Raro",
+      "elemento": "Sombra",
+      "custoMentalidade": 32,
+      "cooldown": 5,
+      "escala": "evasion",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta esquiva e ocultação temporariamente."
+    },
+    "Eclipse_Mortal": {
+      "nome": "Eclipse Mortal",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Sombra",
+      "custoMentalidade": 60,
+      "cooldown": 8,
+      "escala": "magicStrength",
+      "dano": 130,
+      "precisao": 72,
+      "efeito": "Ataque sombrio extremo com chance de corrupção."
+    }
+  },
+  "Luz": {
+    "Raio_Radiante": {
+      "nome": "Raio Radiante",
+      "tipo": "Elemental",
+      "raridade": "Muito Raro",
+      "elemento": "Luz",
+      "custoMentalidade": 22,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 50,
+      "precisao": 94,
+      "efeito": "Ataque luminoso preciso."
+    },
+    "Aura_Purificadora": {
+      "nome": "Aura Purificadora",
+      "tipo": "Suporte",
+      "raridade": "Muito Raro",
+      "elemento": "Luz",
+      "custoMentalidade": 34,
+      "cooldown": 5,
+      "escala": "magicStrength",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Remove efeitos negativos simples e recupera HP leve."
+    },
+    "Julgamento_Celestial": {
+      "nome": "Julgamento Celestial",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Luz",
+      "custoMentalidade": 60,
+      "cooldown": 8,
+      "escala": "magicStrength",
+      "dano": 125,
+      "precisao": 78,
+      "efeito": "Ataque de luz extrema com bônus contra sombra."
+    }
+  },
+  "Veneno": {
+    "Nuvem_Toxica": {
+      "nome": "Nuvem Tóxica",
+      "tipo": "Veneno",
+      "raridade": "Muito Raro",
+      "elemento": "Veneno",
+      "custoMentalidade": 22,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 35,
+      "precisao": 96,
+      "efeito": "Aplica veneno persistente."
+    },
+    "Sangue_Corrosivo": {
+      "nome": "Sangue Corrosivo",
+      "tipo": "Debuff",
+      "raridade": "Muito Raro",
+      "elemento": "Veneno",
+      "custoMentalidade": 32,
+      "cooldown": 5,
+      "escala": "magicStrength",
+      "dano": 58,
+      "precisao": 88,
+      "efeito": "Reduz defesa do alvo por corrosão."
+    },
+    "Toxina_Terminal": {
+      "nome": "Toxina Terminal",
+      "tipo": "Veneno",
+      "raridade": "Lendário",
+      "elemento": "Veneno",
+      "custoMentalidade": 58,
+      "cooldown": 8,
+      "escala": "magicStrength",
+      "dano": 115,
+      "precisao": 76,
+      "efeito": "Veneno extremo com alto dano e deterioração."
+    }
+  },
+  "Metal": {
+    "Lamina_de_Aco": {
+      "nome": "Lâmina de Aço",
+      "tipo": "Fisica",
+      "raridade": "Muito Raro",
+      "elemento": "Metal",
+      "custoMentalidade": 20,
+      "cooldown": 3,
+      "escala": "strength",
+      "dano": 55,
+      "precisao": 88,
+      "efeito": "Corte metálico de alto dano físico."
+    },
+    "Corpo_Ferroso": {
+      "nome": "Corpo Ferroso",
+      "tipo": "Buff",
+      "raridade": "Muito Raro",
+      "elemento": "Metal",
+      "custoMentalidade": 30,
+      "cooldown": 5,
+      "escala": "defense",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta muito a defesa, mas reduz velocidade temporariamente."
+    },
+    "Tempestade_Metalica": {
+      "nome": "Tempestade Metálica",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Metal",
+      "custoMentalidade": 55,
+      "cooldown": 8,
+      "escala": "magicStrength",
+      "dano": 118,
+      "precisao": 78,
+      "efeito": "Dispara múltiplos fragmentos metálicos."
+    }
+  },
+  "Tempo": {
+    "Atraso_Temporal": {
+      "nome": "Atraso Temporal",
+      "tipo": "Debuff",
+      "raridade": "Lendário",
+      "elemento": "Tempo",
+      "custoMentalidade": 30,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 40,
+      "precisao": 90,
+      "efeito": "Reduz velocidade do alvo manipulando o fluxo temporal."
+    },
+    "Fluxo_Acelerado": {
+      "nome": "Fluxo Acelerado",
+      "tipo": "Buff",
+      "raridade": "Lendário",
+      "elemento": "Tempo",
+      "custoMentalidade": 40,
+      "cooldown": 6,
+      "escala": "speed",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta drasticamente velocidade temporária."
+    },
+    "Paradoxo_Final": {
+      "nome": "Paradoxo Final",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Tempo",
+      "custoMentalidade": 70,
+      "cooldown": 10,
+      "escala": "magicStrength",
+      "dano": 145,
+      "precisao": 70,
+      "efeito": "Distorção temporal extrema com dano lendário."
+    }
+  },
+  "Espaço": {
+    "Fenda_Espacial": {
+      "nome": "Fenda Espacial",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Espaço",
+      "custoMentalidade": 30,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 60,
+      "precisao": 86,
+      "efeito": "Abre uma fenda que corta distância e defesa."
+    },
+    "Dobra_do_Vazio": {
+      "nome": "Dobra do Vazio",
+      "tipo": "Buff",
+      "raridade": "Lendário",
+      "elemento": "Espaço",
+      "custoMentalidade": 42,
+      "cooldown": 6,
+      "escala": "evasion",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Aumenta esquiva deslocando parcialmente o usuário no espaço."
+    },
+    "Ruptura_Dimensional": {
+      "nome": "Ruptura Dimensional",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Espaço",
+      "custoMentalidade": 72,
+      "cooldown": 10,
+      "escala": "magicStrength",
+      "dano": 150,
+      "precisao": 68,
+      "efeito": "Rasga o espaço e causa dano extremo."
+    }
+  },
+  "Gravidade": {
+    "Pressao_Gravitacional": {
+      "nome": "Pressão Gravitacional",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Gravidade",
+      "custoMentalidade": 32,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 62,
+      "precisao": 86,
+      "efeito": "Aumenta o peso do alvo e reduz sua velocidade."
+    },
+    "Campo_Gravitacional": {
+      "nome": "Campo Gravitacional",
+      "tipo": "Debuff",
+      "raridade": "Lendário",
+      "elemento": "Gravidade",
+      "custoMentalidade": 42,
+      "cooldown": 6,
+      "escala": "magicStrength",
+      "dano": 35,
+      "precisao": 90,
+      "efeito": "Cria campo que reduz esquiva e velocidade inimiga."
+    },
+    "Colapso_Orbital": {
+      "nome": "Colapso Orbital",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Gravidade",
+      "custoMentalidade": 75,
+      "cooldown": 10,
+      "escala": "magicStrength",
+      "dano": 155,
+      "precisao": 66,
+      "efeito": "Compressão gravitacional extrema."
+    }
+  },
+  "Matéria": {
+    "Compressao_Molecular": {
+      "nome": "Compressão Molecular",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Matéria",
+      "custoMentalidade": 34,
+      "cooldown": 4,
+      "escala": "magicStrength",
+      "dano": 65,
+      "precisao": 86,
+      "efeito": "Comprime a matéria do alvo causando dano interno."
+    },
+    "Reestruturacao_Atomica": {
+      "nome": "Reestruturação Atômica",
+      "tipo": "Suporte",
+      "raridade": "Lendário",
+      "elemento": "Matéria",
+      "custoMentalidade": 45,
+      "cooldown": 7,
+      "escala": "magicStrength",
+      "dano": 0,
+      "precisao": 100,
+      "efeito": "Reorganiza o corpo do usuário e recupera HP."
+    },
+    "Impacto_Subatomico": {
+      "nome": "Impacto Subatômico",
+      "tipo": "Elemental",
+      "raridade": "Lendário",
+      "elemento": "Matéria",
+      "custoMentalidade": 78,
+      "cooldown": 10,
+      "escala": "magicStrength",
+      "dano": 160,
+      "precisao": 65,
+      "efeito": "Ataque extremo que desestabiliza matéria."
+    }
+  }
+}
