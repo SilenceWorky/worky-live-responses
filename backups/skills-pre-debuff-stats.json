@@ -101,8 +101,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fogo.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Fogo."
     },
     "Labareda_Ascendente": {
       "nome": "Labareda Ascendente",
@@ -232,8 +231,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fogo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Fogo."
     },
     "Chama_Voraz": {
       "nome": "Chama Voraz",
@@ -363,8 +361,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fogo.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Fogo."
     },
     "Incendio_Imperial": {
       "nome": "Incêndio Imperial",
@@ -494,8 +491,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fogo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Fogo."
     },
     "Labareda_Profundo": {
       "nome": "Labareda Profundo",
@@ -625,8 +621,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fogo.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Fogo."
     },
     "Chama_Terminal": {
       "nome": "Chama Terminal",
@@ -758,8 +753,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Água.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Água."
     },
     "Torrente_Ascendente": {
       "nome": "Torrente Ascendente",
@@ -889,8 +883,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Água.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Água."
     },
     "Mare_Voraz": {
       "nome": "Maré Voraz",
@@ -1020,8 +1013,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Água.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Água."
     },
     "Geiser_Imperial": {
       "nome": "Gêiser Imperial",
@@ -1151,8 +1143,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Água.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Água."
     },
     "Torrente_Profundo": {
       "nome": "Torrente Profundo",
@@ -1282,8 +1273,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Água.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Água."
     },
     "Mare_Terminal": {
       "nome": "Maré Terminal",
@@ -1415,8 +1405,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vento.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Vento."
     },
     "Ciclone_Ascendente": {
       "nome": "Ciclone Ascendente",
@@ -1546,8 +1535,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vento.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Vento."
     },
     "Tufao_Voraz": {
       "nome": "Tufão Voraz",
@@ -1677,8 +1665,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vento.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Vento."
     },
     "Lamina_de_Ar_Imperial": {
       "nome": "Lâmina de Ar Imperial",
@@ -1808,8 +1795,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vento.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Vento."
     },
     "Vendaval_Profundo": {
       "nome": "Vendaval Profundo",
@@ -1939,8 +1925,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vento.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Vento."
     },
     "Tufao_Terminal": {
       "nome": "Tufão Terminal",
@@ -2072,8 +2057,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Terra.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Terra."
     },
     "Pilar_Ascendente": {
       "nome": "Pilar Ascendente",
@@ -2203,8 +2187,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Terra.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Terra."
     },
     "Rocha_Voraz": {
       "nome": "Rocha Voraz",
@@ -2334,8 +2317,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Terra.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Terra."
     },
     "Monolito_Imperial": {
       "nome": "Monólito Imperial",
@@ -2465,8 +2447,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Terra.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Terra."
     },
     "Pilar_Profundo": {
       "nome": "Pilar Profundo",
@@ -2596,8 +2577,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Terra.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Terra."
     },
     "Rocha_Terminal": {
       "nome": "Rocha Terminal",
@@ -2690,8 +2670,7 @@
       "dano": 25,
       "precisao": 94,
       "efeito": "Reduz temporariamente a pontaria do alvo.",
-      "prioridade": 0,
-      "debuffStat": "speed"
+      "prioridade": 0
     },
     "Tempestade_de_Tesla": {
       "nome": "Tempestade de Tesla",
@@ -2730,8 +2709,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade."
     },
     "Descarga_Ascendente": {
       "nome": "Descarga Ascendente",
@@ -2861,8 +2839,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade."
     },
     "Raio_Voraz": {
       "nome": "Raio Voraz",
@@ -2992,8 +2969,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade."
     },
     "Relampago_Imperial": {
       "nome": "Relâmpago Imperial",
@@ -3123,8 +3099,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade."
     },
     "Descarga_Profundo": {
       "nome": "Descarga Profundo",
@@ -3254,8 +3229,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Eletricidade."
     },
     "Raio_Terminal": {
       "nome": "Raio Terminal",
@@ -3361,8 +3335,7 @@
       "dano": 65,
       "precisao": 88,
       "efeito": "Desorganiza o fluxo do inimigo e reduz sua precisão.",
-      "prioridade": 0,
-      "debuffStat": "speed"
+      "prioridade": 0
     },
     "Corrente_Ascendente": {
       "nome": "Corrente Ascendente",
@@ -3388,8 +3361,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fluxo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Fluxo."
     },
     "Ritmo_Ascendente": {
       "nome": "Ritmo Ascendente",
@@ -3519,8 +3491,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fluxo.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Fluxo."
     },
     "Corrente_Voraz": {
       "nome": "Corrente Voraz",
@@ -3650,8 +3621,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fluxo.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Fluxo."
     },
     "Cadencia_Imperial": {
       "nome": "Cadência Imperial",
@@ -3781,8 +3751,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fluxo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Fluxo."
     },
     "Ritmo_Profundo": {
       "nome": "Ritmo Profundo",
@@ -3912,8 +3881,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Fluxo.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Fluxo."
     },
     "Corrente_Terminal": {
       "nome": "Corrente Terminal",
@@ -4045,8 +4013,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Cristal.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Cristal."
     },
     "Agulha_Ascendente": {
       "nome": "Agulha Ascendente",
@@ -4176,8 +4143,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Cristal.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Cristal."
     },
     "Fragmento_Voraz": {
       "nome": "Fragmento Voraz",
@@ -4307,8 +4273,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Cristal.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Cristal."
     },
     "Estilhaco_Imperial": {
       "nome": "Estilhaço Imperial",
@@ -4438,8 +4403,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Cristal.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Cristal."
     },
     "Agulha_Profundo": {
       "nome": "Agulha Profundo",
@@ -4569,8 +4533,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Cristal.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Cristal."
     },
     "Fragmento_Terminal": {
       "nome": "Fragmento Terminal",
@@ -4676,8 +4639,7 @@
       "dano": 70,
       "precisao": 86,
       "efeito": "Confunde o inimigo com vibrações caóticas.",
-      "prioridade": 0,
-      "debuffStat": "accuracy"
+      "prioridade": 0
     },
     "Onda_Sonica_Ascendente": {
       "nome": "Onda Sônica Ascendente",
@@ -4703,8 +4665,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Som.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Som."
     },
     "Acorde_Ascendente": {
       "nome": "Acorde Ascendente",
@@ -4834,8 +4795,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Som.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Som."
     },
     "Onda_Sonica_Voraz": {
       "nome": "Onda Sônica Voraz",
@@ -4965,8 +4925,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Som.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Som."
     },
     "Frequencia_Imperial": {
       "nome": "Frequência Imperial",
@@ -5096,8 +5055,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Som.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Som."
     },
     "Acorde_Profundo": {
       "nome": "Acorde Profundo",
@@ -5227,8 +5185,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Som.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Som."
     },
     "Onda_Sonica_Terminal": {
       "nome": "Onda Sônica Terminal",
@@ -5308,8 +5265,7 @@
       "dano": 35,
       "precisao": 94,
       "efeito": "Imobiliza parcialmente o alvo.",
-      "prioridade": 0,
-      "debuffStat": "speed"
+      "prioridade": 0
     },
     "Polen_Toxico": {
       "nome": "Pólen Tóxico",
@@ -5322,8 +5278,7 @@
       "dano": 30,
       "precisao": 98,
       "efeito": "Aplica veneno natural.",
-      "prioridade": 0,
-      "debuffStat": "evasion"
+      "prioridade": 0
     },
     "Floresta_Voraz": {
       "nome": "Floresta Voraz",
@@ -5362,8 +5317,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Natureza.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Natureza."
     },
     "Polen_Ascendente": {
       "nome": "Pólen Ascendente",
@@ -5493,8 +5447,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Natureza.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Natureza."
     },
     "Raizes_Voraz": {
       "nome": "Raízes Voraz",
@@ -5624,8 +5577,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Natureza.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Natureza."
     },
     "Semente_Imperial": {
       "nome": "Semente Imperial",
@@ -5755,8 +5707,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Natureza.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Natureza."
     },
     "Floresta_Profundo": {
       "nome": "Floresta Profundo",
@@ -5886,8 +5837,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Natureza.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Natureza."
     },
     "Espinhos_Terminal": {
       "nome": "Espinhos Terminal",
@@ -6019,8 +5969,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gelo.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Gelo."
     },
     "Geada_Ascendente": {
       "nome": "Geada Ascendente",
@@ -6150,8 +6099,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gelo.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Gelo."
     },
     "Lanca_Glaciar_Voraz": {
       "nome": "Lança Glaciar Voraz",
@@ -6281,8 +6229,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gelo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Gelo."
     },
     "Avalanche_Imperial": {
       "nome": "Avalanche Imperial",
@@ -6412,8 +6359,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gelo.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Gelo."
     },
     "Geada_Profundo": {
       "nome": "Geada Profundo",
@@ -6543,8 +6489,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gelo.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Gelo."
     },
     "Lanca_Glaciar_Terminal": {
       "nome": "Lança Glaciar Terminal",
@@ -6637,8 +6582,7 @@
       "dano": 45,
       "precisao": 88,
       "efeito": "Reduz precisão e força mágica do inimigo.",
-      "prioridade": 0,
-      "debuffStat": "accuracy"
+      "prioridade": 0
     },
     "Dominio_Psiquico": {
       "nome": "Domínio Psíquico",
@@ -6677,8 +6621,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Psíquico.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Psíquico."
     },
     "Sinapse_Ascendente": {
       "nome": "Sinapse Ascendente",
@@ -6808,8 +6751,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Psíquico.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Psíquico."
     },
     "Pressao_Mental_Voraz": {
       "nome": "Pressão Mental Voraz",
@@ -6939,8 +6881,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Psíquico.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Psíquico."
     },
     "Comando_Imperial": {
       "nome": "Comando Imperial",
@@ -7070,8 +7011,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Psíquico.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Psíquico."
     },
     "Sinapse_Profundo": {
       "nome": "Sinapse Profundo",
@@ -7201,8 +7141,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Psíquico.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Psíquico."
     },
     "Pressao_Mental_Terminal": {
       "nome": "Pressão Mental Terminal",
@@ -7334,8 +7273,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Lava.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Lava."
     },
     "Rio_de_Lava_Ascendente": {
       "nome": "Rio de Lava Ascendente",
@@ -7465,8 +7403,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Lava.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Lava."
     },
     "Erupcao_Voraz": {
       "nome": "Erupção Voraz",
@@ -7596,8 +7533,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Lava.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Lava."
     },
     "Caldeira_Imperial": {
       "nome": "Caldeira Imperial",
@@ -7727,8 +7663,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Lava.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Lava."
     },
     "Rio_de_Lava_Profundo": {
       "nome": "Rio de Lava Profundo",
@@ -7858,8 +7793,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Lava.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Lava."
     },
     "Erupcao_Terminal": {
       "nome": "Erupção Terminal",
@@ -7991,8 +7925,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Sombra.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Sombra."
     },
     "Veu_Ascendente": {
       "nome": "Véu Ascendente",
@@ -8122,8 +8055,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Sombra.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Sombra."
     },
     "Lamina_Sombria_Voraz": {
       "nome": "Lâmina Sombria Voraz",
@@ -8253,8 +8185,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Sombra.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Sombra."
     },
     "Eclipse_Imperial": {
       "nome": "Eclipse Imperial",
@@ -8384,8 +8315,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Sombra.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Sombra."
     },
     "Veu_Profundo": {
       "nome": "Véu Profundo",
@@ -8515,8 +8445,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Sombra.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Sombra."
     },
     "Lamina_Sombria_Terminal": {
       "nome": "Lâmina Sombria Terminal",
@@ -8648,8 +8577,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Luz.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Luz."
     },
     "Facho_Ascendente": {
       "nome": "Facho Ascendente",
@@ -8779,8 +8707,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Luz.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Luz."
     },
     "Raio_Radiante_Voraz": {
       "nome": "Raio Radiante Voraz",
@@ -8910,8 +8837,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Luz.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Luz."
     },
     "Clarao_Imperial": {
       "nome": "Clarão Imperial",
@@ -9041,8 +8967,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Luz.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Luz."
     },
     "Facho_Profundo": {
       "nome": "Facho Profundo",
@@ -9172,8 +9097,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Luz.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Luz."
     },
     "Raio_Radiante_Terminal": {
       "nome": "Raio Radiante Terminal",
@@ -9253,8 +9177,7 @@
       "dano": 35,
       "precisao": 96,
       "efeito": "Aplica veneno persistente.",
-      "prioridade": 0,
-      "debuffStat": "strength"
+      "prioridade": 0
     },
     "Sangue_Corrosivo": {
       "nome": "Sangue Corrosivo",
@@ -9267,8 +9190,7 @@
       "dano": 58,
       "precisao": 88,
       "efeito": "Reduz defesa do alvo por corrosão.",
-      "prioridade": 0,
-      "debuffStat": "speed"
+      "prioridade": 0
     },
     "Toxina_Terminal": {
       "nome": "Toxina Terminal",
@@ -9281,8 +9203,7 @@
       "dano": 115,
       "precisao": 76,
       "efeito": "Veneno extremo com alto dano e deterioração.",
-      "prioridade": 0,
-      "debuffStat": "defense"
+      "prioridade": 0
     },
     "Nuvem_Toxica_Ascendente": {
       "nome": "Nuvem Tóxica Ascendente",
@@ -9308,8 +9229,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Veneno.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Veneno."
     },
     "Miasma_Ascendente": {
       "nome": "Miasma Ascendente",
@@ -9439,8 +9359,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Veneno.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Veneno."
     },
     "Nuvem_Toxica_Voraz": {
       "nome": "Nuvem Tóxica Voraz",
@@ -9570,8 +9489,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Veneno.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Veneno."
     },
     "Contaminacao_Imperial": {
       "nome": "Contaminação Imperial",
@@ -9701,8 +9619,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Veneno.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Veneno."
     },
     "Miasma_Profundo": {
       "nome": "Miasma Profundo",
@@ -9832,8 +9749,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Veneno.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Veneno."
     },
     "Nuvem_Toxica_Terminal": {
       "nome": "Nuvem Tóxica Terminal",
@@ -9965,8 +9881,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Metal.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Metal."
     },
     "Martelo_Ascendente": {
       "nome": "Martelo Ascendente",
@@ -10096,8 +10011,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Metal.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Metal."
     },
     "Lamina_de_Aco_Voraz": {
       "nome": "Lâmina de Aço Voraz",
@@ -10227,8 +10141,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Metal.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Metal."
     },
     "Chuva_de_Aco_Imperial": {
       "nome": "Chuva de Aço Imperial",
@@ -10358,8 +10271,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Metal.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Metal."
     },
     "Martelo_Profundo": {
       "nome": "Martelo Profundo",
@@ -10489,8 +10401,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Metal.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Metal."
     },
     "Lamina_de_Aco_Terminal": {
       "nome": "Lâmina de Aço Terminal",
@@ -10570,8 +10481,7 @@
       "dano": 40,
       "precisao": 90,
       "efeito": "Reduz velocidade do alvo manipulando o fluxo temporal.",
-      "prioridade": 0,
-      "debuffStat": "speed"
+      "prioridade": 0
     },
     "Fluxo_Acelerado": {
       "nome": "Fluxo Acelerado",
@@ -10623,8 +10533,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Tempo.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Tempo."
     },
     "Instante_Ascendente": {
       "nome": "Instante Ascendente",
@@ -10754,8 +10663,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Tempo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Tempo."
     },
     "Atraso_Temporal_Voraz": {
       "nome": "Atraso Temporal Voraz",
@@ -10885,8 +10793,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Tempo.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Tempo."
     },
     "Linha_Temporal_Imperial": {
       "nome": "Linha Temporal Imperial",
@@ -11016,8 +10923,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Tempo.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Tempo."
     },
     "Instante_Profundo": {
       "nome": "Instante Profundo",
@@ -11147,8 +11053,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Tempo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Tempo."
     },
     "Atraso_Temporal_Terminal": {
       "nome": "Atraso Temporal Terminal",
@@ -11280,8 +11185,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Espaço.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Espaço."
     },
     "Salto_Ascendente": {
       "nome": "Salto Ascendente",
@@ -11411,8 +11315,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Espaço.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Espaço."
     },
     "Fenda_Espacial_Voraz": {
       "nome": "Fenda Espacial Voraz",
@@ -11542,8 +11445,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Espaço.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Espaço."
     },
     "Vacuo_Imperial": {
       "nome": "Vácuo Imperial",
@@ -11673,8 +11575,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Espaço.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Espaço."
     },
     "Salto_Profundo": {
       "nome": "Salto Profundo",
@@ -11804,8 +11705,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Espaço.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Espaço."
     },
     "Fenda_Espacial_Terminal": {
       "nome": "Fenda Espacial Terminal",
@@ -11898,8 +11798,7 @@
       "dano": 35,
       "precisao": 90,
       "efeito": "Cria campo que reduz esquiva e velocidade inimiga.",
-      "prioridade": 0,
-      "debuffStat": "speed"
+      "prioridade": 0
     },
     "Colapso_Orbital": {
       "nome": "Colapso Orbital",
@@ -11938,8 +11837,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gravidade.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Gravidade."
     },
     "Poco_Gravitacional_Ascendente": {
       "nome": "Poço Gravitacional Ascendente",
@@ -12069,8 +11967,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gravidade.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Gravidade."
     },
     "Pressao_Gravitacional_Voraz": {
       "nome": "Pressão Gravitacional Voraz",
@@ -12200,8 +12097,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gravidade.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Gravidade."
     },
     "Queda_Imperial": {
       "nome": "Queda Imperial",
@@ -12331,8 +12227,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gravidade.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Gravidade."
     },
     "Poco_Gravitacional_Profundo": {
       "nome": "Poço Gravitacional Profundo",
@@ -12462,8 +12357,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gravidade.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Gravidade."
     },
     "Pressao_Gravitacional_Terminal": {
       "nome": "Pressão Gravitacional Terminal",
@@ -12595,8 +12489,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Matéria.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Matéria."
     },
     "Ruptura_Molecular_Ascendente": {
       "nome": "Ruptura Molecular Ascendente",
@@ -12726,8 +12619,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Matéria.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Matéria."
     },
     "Compressao_Molecular_Voraz": {
       "nome": "Compressão Molecular Voraz",
@@ -12857,8 +12749,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Matéria.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Matéria."
     },
     "Recomposicao_Imperial": {
       "nome": "Recomposição Imperial",
@@ -12988,8 +12879,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Matéria.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Matéria."
     },
     "Ruptura_Molecular_Profundo": {
       "nome": "Ruptura Molecular Profundo",
@@ -13119,8 +13009,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Matéria.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Matéria."
     },
     "Compressao_Molecular_Terminal": {
       "nome": "Compressão Molecular Terminal",
@@ -13252,8 +13141,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Neutro.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Neutro."
     },
     "Pulso_Ascendente": {
       "nome": "Pulso Ascendente",
@@ -13383,8 +13271,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Neutro.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Neutro."
     },
     "Golpe_Puro_Voraz": {
       "nome": "Golpe Puro Voraz",
@@ -13514,8 +13401,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Neutro.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Neutro."
     },
     "Concentracao_Imperial": {
       "nome": "Concentração Imperial",
@@ -13645,8 +13531,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Neutro.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Neutro."
     },
     "Pulso_Profundo": {
       "nome": "Pulso Profundo",
@@ -13776,8 +13661,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Neutro.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Neutro."
     },
     "Golpe_Puro_Terminal": {
       "nome": "Golpe Puro Terminal",
@@ -13909,8 +13793,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vidro.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Vidro."
     },
     "Espelho_Ascendente": {
       "nome": "Espelho Ascendente",
@@ -14040,8 +13923,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vidro.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Vidro."
     },
     "Prisma_Vitreo_Voraz": {
       "nome": "Prisma Vítreo Voraz",
@@ -14171,8 +14053,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vidro.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Vidro."
     },
     "Estilhaco_Cortante": {
       "nome": "Estilhaço Cortante de Vidro",
@@ -14302,8 +14183,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vidro.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Vidro."
     },
     "Espelho_Profundo": {
       "nome": "Espelho Profundo",
@@ -14433,8 +14313,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vidro.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Vidro."
     },
     "Prisma_Vitreo_Terminal": {
       "nome": "Prisma Vítreo Terminal",
@@ -14566,8 +14445,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vapor.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Vapor."
     },
     "Condensacao_Ascendente": {
       "nome": "Condensação Ascendente",
@@ -14697,8 +14575,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vapor.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Vapor."
     },
     "Caldeira_Voraz": {
       "nome": "Caldeira Voraz de Vapor",
@@ -14828,8 +14705,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vapor.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Vapor."
     },
     "Jato_Pressurizado_Cortante": {
       "nome": "Jato Pressurizado Cortante",
@@ -14959,8 +14835,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vapor.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Vapor."
     },
     "Condensacao_Profundo": {
       "nome": "Condensação Profundo",
@@ -15090,8 +14965,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Vapor.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Vapor."
     },
     "Caldeira_Terminal": {
       "nome": "Caldeira Terminal de Vapor",
@@ -15223,8 +15097,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo."
     },
     "Dipolo_Ascendente": {
       "nome": "Dipolo Ascendente",
@@ -15354,8 +15227,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo."
     },
     "Repulsao_Voraz": {
       "nome": "Repulsão Voraz",
@@ -15485,8 +15357,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo."
     },
     "Polaridade_Cortante": {
       "nome": "Polaridade Cortante",
@@ -15616,8 +15487,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo."
     },
     "Dipolo_Profundo": {
       "nome": "Dipolo Profundo",
@@ -15747,8 +15617,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Magnetismo."
     },
     "Repulsao_Terminal": {
       "nome": "Repulsão Terminal",
@@ -15880,8 +15749,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana."
     },
     "Fragmentacao_Negra_Ascendente": {
       "nome": "Fragmentação Negra Ascendente",
@@ -16011,8 +15879,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana."
     },
     "Muralha_Vulcanica_Voraz": {
       "nome": "Muralha Vulcânica Voraz",
@@ -16142,8 +16009,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana."
     },
     "Espinho_Negro_Cortante": {
       "nome": "Espinho Negro Cortante",
@@ -16273,8 +16139,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana."
     },
     "Fragmentacao_Negra_Profundo": {
       "nome": "Fragmentação Negra Profundo",
@@ -16404,8 +16269,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Obsidiana."
     },
     "Muralha_Vulcanica_Terminal": {
       "nome": "Muralha Vulcânica Terminal",
@@ -16537,8 +16401,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ilusão.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Ilusão."
     },
     "Fantasma_Ascendente": {
       "nome": "Fantasma Ascendente",
@@ -16668,8 +16531,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ilusão.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Ilusão."
     },
     "Imagem_Dupla_Voraz": {
       "nome": "Imagem Dupla Voraz",
@@ -16799,8 +16661,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ilusão.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Ilusão."
     },
     "Reflexo_Falso_Cortante": {
       "nome": "Reflexo Falso Cortante",
@@ -16930,8 +16791,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ilusão.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Ilusão."
     },
     "Fantasma_Profundo": {
       "nome": "Fantasma Profundo",
@@ -17061,8 +16921,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ilusão.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Ilusão."
     },
     "Imagem_Dupla_Terminal": {
       "nome": "Imagem Dupla Terminal",
@@ -17194,8 +17053,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ácido.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Ácido."
     },
     "Mare_Acida_Ascendente": {
       "nome": "Maré Ácida Ascendente",
@@ -17325,8 +17183,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ácido.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Ácido."
     },
     "Nevoa_Corrosiva_Voraz": {
       "nome": "Névoa Corrosiva Voraz",
@@ -17456,8 +17313,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ácido.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Ácido."
     },
     "Chuva_Corrosiva_Cortante": {
       "nome": "Chuva Corrosiva Cortante",
@@ -17587,8 +17443,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ácido.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Ácido."
     },
     "Mare_Acida_Profundo": {
       "nome": "Maré Ácida Profundo",
@@ -17718,8 +17573,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ácido.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Ácido."
     },
     "Nevoa_Corrosiva_Terminal": {
       "nome": "Névoa Corrosiva Terminal",
@@ -17851,8 +17705,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Plasma.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Plasma."
     },
     "Pulso_Ionizado_Ascendente": {
       "nome": "Pulso Ionizado Ascendente",
@@ -17982,8 +17835,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Plasma.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Plasma."
     },
     "Lamina_Plasmatica_Voraz": {
       "nome": "Lâmina Plasmática Voraz",
@@ -18113,8 +17965,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Plasma.",
-      "debuffStat": "accuracy"
+      "efeito": "Aplica um efeito debilitante relacionado a Plasma."
     },
     "Arco_Plasmatico_Cortante": {
       "nome": "Arco Plasmático Cortante",
@@ -18244,8 +18095,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Plasma.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Plasma."
     },
     "Pulso_Ionizado_Profundo": {
       "nome": "Pulso Ionizado Profundo",
@@ -18375,8 +18225,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Plasma.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Plasma."
     },
     "Lamina_Plasmatica_Terminal": {
       "nome": "Lâmina Plasmática Terminal",
@@ -18508,8 +18357,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Radiação.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Radiação."
     },
     "Fissao_Ascendente": {
       "nome": "Fissão Ascendente",
@@ -18639,8 +18487,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Radiação.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Radiação."
     },
     "Decaimento_Voraz": {
       "nome": "Decaimento Voraz",
@@ -18770,8 +18617,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Radiação.",
-      "debuffStat": "magicStrength"
+      "efeito": "Aplica um efeito debilitante relacionado a Radiação."
     },
     "Feixe_Ionizante_Cortante": {
       "nome": "Feixe Ionizante Cortante",
@@ -18901,8 +18747,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Radiação.",
-      "debuffStat": "strength"
+      "efeito": "Aplica um efeito debilitante relacionado a Radiação."
     },
     "Fissao_Profundo": {
       "nome": "Fissão Profundo",
@@ -19032,8 +18877,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Radiação.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Radiação."
     },
     "Decaimento_Terminal": {
       "nome": "Decaimento Terminal",
@@ -19165,8 +19009,7 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Singularidade.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Singularidade."
     },
     "Colapso_Cosmico_Ascendente": {
       "nome": "Colapso Cósmico Ascendente",
@@ -19296,8 +19139,7 @@
       "dano": 26,
       "precisao": 94,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Singularidade.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Singularidade."
     },
     "Nucleo_Singular_Voraz": {
       "nome": "Núcleo Singular Voraz",
@@ -19427,8 +19269,7 @@
       "dano": 32,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Singularidade.",
-      "debuffStat": "defense"
+      "efeito": "Aplica um efeito debilitante relacionado a Singularidade."
     },
     "Poco_Infinito_Cortante": {
       "nome": "Poço Infinito Cortante",
@@ -19558,8 +19399,7 @@
       "dano": 38,
       "precisao": 90,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Singularidade.",
-      "debuffStat": "speed"
+      "efeito": "Aplica um efeito debilitante relacionado a Singularidade."
     },
     "Colapso_Cosmico_Profundo": {
       "nome": "Colapso Cósmico Profundo",
@@ -19689,8 +19529,7 @@
       "dano": 44,
       "precisao": 88,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Singularidade.",
-      "debuffStat": "evasion"
+      "efeito": "Aplica um efeito debilitante relacionado a Singularidade."
     },
     "Nucleo_Singular_Terminal": {
       "nome": "Núcleo Singular Terminal",
