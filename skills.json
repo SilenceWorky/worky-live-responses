@@ -63,6 +63,7 @@
       "precisao": 85,
       "efeito": "Explosão concentrada de calor com dano alto.",
       "prioridade": 0
+      "dotType": "queimadura",
     },
     "Inferno_Escarlate": {
       "nome": "Inferno Escarlate",
