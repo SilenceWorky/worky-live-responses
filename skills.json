@@ -5970,7 +5970,9 @@
       "dano": 46,
       "precisao": 90,
       "efeito": "Causa dano de gelo com chance de congelamento.",
-      "prioridade": 0
+      "prioridade": 0,
+      "controlType": "congelamento",
+      "controlDuration": 1
     },
     "Cristais_Frios": {
       "nome": "Cristais Frios",
