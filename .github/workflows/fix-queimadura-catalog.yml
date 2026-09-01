@@ -60,7 +60,6 @@ jobs:
               1
           )
 
-          # Validação estrutural antes de salvar.
           json.loads(text)
           path.write_text(text, encoding="utf-8")
 
@@ -71,3 +70,5 @@ jobs:
           git add skills.json
           git commit -m "Corrige Queimadura piloto na Chama Devastadora"
           git push
+
+# trigger 2
