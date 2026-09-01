@@ -2677,8 +2677,10 @@
       "escala": "magicStrength",
       "dano": 42,
       "precisao": 100,
-      "efeito": "Ataque elétrico rápido com chance de atordoamento.",
-      "prioridade": 0
+      "efeito": "Ataque elétrico rápido que paralisa brevemente o alvo.",
+      "prioridade": 0,
+      "controlType": "paralisia",
+      "controlDuration": 1
     },
     "Impulso_Eletromagnetico": {
       "nome": "Impulso Eletromagnético",
