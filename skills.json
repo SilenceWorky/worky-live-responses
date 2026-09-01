@@ -49,7 +49,8 @@
       "dano": 45,
       "precisao": 90,
       "efeito": "Causa dano de fogo e aplica queimadura leve.",
-      "prioridade": 0
+      "prioridade": 0,
+      "dotType": "queimadura"
     },
     "Explosao_Termica": {
       "nome": "Explosão Térmica",
@@ -63,7 +64,6 @@
       "precisao": 85,
       "efeito": "Explosão concentrada de calor com dano alto.",
       "prioridade": 0
-      "dotType": "queimadura",
     },
     "Inferno_Escarlate": {
       "nome": "Inferno Escarlate",
