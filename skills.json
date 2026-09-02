@@ -1770,7 +1770,8 @@
       "dano": 64,
       "precisao": 86,
       "prioridade": 0,
-      "efeito": "Ataque direto utilizando o poder de Vento."
+      "efeito": "Ataque direto utilizando o poder de Vento.",
+      "dotType": "sangramento"
     },
     "Rajada_Profundo": {
       "nome": "Rajada Profundo",
