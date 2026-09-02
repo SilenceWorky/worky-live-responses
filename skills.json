@@ -4723,7 +4723,9 @@
       "dano": 34,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Ataque direto utilizando o poder de Som."
+      "efeito": "Ataque sonoro que silencia temporariamente a canalização de habilidades não físicas do alvo.",
+      "restrictionType": "silencio",
+      "restrictionDuration": 2
     },
     "Ressonancia_Ascendente": {
       "nome": "Ressonância Ascendente",
