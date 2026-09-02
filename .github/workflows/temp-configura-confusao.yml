@@ -1,0 +1,76 @@
+name: Configurar piloto de Confusao
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/temp-configura-confusao.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar habilidade piloto
+        run: |
+          python - <<'PY'
+          import json
+          import unicodedata
+          from pathlib import Path
+
+          def norm(value):
+              text = unicodedata.normalize("NFD", str(value))
+              return "".join(ch for ch in text if unicodedata.category(ch) != "Mn").strip().lower()
+
+          path = Path("skills.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          group_key = next((key for key in data if norm(key) == "ilusao"), None)
+          if group_key is None:
+              raise SystemExit("Grupo Ilusao nao encontrado")
+
+          group = data[group_key]
+          candidates = [
+              (key, skill)
+              for key, skill in group.items()
+              if norm(skill.get("tipo", "")) == "debuff"
+          ]
+
+          if not candidates:
+              raise SystemExit("Nenhuma habilidade Debuff encontrada em Ilusao")
+
+          key, skill = candidates[0]
+          skill["debuffType"] = "confusao"
+          skill["debuffDuration"] = 2
+          skill["confusionChance"] = 0.5
+          skill["confusionSelfDamage"] = 10
+          skill["efeito"] = "Confunde o alvo por 2 acoes. Em cada acao, ha 50% de chance de agir normalmente e 50% de chance de se ferir e perder a acao."
+
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+
+          Path("confusao-piloto.txt").write_text(
+              f"{group_key}:{key}\n{skill['nome']}\n",
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Validar JSON
+        run: python -m json.tool skills.json >/dev/null
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add skills.json confusao-piloto.txt
+          git commit -m "Configura piloto de Confusao" || exit 0
+          git push
