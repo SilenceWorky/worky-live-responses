@@ -1,0 +1,83 @@
+name: Piloto de Atordoamento
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/temp-atordoamento-piloto.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar piloto de Atordoamento
+        run: |
+          python - <<'PY'
+          import json
+          import unicodedata
+          from pathlib import Path
+
+          path = Path("skills.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          def normalize(value):
+              text = str(value or "")
+              text = unicodedata.normalize("NFD", text)
+              text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+              return text.lower()
+
+          matches = []
+
+          for group_name, group in data.items():
+              if not isinstance(group, dict):
+                  continue
+
+              for skill_key, skill in group.items():
+                  if not isinstance(skill, dict):
+                      continue
+
+                  if "atordo" in normalize(skill.get("efeito")):
+                      matches.append((group_name, skill_key, skill))
+
+          if len(matches) != 1:
+              raise SystemExit(
+                  f"Esperava exatamente 1 habilidade com atordoamento; encontrei {len(matches)}: " +
+                  ", ".join(f"{g}:{k}" for g, k, _ in matches)
+              )
+
+          group_name, skill_key, skill = matches[0]
+
+          skill["controlType"] = "atordoamento"
+          skill["controlDuration"] = 1
+
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+
+          print(f"PILOTO_ATORDOAMENTO={group_name}:{skill_key}")
+          print(f"NOME={skill.get('nome')}")
+          print(f"EFEITO={skill.get('efeito')}")
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- skills.json; then
+            echo "Nenhuma alteração necessária."
+            exit 0
+          fi
+
+          git add skills.json
+          git commit -m "Configura piloto de Atordoamento"
+          git push
