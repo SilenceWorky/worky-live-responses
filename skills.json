@@ -16554,8 +16554,12 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Ilusão.",
-      "debuffStat": "accuracy"
+      "efeito": "Confunde o alvo por 2 acoes. Em cada acao, ha 50% de chance de agir normalmente e 50% de chance de se ferir e perder a acao.",
+      "debuffStat": "accuracy",
+      "debuffType": "confusao",
+      "debuffDuration": 2,
+      "confusionChance": 0.5,
+      "confusionSelfDamage": 10
     },
     "Fantasma_Ascendente": {
       "nome": "Fantasma Ascendente",
