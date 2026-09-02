@@ -6649,9 +6649,12 @@
       "escala": "magicStrength",
       "dano": 45,
       "precisao": 88,
-      "efeito": "Reduz precisão e força mágica do inimigo.",
+      "efeito": "Adormece o alvo por até 2 ações. Enquanto dorme, perde a ação. Dano direto recebido depois da aplicação acorda o alvo imediatamente.",
       "prioridade": 0,
-      "debuffStat": "accuracy"
+      "debuffStat": "accuracy",
+      "controlType": "sono",
+      "controlDuration": 2,
+      "sleepWakeOnDirectDamage": true
     },
     "Dominio_Psiquico": {
       "nome": "Domínio Psíquico",
