@@ -4653,7 +4653,9 @@
       "dano": 36,
       "precisao": 100,
       "efeito": "Ataque sônico preciso com chance de atordoamento leve.",
-      "prioridade": 0
+      "prioridade": 0,
+      "controlType": "atordoamento",
+      "controlDuration": 1
     },
     "Eco_Amplificado": {
       "nome": "Eco Amplificado",
