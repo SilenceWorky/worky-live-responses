@@ -6029,8 +6029,11 @@
       "dano": 20,
       "precisao": 96,
       "prioridade": 0,
-      "efeito": "Aplica um efeito debilitante relacionado a Gelo.",
-      "debuffStat": "speed"
+      "efeito": "Reduz temporariamente a Velocidade do alvo, alterando a ordem das ações nos turnos seguintes.",
+      "debuffStat": "speed",
+      "debuffType": "lentidao",
+      "debuffAmount": 20,
+      "debuffDuration": 2
     },
     "Geada_Ascendente": {
       "nome": "Geada Ascendente",
