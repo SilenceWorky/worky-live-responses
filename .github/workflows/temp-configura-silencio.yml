@@ -1,0 +1,51 @@
+name: Configurar piloto de Silencio
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/temp-configura-silencio.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar habilidade piloto
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("skills.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          skill = data["Som"]["Acorde_Ascendente"]
+          skill["restrictionType"] = "silencio"
+          skill["restrictionDuration"] = 2
+          skill["efeito"] = "Ataque sonoro que silencia temporariamente a canalização de habilidades não físicas do alvo."
+
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Validar JSON
+        run: |
+          python -m json.tool skills.json >/dev/null
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add skills.json
+          git commit -m "Configura piloto de Silencio" || exit 0
+          git push
