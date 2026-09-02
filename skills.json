@@ -8013,7 +8013,11 @@
       "dano": 34,
       "precisao": 92,
       "prioridade": 0,
-      "efeito": "Ataque direto utilizando o poder de Sombra."
+      "efeito": "Cria um véu de sombras que prejudica a visão do alvo e reduz sua Precisão.",
+      "debuffType": "cegueira",
+      "debuffStat": "accuracy",
+      "debuffAmount": 20,
+      "debuffDuration": 2
     },
     "Abismo_Ascendente": {
       "nome": "Abismo Ascendente",
