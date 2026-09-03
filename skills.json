@@ -35,6 +35,34 @@
       "dano": 0,
       "precisao": 100,
       "efeito": "Recupera parte da mentalidade do usuário."
+    },
+    "Contra_Ataque": {
+      "nome": "Contra-ataque",
+      "tipo": "Fisica",
+      "raridade": "Comum",
+      "elemento": "Universal",
+      "custoMentalidade": 0,
+      "cooldown": 2,
+      "escala": "strength",
+      "dano": 0,
+      "precisao": 100,
+      "prioridade": 100,
+      "reactionType": "counter_physical",
+      "efeito": "Prepara uma postura contra golpes Físicos diretos. Se ativar, recebe 50% do dano e devolve 50% ao atacante."
+    },
+    "Refletir": {
+      "nome": "Refletir",
+      "tipo": "Elemental",
+      "raridade": "Comum",
+      "elemento": "Universal",
+      "custoMentalidade": 10,
+      "cooldown": 3,
+      "escala": "magicStrength",
+      "dano": 0,
+      "precisao": 100,
+      "prioridade": 100,
+      "reactionType": "reflect_elemental",
+      "efeito": "Prepara uma reflexão contra golpes Elementais do mesmo elemento do usuário. Se ativar, recebe 50% do dano e devolve 50% ao atacante."
     }
   },
   "Fogo": {
