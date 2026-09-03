@@ -1,0 +1,85 @@
+name: Adicionar Counter e Refletir
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/temp-counter-refletir.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Adicionar habilidades Universais
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("skills.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          universais = data.setdefault("Universais", {})
+
+          universais["Contra_Ataque"] = {
+              "nome": "Contra-ataque",
+              "tipo": "Fisica",
+              "raridade": "Comum",
+              "elemento": "Universal",
+              "custoMentalidade": 0,
+              "cooldown": 2,
+              "escala": "strength",
+              "dano": 0,
+              "precisao": 100,
+              "prioridade": 100,
+              "reactionType": "counter_physical",
+              "efeito": "Prepara uma postura contra golpes Físicos diretos. Se ativar, recebe 50% do dano e devolve 50% ao atacante."
+          }
+
+          universais["Refletir"] = {
+              "nome": "Refletir",
+              "tipo": "Elemental",
+              "raridade": "Comum",
+              "elemento": "Universal",
+              "custoMentalidade": 10,
+              "cooldown": 3,
+              "escala": "magicStrength",
+              "dano": 0,
+              "precisao": 100,
+              "prioridade": 100,
+              "reactionType": "reflect_elemental",
+              "efeito": "Prepara uma reflexão contra golpes Elementais do mesmo elemento do usuário. Se ativar, recebe 50% do dano e devolve 50% ao atacante."
+          }
+
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+
+          check = json.loads(path.read_text(encoding="utf-8"))
+          assert check["Universais"]["Contra_Ataque"]["reactionType"] == "counter_physical"
+          assert check["Universais"]["Contra_Ataque"]["custoMentalidade"] == 0
+          assert check["Universais"]["Contra_Ataque"]["prioridade"] == 100
+          assert check["Universais"]["Refletir"]["reactionType"] == "reflect_elemental"
+          assert check["Universais"]["Refletir"]["custoMentalidade"] == 10
+          assert check["Universais"]["Refletir"]["prioridade"] == 100
+          print("Counter e Refletir adicionados ao grupo Universais.")
+          PY
+
+      - name: Validar JSON
+        run: python -m json.tool skills.json >/dev/null
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add skills.json
+          git commit -m "Adiciona Counter fisico e Refletir elemental" || exit 0
+          git push
