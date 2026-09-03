@@ -1,0 +1,84 @@
+name: Restaurar Ilusao como fusao
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/temp-restaura-ilusao.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restaurar catalogo de Ilusao
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("skills.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          illusion = data.get("Ilusão")
+          if not illusion:
+              raise SystemExit("Grupo Ilusão não encontrado no catálogo")
+
+          changed = 0
+          for key, skill in illusion.items():
+              if skill.get("elemento") != "Ilusão":
+                  skill["elemento"] = "Ilusão"
+                  changed += 1
+
+          # Mantém a correção legítima do Sono.
+          psychic = data.get("Psíquico", {})
+          sleep = psychic.get("Quebra_de_Consciencia")
+          if not sleep:
+              raise SystemExit("Quebra_de_Consciencia não encontrada")
+
+          sleep["controlType"] = "sono"
+          sleep["controlDuration"] = 2
+          sleep["sleepWakeOnDirectDamage"] = True
+          sleep.pop("debuffStat", None)
+          sleep.pop("debuffAmount", None)
+          sleep.pop("debuffDuration", None)
+
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+
+          check = json.loads(path.read_text(encoding="utf-8"))
+          bad = [
+              f"Ilusão:{key}"
+              for key, skill in check["Ilusão"].items()
+              if skill.get("elemento") != "Ilusão"
+          ]
+          if bad:
+              raise SystemExit("Skills de Ilusão ainda incorretas: " + ", ".join(bad[:10]))
+
+          sleep = check["Psíquico"]["Quebra_de_Consciencia"]
+          if sleep.get("controlType") != "sono" or "debuffStat" in sleep:
+              raise SystemExit("Correção do Sono foi perdida")
+
+          print(f"Restauradas {changed} skills do grupo Ilusão para elemento Ilusão.")
+          print("Correção do Sono preservada.")
+          PY
+
+      - name: Validar JSON
+        run: python -m json.tool skills.json >/dev/null
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add skills.json
+          git commit -m "Restaura Ilusao como elemento de fusao" || exit 0
+          git push
